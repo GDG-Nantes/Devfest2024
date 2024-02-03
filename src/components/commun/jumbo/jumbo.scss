@@ -1,0 +1,22 @@
+.jumbo {
+  height: calc(100vh - 65px);
+  width: 100%;
+  font-size: 3rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  position: relative;
+  // background: var(--primary);
+  .jumbo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+  }
+}

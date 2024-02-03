@@ -1,0 +1,62 @@
+.top-bar-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 0;
+}
+.top-bar-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.toolbar {
+  @media (min-width: 960px) {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.menu-desktop {
+  display: inline-flex;
+
+  @media (max-width: 960px) {
+    visibility: hidden;
+    display: none;
+  }
+
+  .active-link {
+    border-bottom: 1px solid white;
+  }
+}
+.drawer {
+  @media (min-width: 960px) {
+    visibility: hidden;
+    display: none;
+  }
+  .menu-mobile {
+    background-color: var(--secondary);
+    a {
+      color: white;
+      padding: 0.5rem 5rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.logo-top-bar {
+  aspect-ratio: attr(width) / attr(height);
+
+  &:hover {
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5));
+    // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+}
+
+.MuiButtonBase-root {
+  text-align: center;
+}

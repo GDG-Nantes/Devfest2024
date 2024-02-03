@@ -1,0 +1,14 @@
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  .footer-title {
+    color: #8a8a8a;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+}

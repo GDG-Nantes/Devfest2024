@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "session",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "title",
+    "language",
+    "talkType",
+    "tags",
+    "complexity",
+    "speakers",
+    "room",
+    "slot",
+    "abstract"
+  ],
+  "properties": {
+    "key": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["English", "French"]
+    },
+    "talkType": {
+      "type": "string",
+      "enum": ["quickie", "conference", "codelab"]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "complexity": {
+      "type": "string",
+      "enum": ["Beginner", "Intermediate", "Advanced"]
+    },
+    "speakers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "slot": {
+      "type": "string"
+    },
+    "room": {
+      "$ref": "#/definitions/rooms"
+    },
+    "abstract": {
+      "type": "string"
+    },
+    "openfeedbackId": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "slides": {
+      "type": "string"
+    },
+    "cancelled": {
+      "type": "boolean"
+    }
+  },
+  "definitions": {
+    "rooms": {
+      "type": "string",
+      "enum": [
+        "Jules Verne",
+        "Titan",
+        "Belem",
+        "Tour de Bretagne",
+        "Les Machines",
+        "Hangar",
+        "L'Atelier"
+      ]
+    }
+  }
+}

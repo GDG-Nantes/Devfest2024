@@ -1,0 +1,58 @@
+name: deploy
+
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: "read"
+      id-token: "write"
+    steps:
+      # Setup
+
+      - uses: actions/checkout@v4
+
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
+
+      - uses: actions/setup-node@v3
+        with:
+          cache: "npm"
+
+      - id: "auth"
+        uses: "google-github-actions/auth@v2"
+        with:
+          workload_identity_provider: "projects/449204913966/locations/global/workloadIdentityPools/github/providers/github"
+          service_account: "github-actions@devfest2024-413212.iam.gserviceaccount.com"
+
+      # Build/Deploy
+
+      - run: |
+          npm install --legacy-peer-deps
+          npm run build
+          cp .appengine/app.yaml public/
+
+      - id: "deploy"
+        name: "Deploy to App Engine"
+        uses: "google-github-actions/deploy-appengine@v2"
+        with:
+          deliverables: "public/app.yaml"
+          promote: false
+          version: ${{ steps.get_version.outputs.VERSION }}
+
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        if: always()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_COLOR: ${{ job.status }}
+          SLACK_TITLE: Déploiement réussi
+          SLACK_MESSAGE: Version ${{ steps.get_version.outputs.VERSION }} "${{ steps.deploy.outputs.url }}"
+          SLACK_ICON: https://github.com/fluidicon.png
+          SLACK_USERNAME: Github Actions
+

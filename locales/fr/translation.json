@@ -1,0 +1,131 @@
+{
+  "site": {
+    "description": "Le DevFest, ou 'Developers Festival', est une conférence technique destinée aux développeuses et développeurs. Elle s'adresse aussi bien aux étudiantes et étudiants, aux professionnels ou tout simplement aux curieuses et curieux technophiles.",
+    "theme": "Cette année le Devfest Nantes met la lumière sur les films !"
+  },
+  "pages": {
+    "home": {
+      "name": "Accueil",
+      "what-is": "Le DevFest Nantes",
+      "jumbo": {
+        "date": "17 & 18 Octobre 2024",
+        "cfp": "Devenir speaker",
+        "previous": "Édition 2022",
+        "generate-ticket": "Générer mon billet",
+        "bring-ecocup": "N'oubliez pas vos propres eco-cups et sac !",
+        "resend-tickets": "Renvoyer mes billets",
+        "get-app": "Appli mobile"
+      },
+      "newsletter": "Soyez notifié des dernières informations !",
+      "numbers": {
+        "attendees": "Participants",
+        "days": "Jours",
+        "sessions": "Conférences",
+        "tracks": "Tracks",
+        "speakers": "Speakers",
+        "our-values": "Nos valeurs"
+      },
+      "tickets": {
+        "name": "Tickets",
+        "description": "La vente des places est terminée !",
+        "2daysEarly": "Early Bird",
+        "2days-1st": "Pass 2 jours",
+        "1day": "Pass 1 jour",
+        "reduced": "Tarif réduit",
+        "2days-2nd": "En vente le 6 Septembre"
+      },
+      "speakers": {
+        "title": "Les Speakers",
+        "seeAll": "Voir tous les speakers"
+      },
+      "photos": {
+        "p1": "Quelques photos du DevFest Nantes 2023",
+        "p2": "sur le thème des films",
+        "button": "Voir toutes les photos"
+      }
+    },
+    "attending": {
+      "name": "Attending",
+      "map": {
+        "title": "Le Lieu",
+        "description": "Située en plein cœur de ville, La Cité des Congrès de Nantes propose pour le DevFest Nantes plus de 3000m² de salles de conférences, codelabs et lieu de rencontre…"
+      }
+    },
+    "partners": {
+      "name": "Partenaires",
+      "platinium-partners": "Nos Sponsors Platinium",
+      "platinium": "Platinium",
+      "gold": "Gold",
+      "virtual": "Virtual",
+      "partners": "Nos partenaires"
+    },
+    "blog": {
+      "name": "Blog"
+    },
+    "menu": {
+      "name": "Menu",
+      "allergenes": {
+        "gluten": "Gluten",
+        "crustaces": "Crustacés",
+        "vegetarien": "Végétariens",
+        "oeufs": "Oeufs",
+        "poissons": "Poissons",
+        "arachides": "Arachides",
+        "soja": "Soja",
+        "lactose": "Lactose",
+        "fruits-a-coques": "Fruits à coques",
+        "celeri": "Célerie",
+        "moutarde": "Moutarde",
+        "sesame": "Sésame",
+        "sulfites": "Sulfites",
+        "lupin": "Lupin",
+        "mollusques": "Mollusques"
+      }
+    },
+    "jobs": {
+      "name": "Jobs"
+    },
+    "speakers": {
+      "name": "Speakers"
+    },
+    "schedule": {
+      "name": "Programme",
+      "day1-number": "Jeudi 19",
+      "day2-number": "Vendredi 20",
+      "day1": "Jeudi",
+      "day2": "Vendredi",
+      "opening": "Ouverture",
+      "keynote": "Keynote",
+      "break": "Pause",
+      "lunch": "Déjeuner",
+      "party": "After Party"
+    },
+    "team": {
+      "name": "L'Équipe"
+    },
+    "code-of-conduct": {
+      "name": "Code de conduite"
+    },
+    "legal-mentions": {
+      "name": "Mentions Légales"
+    }
+  },
+  "sessions": {
+    "cancelled": "Annulé"
+  },
+  "404": {
+    "main": "Vous avez l'air perdu...",
+    "button": "Retour en lieu sûr"
+  },
+  "footer": {
+    "about": "À propos",
+    "follow": "Nous suivre",
+    "partnership-kit": "Kit partenaires",
+    "media-kit": "Kit Média",
+    "previous-editions": "Éditions précédentes",
+    "partners": "Partenaires",
+    "organizers": "Organisé avec ❤️ par le GDG Nantes",
+    "no-spam": "Pas de spam, seulement les dernières infos",
+    "news-button": "Découvrir"
+  }
+}
