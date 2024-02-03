@@ -24,8 +24,8 @@ const Album = () => {
           name
           childImageSharp {
             gatsbyImageData(
-              aspectRatio: 0.60
-              transformOptions: { cropFocus: WEST }
+              aspectRatio: 0.75
+              transformOptions: { cropFocus: CENTER }
             )
           }
         }
@@ -84,24 +84,24 @@ const Album = () => {
       }}
     >
       <Picture
-        image={imageByName("scaphandre")}
+        image={imageByName("dino")}
         gridColumn="1"
         gridRow="span 2"
       />
       <Picture
-        image={imageByName("devices")}
+        image={imageByName("delorean")}
         gridColumn="span 2"
         objectPosition={"top"}
       />
       <Picture image={imageByName("buffet")} gridColumn="span 1" />
       <Picture
-        image={imageByName("pieuvre")}
+        image={imageByName("annabelle")}
         gridColumn="span 1"
         gridRow="span 2"
       />
       <Picture image={imageByName("equipe-amphi")} gridColumn="span 2" />
       <Picture image={imageByName("concert")} gridColumn="span 1" />
-      <Picture image={imageByName("800")} gridColumn="span 1" />
+      <Picture image={imageByName("2000")} gridColumn="span 1" />
       <Picture image={imageByName("stand")} gridColumn="span 1" />
       <ButtonTile gridColumn="span 3" />
     </div>
@@ -127,15 +127,15 @@ const Album = () => {
         objectPosition={"top"}
       />
       <ButtonTile gridColumn="span 2" />
-      <Picture image={imageByName("buffet")} gridColumn="span 1" />
       <Picture
-        image={imageByName("pieuvre")}
+        image={imageByName("annabelle")}
         gridColumn="span 1"
         gridRow="span 2"
       />
-      <Picture image={imageByName("800")} gridColumn="span 2" />
-      <Picture image={imageByName("concert")} gridColumn="span 1" />
+      <Picture image={imageByName("buffet")} gridColumn="span 1" />
+      <Picture image={imageByName("2000")} gridColumn="span 2" />
       <Picture image={imageByName("stand")} gridColumn="span 1" />
+      <Picture image={imageByName("concert")} gridColumn="span 1" />
     </div>
   );
 };

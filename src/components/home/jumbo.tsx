@@ -21,15 +21,18 @@ export const HomeJumbo = () => {
       </div>
 
       <Typography variant="h1" textAlign="center">
+        {t("come-back")}
+      </Typography>
+      <Typography variant="h1" textAlign="center">
         {t("date")}
       </Typography>
-      <Typography
-        variant="h2"
-        textAlign="center"
-        style={{marginTop: "10px", marginBottom: "25px"}}
-      >
-        Code, Dev, et... Action !
-      </Typography>
+      {/*<Typography*/}
+      {/*  variant="h2"*/}
+      {/*  textAlign="center"*/}
+      {/*  style={{marginTop: "10px", marginBottom: "25px"}}*/}
+      {/*>*/}
+      {/*  Code, Dev, et... Action !*/}
+      {/*</Typography>*/}
       <Stack direction="column" spacing={3}>
         {/*<Stack direction="row" spacing={3} justifyContent={"center"}>*/}
         {/*  <Button*/}
@@ -66,7 +69,7 @@ export const HomeJumbo = () => {
           {/*>*/}
           {/*  Billetterie*/}
           {/*</Button> */}
-          {/* 
+          {/*
           <Button
             color="secondary"
             variant="contained"
