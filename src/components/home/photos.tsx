@@ -24,8 +24,8 @@ const Album = () => {
           name
           childImageSharp {
             gatsbyImageData(
-              aspectRatio: 0.75
-              transformOptions: { cropFocus: CENTER }
+              aspectRatio: 0.60
+              transformOptions: { cropFocus: WEST }
             )
           }
         }
@@ -61,6 +61,9 @@ const Album = () => {
 
   const imageByName = React.useCallback(
     (name: string): ImageDataLike & { name: string } => {
+      console.log([...highImages.nodes,
+        ...squareImages.nodes,
+        ...wideImages.nodes]);
       return [
         ...highImages.nodes,
         ...squareImages.nodes,
@@ -113,13 +116,13 @@ const Album = () => {
       }}
     >
       <Picture
-        image={imageByName("scaphandre")}
+        image={imageByName("dino")}
         gridColumn="1"
         gridRow="span 2"
       />
       <Picture image={imageByName("equipe-amphi")} gridColumn="span 2" />
       <Picture
-        image={imageByName("devices")}
+        image={imageByName("delorean")}
         gridColumn="span 2"
         objectPosition={"top"}
       />
