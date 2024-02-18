@@ -44,7 +44,7 @@ const Layout: React.FC<React.PropsWithChildren> = ({ children }) => {
         <CssBaseline />
         <Topbar
           toggleDrawer={toggleDrawer}
-          logo="/images/logo-long-bleu-blanc.svg"
+          logo="/images/logo-long.png"
         />
 
         <BarMenu isOpen={isOpen} toggleDrawer={toggleDrawer} />
@@ -74,8 +74,8 @@ const Topbar: React.FC<{
               className="logo-top-bar"
               src={logo}
               alt="Logo Devfest"
-              height="50"
-              width="150"
+              height="64"
+              width="226"
             />
           </MyLink>
         </Box>

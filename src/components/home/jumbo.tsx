@@ -14,18 +14,17 @@ export const HomeJumbo = () => {
       <div className="logo-jumbo-home">
         <img
           alt="logo"
-          src="/images/logo_transparent.svg"
-          height="200"
-          width="400"
+          src="/images/jumbo-image.jpg"
         />
       </div>
 
-      <Typography variant="h1" textAlign="center">
-        {t("come-back")}
-      </Typography>
-      <Typography variant="h1" textAlign="center">
-        {t("date")}
-      </Typography>
+      <div>
+          <Typography variant="h1" textAlign="center">
+            {t("come-back")}
+          </Typography>
+          <Typography variant="h1" textAlign="center">
+            {t("date")}
+          </Typography>
       {/*<Typography*/}
       {/*  variant="h2"*/}
       {/*  textAlign="center"*/}
@@ -113,6 +112,8 @@ export const HomeJumbo = () => {
           <Button href="/our-values" color="secondary">{t('bring-ecocup')}</Button>
         </Stack> */}
       </Stack>
+      </div>
+
       {/* <Modal open={modalOpen} onClose={() => setModalOpen(false)} className={"modal-apps"}>
         <Paper className={"modal-content"}>
           <Box className={"modal-body"}>

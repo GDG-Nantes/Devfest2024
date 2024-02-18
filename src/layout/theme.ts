@@ -1,9 +1,9 @@
 import { createTheme } from "@mui/material";
 import "./theme.scss";
 
-const primary = "#1a213d";
+const primary = "#000000";
 // const primary = "#d14f34";
-const secondary = "#d14f34";
+const secondary = "#ff4e53";
 // const primary = "#c14d32";
 // const secondary = "#36666a";
 // A custom theme for this app
@@ -46,6 +46,14 @@ const theme = createTheme({
           borderColor: "white"
         },
       }
+    },
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#000000",
+          borderBottom: "2px solid " + secondary,
+        }
+      },
     },
     MuiButton: {
       styleOverrides: {
