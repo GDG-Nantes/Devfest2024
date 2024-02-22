@@ -4,6 +4,10 @@
   font-size: 3rem;
   background-size: contain;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: transparent;
   position: relative;
   // background: var(--primary);

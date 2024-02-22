@@ -1,7 +1,7 @@
 {
   "site": {
     "description": "The Devfest (i.e Developers Festival), is a technical conference destined to developers. It's meant for students, professionals, or any curious techie",
-    "theme": "This year's edition will shine light on the movie industry !"
+    "theme": "This year's edition be scary !"
   },
   "pages": {
     "home": {
@@ -40,8 +40,8 @@
         "seeAll": "See all speakers"
       },
       "photos": {
-        "p1": "Some pictures of the 2022 DevFest Nantes",
-        "p2": "on the Jules Verne theme 🎨",
+        "p1": "Some pictures of the 2023 DevFest Nantes",
+        "p2": "on the film theme 🎨",
         "button": "See all photos"
       }
     },

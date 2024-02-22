@@ -11,10 +11,13 @@ export const HomeJumbo = () => {
 
   return (
     <>
+      <div className="jumbo-home-blood">
+        <img src="/images/jumbo-blood.png" alt="" />
+      </div>
       <div className="logo-jumbo-home">
         <img
           alt="logo"
-          src="/images/jumbo-image.jpg"
+          src="/images/logo-long.png"
         />
       </div>
 
