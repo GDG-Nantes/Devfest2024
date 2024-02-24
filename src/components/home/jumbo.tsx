@@ -12,12 +12,12 @@ export const HomeJumbo = () => {
   return (
     <>
       <div className="jumbo-home-blood">
-        <img src="/images/jumbo-blood.png" alt="" />
+        <img src="/images/jumbo-blood.svg" alt="" />
       </div>
       <div className="logo-jumbo-home">
         <img
           alt="logo"
-          src="/images/logo-long.png"
+          src="/images/tagline.svg"
         />
       </div>
 

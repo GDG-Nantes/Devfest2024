@@ -134,7 +134,7 @@ export const Footer: React.FC = () => {
           <FooterItem size="full">
             <div>
               <img
-                src="/images/logo-long.png"
+                src="/images/logo-long.svg"
                 alt="logo devfest"
                 height="50"
                 width="150"

@@ -44,7 +44,7 @@ const Layout: React.FC<React.PropsWithChildren> = ({ children }) => {
         <CssBaseline />
         <Topbar
           toggleDrawer={toggleDrawer}
-          logo="/images/logo-long.png"
+          logo="/images/logo-long.svg"
         />
 
         <BarMenu isOpen={isOpen} toggleDrawer={toggleDrawer} />
