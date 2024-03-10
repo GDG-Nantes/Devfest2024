@@ -45,6 +45,10 @@ export const Footer: React.FC = () => {
       login: "GDG-Nantes/Devfest2024",
       type: "github",
     },
+    {
+      login: "gdgnantes",
+      type: "instagram"
+    }
   ];
 
   const aboutLinks: FooterLink[] = [
@@ -69,11 +73,11 @@ export const Footer: React.FC = () => {
   const partnersLinks: FooterLink[] = [
     {
       label: t("partnership-kit"),
-      url: "https://drive.google.com/drive/folders/1QaFtbSN9e1N6K5fMELPEcNRr_t62a4iy",
+      url: "https://drive.google.com/drive/folders/1LhZM7gD_vicGYp8VD61P1DeGQDE8tQIS",
     },
     {
       label: t("media-kit"),
-      url: "https://drive.google.com/drive/folders/1mYwz-AhNj0FbZIBvJOBOghx3Pk9phFmV",
+      url: "https://drive.google.com/drive/folders/1vQbLf3dHeR7ifk_BUEbopSDFCbVx0Zi6",
     },
   ];
 
