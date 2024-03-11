@@ -53,14 +53,16 @@ export const HomeJumbo = () => {
         {/*  </Button>*/}
         {/*</Stack>*/}
         <Stack direction="row" spacing={3} justifyContent={"center"}>
-          {/*<Button*/}
-          {/*  color="secondary"*/}
-          {/*  variant="contained"*/}
-          {/*  href="https://www.billetweb.fr/partenaire-devfest-nantes"*/}
-          {/*  aria-label="Devenir Sponsor"*/}
-          {/*>*/}
-          {/*  Devenir Sponsor*/}
-          {/*</Button>*/}
+          <Button
+            color="secondary"
+            variant="contained"
+            href="https://www.billetweb.fr/partenaire-devfest-nantes-2024"
+            aria-label="Devenir Sponsor"
+          >
+            Devenir Sponsor 2024
+          </Button>
+        </Stack> 
+        <Stack direction="row" spacing={3} justifyContent={"center"}>
           {/*<Button*/}
           {/*  color="secondary"*/}
           {/*  variant="contained"*/}
@@ -95,7 +97,7 @@ export const HomeJumbo = () => {
           aria-label="Videos"
           target={"_blank"}
         >
-          Videos
+          Videos 2023
         </Button>
         <Button
           color="secondary"
@@ -105,7 +107,7 @@ export const HomeJumbo = () => {
           aria-label="Photos"
           target={"_blank"}
         >
-          Photos
+          Photos 2023
         </Button>
 
         </Stack>
