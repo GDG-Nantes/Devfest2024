@@ -54,7 +54,17 @@ export const HomeJumbo = () => {
         {/*    {t("cfp")}*/}
         {/*  </Button>*/}
         {/*</Stack>*/}
-        <Stack direction="row" spacing={3} justifyContent={"center"}>
+          <Stack direction="row" spacing={3} justifyContent={"center"}>
+              <Button
+                  color="secondary"
+                  variant="contained"
+                  href="https://www.billetweb.fr/partenaire-devfest-nantes-2024"
+                  aria-label="Devenir Sponsor"
+              >
+                  Devenir Sponsor 2024
+              </Button>
+          </Stack>
+          <Stack direction="row" spacing={3} justifyContent={"center"}>
           {/*<Button*/}
           {/*  color="secondary"*/}
           {/*  variant="contained"*/}
