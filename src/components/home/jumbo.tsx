@@ -45,16 +45,16 @@ export const HomeJumbo = () => {
         {/*  >*/}
         {/*    {t("previous")}*/}
         {/*  </Button>*/}
-        {/*  <Button*/}
-        {/*    color="secondary"*/}
-        {/*    variant="contained"*/}
-        {/*    href="https://conference-hall.io/public/event/z5FSBfmwJSUWb4UO9hD4"*/}
-        {/*    aria-label={t("cfp")}*/}
-        {/*  >*/}
-        {/*    {t("cfp")}*/}
-        {/*  </Button>*/}
         {/*</Stack>*/}
           <Stack direction="row" spacing={3} justifyContent={"center"}>
+            <Button
+              color="secondary"
+              variant="contained"
+              href="https://conference-hall.io/public/event/AJYPylkzTDd6j3O6ADZn"
+              aria-label={t("cfp")}
+            >
+              {t("cfp")}
+            </Button>
               <Button
                   color="secondary"
                   variant="contained"
@@ -104,7 +104,7 @@ export const HomeJumbo = () => {
           startIcon={<YouTube/>}
           variant="contained"
           href="https://www.youtube.com/watch?v=yr2hjzsdICg&list=PLuZ_sYdawLiUHU4E1i5RrFsRN_lQcgPwT"
-          aria-label="Videos"
+          aria-label="Videos 2023"
           target={"_blank"}
         >
           Videos
@@ -114,7 +114,7 @@ export const HomeJumbo = () => {
           startIcon={<PhotoSharp/>}
           variant="contained"
           href="https://photos.app.goo.gl/wWF5PWykG2g2umC47"
-          aria-label="Photos"
+          aria-label="Photos 2023"
           target={"_blank"}
         >
           Photos
