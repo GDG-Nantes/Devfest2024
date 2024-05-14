@@ -30,6 +30,17 @@
   h1 {
     margin: 1rem 0 1rem;
   }
+
+  .disabled {
+    color: gray;
+    background-color: #ff4e5377;
+    display: block;
+    cursor: not-allowed;
+    small {
+      display: block;
+      font-size: 10px;
+    }
+  }
 }
 .home-speakers .speakers-list .speaker h4 {
   color: var(--primary-light);

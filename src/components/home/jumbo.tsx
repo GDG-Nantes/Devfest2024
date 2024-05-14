@@ -4,8 +4,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 export const HomeJumbo = () => {
-  const [modalOpen, setModalOpen] = React.useState(false)
-  const {t} = useTranslation("translation", {
+  const [modalOpen, setModalOpen] = React.useState(false);
+  const { t } = useTranslation("translation", {
     keyPrefix: "pages.home.jumbo",
   });
 
@@ -15,37 +15,34 @@ export const HomeJumbo = () => {
         <img src="/images/jumbo-blood.svg" alt="" />
       </div>
       <div className="logo-jumbo-home">
-        <img
-          alt="logo"
-          src="/images/tagline.svg"
-        />
+        <img alt="logo" src="/images/tagline.svg" />
       </div>
 
       <div>
-          <Typography variant="h1" textAlign="center">
-            {t("come-back")}
-          </Typography>
-          <Typography variant="h1" textAlign="center">
-            {t("date")}
-          </Typography>
-      {/*<Typography*/}
-      {/*  variant="h2"*/}
-      {/*  textAlign="center"*/}
-      {/*  style={{marginTop: "10px", marginBottom: "25px"}}*/}
-      {/*>*/}
-      {/*  Code, Dev, et... Action !*/}
-      {/*</Typography>*/}
-      <Stack direction="column" spacing={3}>
-        {/*<Stack direction="row" spacing={3} justifyContent={"center"}>*/}
-        {/*  <Button*/}
-        {/*    color="secondary"*/}
-        {/*    variant="contained"*/}
-        {/*    href="https://devfest2022.gdgnantes.com"*/}
-        {/*    aria-label={t("previous")}*/}
-        {/*  >*/}
-        {/*    {t("previous")}*/}
-        {/*  </Button>*/}
-        {/*</Stack>*/}
+        <Typography variant="h1" textAlign="center">
+          {t("come-back")}
+        </Typography>
+        <Typography variant="h1" textAlign="center">
+          {t("date")}
+        </Typography>
+        {/*<Typography*/}
+        {/*  variant="h2"*/}
+        {/*  textAlign="center"*/}
+        {/*  style={{marginTop: "10px", marginBottom: "25px"}}*/}
+        {/*>*/}
+        {/*  Code, Dev, et... Action !*/}
+        {/*</Typography>*/}
+        <Stack direction="column" spacing={3}>
+          {/*<Stack direction="row" spacing={3} justifyContent={"center"}>*/}
+          {/*  <Button*/}
+          {/*    color="secondary"*/}
+          {/*    variant="contained"*/}
+          {/*    href="https://devfest2022.gdgnantes.com"*/}
+          {/*    aria-label={t("previous")}*/}
+          {/*  >*/}
+          {/*    {t("previous")}*/}
+          {/*  </Button>*/}
+          {/*</Stack>*/}
           <Stack direction="row" spacing={3} justifyContent={"center"}>
             <Button
               color="secondary"
@@ -55,33 +52,26 @@ export const HomeJumbo = () => {
             >
               {t("cfp")}
             </Button>
-              <Button
-                  color="secondary"
-                  variant="contained"
-                  href="https://www.billetweb.fr/partenaire-devfest-nantes-2024"
-                  aria-label="Devenir Sponsor"
-              >
-                  Devenir Sponsor 2024
-              </Button>
+            <Button
+              color="secondary"
+              variant="contained"
+              href="https://www.billetweb.fr/partenaire-devfest-nantes-2024"
+              aria-label="Devenir Sponsor"
+            >
+              Devenir Sponsor 2024
+            </Button>
           </Stack>
           <Stack direction="row" spacing={3} justifyContent={"center"}>
-          {/*<Button*/}
-          {/*  color="secondary"*/}
-          {/*  variant="contained"*/}
-          {/*  href="https://www.billetweb.fr/partenaire-devfest-nantes"*/}
-          {/*  aria-label="Devenir Sponsor"*/}
-          {/*>*/}
-          {/*  Devenir Sponsor*/}
-          {/*</Button>*/}
-          {/*<Button*/}
-          {/*  color="secondary"*/}
-          {/*  variant="contained"*/}
-          {/*  href="https://www.billetweb.fr/devfest-nantes"*/}
-          {/*  aria-label="Billetterie"*/}
-          {/*>*/}
-          {/*  Billetterie*/}
-          {/*</Button> */}
-          {/*
+            {/*<Button*/}
+            {/*  color="secondary"*/}
+            {/*  variant="contained"*/}
+            {/*  href="https://www.billetweb.fr/partenaire-devfest-nantes"*/}
+            {/*  aria-label="Devenir Sponsor"*/}
+            {/*>*/}
+            {/*  Devenir Sponsor*/}
+            {/*</Button>*/}
+
+            {/*
           <Button
             color="secondary"
             variant="contained"
@@ -99,32 +89,42 @@ export const HomeJumbo = () => {
           >
           {t('get-app')}
         </Button> */}
-        <Button
-          color="secondary"
-          startIcon={<YouTube/>}
-          variant="contained"
-          href="https://www.youtube.com/watch?v=yr2hjzsdICg&list=PLuZ_sYdawLiUHU4E1i5RrFsRN_lQcgPwT"
-          aria-label="Videos 2023"
-          target={"_blank"}
-        >
-          Videos
-        </Button>
-        <Button
-          color="secondary"
-          startIcon={<PhotoSharp/>}
-          variant="contained"
-          href="https://photos.app.goo.gl/wWF5PWykG2g2umC47"
-          aria-label="Photos 2023"
-          target={"_blank"}
-        >
-          Photos
-        </Button>
-
-        </Stack>
-        {/* <Stack direction="row" spacing={3} justifyContent={"center"}>
+            <Button
+              color="secondary"
+              startIcon={<YouTube />}
+              variant="contained"
+              href="https://www.youtube.com/watch?v=yr2hjzsdICg&list=PLuZ_sYdawLiUHU4E1i5RrFsRN_lQcgPwT"
+              aria-label="Videos 2023"
+              target={"_blank"}
+            >
+              Videos
+            </Button>
+            <Button
+              color="secondary"
+              startIcon={<PhotoSharp />}
+              variant="contained"
+              href="https://photos.app.goo.gl/wWF5PWykG2g2umC47"
+              aria-label="Photos 2023"
+              target={"_blank"}
+            >
+              Photos
+            </Button>
+          </Stack>
+          <Stack direction="row" spacing={3} justifyContent={"center"}>
+            <Button
+              color="secondary"
+              variant="contained"
+              aria-label="Billetterie"
+              className="disabled"
+            >
+              Billetterie
+              <small>6 Juin 11h</small>
+            </Button>
+          </Stack>
+          {/* <Stack direction="row" spacing={3} justifyContent={"center"}>
           <Button href="/our-values" color="secondary">{t('bring-ecocup')}</Button>
         </Stack> */}
-      </Stack>
+        </Stack>
       </div>
 
       {/* <Modal open={modalOpen} onClose={() => setModalOpen(false)} className={"modal-apps"}>

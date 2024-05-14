@@ -59,7 +59,7 @@ const theme = createTheme({
       styleOverrides: {
         containedSecondary: {
           color: "white",
-        },
+        }
       },
     },
     MuiIconButton: {
