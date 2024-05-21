@@ -28,12 +28,12 @@
       },
       "tickets": {
         "name": "Tickets",
-        "description": "La vente des places est terminée !",
-        "2daysEarly": "Early Bird",
+        "description": "La vente des places se fera en 2 sessions, une le 6 juin à 11h, la seconde en septembre. Les billets étudiants et demandeurs d'emplois sont partagés directement avec les écoles et les missions locales. Merci de nous contacter si votre établissement n'a pas été contacté.",
+        "2daysEarly": "Pass 2 jours",
         "2days-1st": "Pass 2 jours",
         "1day": "Pass 1 jour",
         "reduced": "Tarif réduit",
-        "2days-2nd": "En vente le 6 Septembre"
+        "2days-2nd": "Pass 2 jours"
       },
       "speakers": {
         "title": "Les Speakers",

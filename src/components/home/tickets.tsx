@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { MyLink } from "../../helpers/links";
 
 export const Tickets = () => {
-  const disabled1st = true;
+  const disabled1st = false;
   const disabled2nd = true;
 
   return (
@@ -18,34 +18,25 @@ export const Tickets = () => {
       className="tickets"
     >
       <Ticket
-        labelKey="2days-2nd"
-        price={99}
-        quantity={1000}
-        disabled={disabled2nd}
-      />
-      <Ticket
-        labelKey="2daysEarly"
-        price={78}
+        labelKey="2days-1st"
+        price={110}
         quantity={600}
         disabled={disabled1st}
+        date="06/06/2024 11h"
       />
       <Ticket
-        labelKey="2days-1st"
-        price={99}
-        quantity={800}
-        disabled={disabled1st}
-      />
+        labelKey="2days-2nd"
+        price={110}
+        quantity={450}
+        disabled={disabled2nd}
+        date="09/2024"
+        />
       <Ticket
         labelKey="1day"
-        price={60}
+        price={70}
         quantity={500}
-        disabled={disabled1st}
-      />
-      <Ticket
-        labelKey="reduced"
-        price={20}
-        quantity={200}
-        disabled={disabled1st}
+        disabled={disabled2nd}
+        date="09/2024"
       />
     </Grid>
   );
@@ -54,9 +45,10 @@ export const Tickets = () => {
 const Ticket: React.FC<{
   price: number;
   labelKey: string;
+  date: string;
   quantity: number;
   disabled: boolean;
-}> = ({ labelKey, price, quantity, disabled }) => {
+}> = ({ labelKey, price, quantity, disabled, date }) => {
   const { t } = useTranslation("translation", {
     keyPrefix: "pages.home.tickets",
   });
@@ -64,19 +56,20 @@ const Ticket: React.FC<{
   return (
     <Grid item xs={12} sm={6} md={4} lg={4}>
       <MyLink
-        to="https://www.billetweb.fr/devfest-Nantes"
+        to="https://www.billetweb.fr/billet-devfest-nantes-2024"
         style={{ cursor: "default" }}
       >
         <div className={classNames("ticket", disabled && "disabled")}>
           <div className="ticket-wrapper">
             <div className="ticket-body">
               <div className="price">
-                <Typography variant="h2">{price} €</Typography>
+                <Typography variant="h2">{price} € <span style={{fontSize: "8px"}}>HT</span></Typography>
                 <hr />
               </div>
               <div className="description">
                 <p className="label">{t(labelKey)}</p>
                 <p className="quantity">{quantity} places</p>
+                <p className="date">{date}</p>
               </div>
             </div>
           </div>

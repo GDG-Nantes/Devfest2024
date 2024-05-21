@@ -28,12 +28,12 @@
       },
       "tickets": {
         "name": "Tickets",
-        "description": "The sale is over !",
+        "description": "The ticket sales will take place in two sessions, one on June 6th at 11 AM, and the second in September. Student and job seeker tickets are distributed directly through schools and local employment agencies. Please contact us if your institution has not been reached.",
         "2daysEarly": "Early Bird",
         "2days-1st": "2 days ticket",
         "1day": "1 day ticket",
         "reduced": "Reduced price",
-        "2days-2nd": "On sale on September 6th"
+        "2days-2nd": "2 days ticket"
       },
       "speakers": {
         "title": "Speakers",

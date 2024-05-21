@@ -13,8 +13,8 @@ import {
   DevfestPhotos,
   HomeJumbo,
   HomeMap,
+  Tickets,
 } from "../components/home";
-import { PlanCite } from "../components/home/plan";
 import Layout from "../layout";
 
 const HomeContent = () => {
@@ -41,13 +41,13 @@ const HomeContent = () => {
       {/*    </MyLink>*/}
       {/*  </Stack>*/}
       {/*</DefaultSection>*/}
-      {/*<PrimarySection>*/}
-      {/*  <Typography variant="h2">{t("pages.home.tickets.name")}</Typography>*/}
-      {/*  <Typography variant="h3">*/}
-      {/*    {t("pages.home.tickets.description")}*/}
-      {/*  </Typography>*/}
-      {/*  <Tickets />*/}
-      {/*</PrimarySection>*/}
+      <PrimarySection>
+        <Typography variant="h2">{t("pages.home.tickets.name")}</Typography>
+        <Typography variant="h3">
+          {t("pages.home.tickets.description")}
+        </Typography>
+        <Tickets />
+      </PrimarySection>
       <TertiarySection slim>
         <Typography variant="h2">{t("pages.home.newsletter")}</Typography>
         <SubscribeNewsletter />
