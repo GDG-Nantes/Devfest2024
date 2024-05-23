@@ -20,14 +20,14 @@ export const Tickets = () => {
       <Ticket
         labelKey="2days-1st"
         price={110}
-        quantity={600}
+        quantity={1200}
         disabled={disabled1st}
         date="06/06/2024 11h"
       />
       <Ticket
         labelKey="2days-2nd"
         price={110}
-        quantity={450}
+        quantity={900}
         disabled={disabled2nd}
         date="09/2024"
         />

@@ -107,7 +107,7 @@ export const HomeJumbo = () => {
               color="secondary"
               variant="contained"
               aria-label="Billetterie"
-              className="disabled"
+              href="https://www.billetweb.fr/billet-devfest-nantes-2024"
             >
               Billetterie
               <small>6 Juin 11h</small>
