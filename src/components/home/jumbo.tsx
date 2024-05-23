@@ -110,7 +110,6 @@ export const HomeJumbo = () => {
               href="https://www.billetweb.fr/billet-devfest-nantes-2024"
             >
               Billetterie
-              <small>6 Juin 11h</small>
             </Button>
           </Stack>
           {/* <Stack direction="row" spacing={3} justifyContent={"center"}>
