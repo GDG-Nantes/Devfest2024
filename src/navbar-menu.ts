@@ -17,10 +17,10 @@ export const MENU: Array<MenuItem> = [
     label: "team",
     link: "/team/",
   },
-  // {
-  //   label: "partners",
-  //   link: "/partners/",
-  // },
+  {
+    label: "partners",
+    link: "/partners/",
+  },
   // {
   //   label: "blog",
   //   link: "/blog",

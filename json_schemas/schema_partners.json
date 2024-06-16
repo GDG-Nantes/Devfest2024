@@ -23,6 +23,10 @@
     "velotypie": {
       "type": "array",
       "items": { "$ref": "#/definitions/partner" }
+    },
+    "partners": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/partner" }
     }
   },
   "definitions": {
@@ -43,3 +47,4 @@
       "required": ["id", "title"]
     }
   }
+}

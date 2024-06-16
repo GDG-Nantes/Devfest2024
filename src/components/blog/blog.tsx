@@ -1,7 +1,7 @@
 import { Divider, Stack, Typography } from "@mui/material";
 import { format } from "date-fns";
 import { graphql, useStaticQuery } from "gatsby";
-import { GatsbyImage, getImage, IGatsbyImageData } from "gatsby-plugin-image";
+import { GatsbyImage, IGatsbyImageData, getImage } from "gatsby-plugin-image";
 import React from "react";
 import { Blog } from "../../../json_schemas/interfaces/schema_blog";
 import { MyLink } from "../../helpers/links";

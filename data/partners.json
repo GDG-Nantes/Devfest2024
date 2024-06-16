@@ -23,7 +23,7 @@
     {
       "title": "Onepoint",
       "id": "onepoint",
-      "website": "https://www.onepoint.com"
+      "website": "https://www.groupeonepoint.com/fr/"
     },
     {
       "title": "Proginov",
@@ -90,7 +90,7 @@
     {
       "title": "Delia Technologies",
       "id": "delia-technologies",
-      "website": "https://www.delia-technologies.com"
+      "website": "https://www.delia.tech/"
     },
     {
       "title": "Doctolib",
@@ -103,9 +103,9 @@
       "website": "https://www.epitech.eu"
     },
     {
-      "title": "Inetnum",
-      "id": "inetnum",
-      "website": "https://www.inetnum.fr"
+      "title": "Inetum",
+      "id": "inetum",
+      "website": "https://www.inetum.com"
     },
     {
       "title": "Isilog",
@@ -130,7 +130,7 @@
     {
       "title": "Neosoft",
       "id": "neosoft",
-      "website": "https://www.neosoft.com"
+      "website": "https://www.neosoft.fr/"
     },
     {
       "title": "Orange Business",
@@ -150,12 +150,12 @@
     {
       "title": "SII",
       "id": "sii",
-      "website": "https://www.groupe-sii.com"
+      "website": "https://sii-group.com/fr-FR"
     },
     {
       "title": "SNCF Connect & Tech",
       "id": "sncf-connect-tech",
-      "website": "https://www.sncf.com/fr"
+      "website": "https://jobs.connect-tech.sncf/"
     },
     {
       "title": "VIF",
@@ -165,7 +165,7 @@
     {
       "title": "Younup",
       "id": "younup",
-      "website": "https://www.younup.com"
+      "website": "https://www.younup.fr/"
     }
   ],
   "virtual": [
@@ -182,12 +182,12 @@
     {
       "title": "ModalB",
       "id": "modalb",
-      "website": "https://www.modalb.com"
+      "website": "https://www.modalbgroup.com/"
     },
     {
       "title": "AB Tasty",
       "id": "ab-tasty",
-      "website": "https://www.abtasty.com"
+      "website": "https://www.abtasty.com/fr/"
     },
     {
       "title": "Malt",
@@ -199,29 +199,17 @@
     {
       "title": "Arkup",
       "id": "arkup",
-      "website": "https://www.arkup.com"
+      "website": "https://www.arkup.fr/arkup/"
     },
     {
       "title": "Kanoma",
       "id": "kanoma",
-      "website": "https://www.kanoma.com"
+      "website": "https://www.kanoma.fr/"
     },
     {
       "title": "Google",
       "id": "google",
       "website": "https://www.google.com"
-    }
-  ],
-  "partners": [
-    {
-      "title": "Nantes Digital Job",
-      "id": "nantes-digital-job",
-      "website": "https://www.nantesdigitaljob.com"
-    },
-    {
-      "title": "Nantes Metropole",
-      "id": "nantes-metropole",
-      "website": "https://www.nantesmetropole.fr"
     }
   ]
 }
