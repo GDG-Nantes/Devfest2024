@@ -8,7 +8,7 @@ export const SubscribeNewsletter = () => {
   const { t } = useTranslation("translation", { keyPrefix: "footer" });
 
   return (
-    <MyLink to="https://gdgnantes.us9.list-manage.com/subscribe/post?u=b44affc3cdfd00b20bcae502c&amp;amp;id=e0e7ceee5d">
+    <MyLink to="http://eepurl.com/c7X2V9">
       <Button variant="contained" aria-label="newsletter">
         <Send style={{ marginRight: "20px" }} /> {t("news-button")}
       </Button>
