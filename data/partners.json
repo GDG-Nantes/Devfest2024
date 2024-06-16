@@ -1,12 +1,227 @@
 {
-  "platinium": [],
-  "gold": [],
-  "virtual": [],
+  "platinium": [
+    {
+      "title": "Apside",
+      "id": "apside",
+      "website": "https://www.apside.com"
+    },
+    {
+      "title": "Bouygues Telecom",
+      "id": "bouygues-telecom",
+      "website": "https://www.bouyguestelecom.fr"
+    },
+    {
+      "title": "Capgemini",
+      "id": "capgemini",
+      "website": "https://www.capgemini.com"
+    },
+    {
+      "title": "Generali",
+      "id": "generali",
+      "website": "https://www.generali.fr"
+    },
+    {
+      "title": "Onepoint",
+      "id": "onepoint",
+      "website": "https://www.onepoint.com"
+    },
+    {
+      "title": "Proginov",
+      "id": "proginov",
+      "website": "https://www.proginov.com"
+    },
+    {
+      "title": "SFEIR",
+      "id": "sfeir",
+      "website": "https://www.sfeir.com"
+    },
+    {
+      "title": "Sopra Steria",
+      "id": "sopra-steria",
+      "website": "https://www.soprasteria.com"
+    },
+    {
+      "title": "Thalès",
+      "id": "thales",
+      "website": "https://www.thalesgroup.com"
+    },
+    {
+      "title": "U TECH",
+      "id": "u-tech",
+      "website": "https://ugieiris.fr/"
+    },
+    {
+      "title": "Zenika",
+      "id": "zenika",
+      "website": "https://www.zenika.com"
+    },
+    {
+      "title": "Google",
+      "id": "google",
+      "website": "https://www.google.com"
+    }
+  ],
+  "gold": [
+    {
+      "title": "Accenture",
+      "id": "accenture",
+      "website": "https://www.accenture.com"
+    },
+    {
+      "title": "Blablacar",
+      "id": "blablacar",
+      "website": "https://www.blablacar.fr"
+    },
+    {
+      "title": "CAT-Amania",
+      "id": "cat-amania",
+      "website": "https://www.cat-amania.com"
+    },
+    {
+      "title": "Daveo",
+      "id": "daveo",
+      "website": "https://www.daveo.fr"
+    },
+    {
+      "title": "Davidson",
+      "id": "davidson",
+      "website": "https://www.davidson.fr"
+    },
+    {
+      "title": "Delia Technologies",
+      "id": "delia-technologies",
+      "website": "https://www.delia-technologies.com"
+    },
+    {
+      "title": "Doctolib",
+      "id": "doctolib",
+      "website": "https://www.doctolib.fr"
+    },
+    {
+      "title": "Epitech",
+      "id": "epitech",
+      "website": "https://www.epitech.eu"
+    },
+    {
+      "title": "Inetnum",
+      "id": "inetnum",
+      "website": "https://www.inetnum.fr"
+    },
+    {
+      "title": "Isilog",
+      "id": "isilog",
+      "website": "https://www.isilog.com"
+    },
+    {
+      "title": "JFrog",
+      "id": "jfrog",
+      "website": "https://www.jfrog.com"
+    },
+    {
+      "title": "Kaïbee",
+      "id": "kaibee",
+      "website": "https://www.kaibee.fr"
+    },
+    {
+      "title": "Lucca",
+      "id": "lucca",
+      "website": "https://www.lucca.fr"
+    },
+    {
+      "title": "Neosoft",
+      "id": "neosoft",
+      "website": "https://www.neosoft.com"
+    },
+    {
+      "title": "Orange Business",
+      "id": "orange-business",
+      "website": "https://www.orange-business.com"
+    },
+    {
+      "title": "RCA",
+      "id": "rca",
+      "website": "https://www.rca.fr"
+    },
+    {
+      "title": "Shopopop",
+      "id": "shopopop",
+      "website": "https://www.shopopop.com"
+    },
+    {
+      "title": "SII",
+      "id": "sii",
+      "website": "https://www.groupe-sii.com"
+    },
+    {
+      "title": "SNCF Connect & Tech",
+      "id": "sncf-connect-tech",
+      "website": "https://www.sncf.com/fr"
+    },
+    {
+      "title": "VIF",
+      "id": "vif",
+      "website": "https://www.vif.fr"
+    },
+    {
+      "title": "Younup",
+      "id": "younup",
+      "website": "https://www.younup.com"
+    }
+  ],
+  "virtual": [
+    {
+      "title": "Sully Group",
+      "id": "sully-group",
+      "website": "https://www.sully-group.com"
+    },
+    {
+      "title": "Valeuriad",
+      "id": "valeuriad",
+      "website": "https://www.valeuriad.com"
+    },
+    {
+      "title": "ModalB",
+      "id": "modalb",
+      "website": "https://www.modalb.com"
+    },
+    {
+      "title": "AB Tasty",
+      "id": "ab-tasty",
+      "website": "https://www.abtasty.com"
+    },
+    {
+      "title": "Malt",
+      "id": "malt",
+      "website": "https://www.malt.com"
+    }
+  ],
+  "velotypie": [
+    {
+      "title": "Arkup",
+      "id": "arkup",
+      "website": "https://www.arkup.com"
+    },
+    {
+      "title": "Kanoma",
+      "id": "kanoma",
+      "website": "https://www.kanoma.com"
+    },
+    {
+      "title": "Google",
+      "id": "google",
+      "website": "https://www.google.com"
+    }
+  ],
   "partners": [
+    {
+      "title": "Nantes Digital Job",
+      "id": "nantes-digital-job",
+      "website": "https://www.nantesdigitaljob.com"
+    },
     {
       "title": "Nantes Metropole",
       "id": "nantes-metropole",
-      "website": "https://metropole.nantes.fr"
+      "website": "https://www.nantesmetropole.fr"
     }
   ]
 }
