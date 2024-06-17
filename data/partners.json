@@ -41,11 +41,6 @@
       "website": "https://www.soprasteria.com"
     },
     {
-      "title": "Thalès",
-      "id": "thales",
-      "website": "https://www.thalesgroup.com"
-    },
-    {
       "title": "U TECH",
       "id": "u-tech",
       "website": "https://ugieiris.fr/"
@@ -54,11 +49,6 @@
       "title": "Zenika",
       "id": "zenika",
       "website": "https://www.zenika.com"
-    },
-    {
-      "title": "Google",
-      "id": "google",
-      "website": "https://www.google.com"
     }
   ],
   "gold": [
@@ -111,11 +101,6 @@
       "title": "Isilog",
       "id": "isilog",
       "website": "https://www.isilog.com"
-    },
-    {
-      "title": "JFrog",
-      "id": "jfrog",
-      "website": "https://www.jfrog.com"
     },
     {
       "title": "Kaïbee",
@@ -205,11 +190,6 @@
       "title": "Kanoma",
       "id": "kanoma",
       "website": "https://www.kanoma.fr/"
-    },
-    {
-      "title": "Google",
-      "id": "google",
-      "website": "https://www.google.com"
     }
   ]
 }
