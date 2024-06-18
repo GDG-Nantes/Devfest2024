@@ -1,0 +1,19 @@
+---
+key: retourner_le_cerveau_de_sa_gameboy_et_les_attraper__vraiment__tous___
+title: Retourner le cerveau de sa Gameboy et les attraper (vraiment) tous 💪
+language: French
+talkType: conference
+tags:
+  - null
+complexity: Beginner
+speakers:
+  - audren_burlot
+slot: day-1-conference-3
+room: Tour de Bretagne
+abstract: |-
+  Vous avez 10 ans. Vous êtes assis sous un arbre dans votre jardin, et vous jouez à la Gameboy. La vie est douce.
+  Soudain, votre meilleur ami débarque de nulle part, sa cartouche de Pokémon Bleu dans la main, et vous crie quelque chose !
+  Il le jure sur la tête de son chien : il a réussi à attraper Mew.
+  Selon vous, il y a deux explications possibles : votre ami s'est acheté un Action Replay et a triché comme un malpropre, ou il vous joue du pipeau.
+  Et si je vous disais qu'il existait une 3ème explication : votre ami est un génie de l'assembleur.
+  C'est ce que je vous propose de découvrir dans ce talk qui sent bon les années 90 et le reverse engineering.

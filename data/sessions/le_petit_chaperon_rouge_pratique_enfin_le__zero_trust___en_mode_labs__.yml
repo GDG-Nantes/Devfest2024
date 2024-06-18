@@ -1,0 +1,33 @@
+---
+key: le_petit_chaperon_rouge_pratique_enfin_le__zero_trust___en_mode_labs__
+title: 'Le petit chaperon rouge pratique enfin le "Zero Trust" (en mode labs) '
+language: French
+talkType: codelab
+tags:
+  - security
+complexity: Intermediate
+speakers:
+  - david_drugeon_hamon
+  - jean_pascal_thiery
+  - jerome_masson
+slot: day-2-codelab-2
+room: Les Machines
+abstract: |
+  Pourquoi ne pas utiliser un conte de notre enfance pour apprendre de manière ludique. Révisitons le petit chaperon rouge: notre petite goldie rouge va voir sa mère-grand dans le village de captain Kube!!!
+
+  Et si notre petite application se décidait enfin à pratiquer le **Zero Trust** quand elle va voir sa mère-grand et que le village de captain Kube était aussi sécurisé !!!
+
+  Nous aborderons les risques encourues et leur solution lors d'un déploiement d'une application Kubernetes ainsi que la mise en œuvre les outils minimaux de sécurité pour nous aider dans notre quotidien de Dev, DevOps ou SRE. 
+
+
+
+  Lors de ce lab, nous mettrons en place:
+  - Accès au cluster avec Boundary
+    - authentification
+    - droits & rôles
+  - Déploiement de la sécurité dans le cluster
+    - Mise en place d'un service Mesh (surprise) 
+  - Déploiement de l'application
+    - vérification déploiement avec Kyverno
+    - vérification de l'image in-cluster avec Trivy-Operator 
+    - Gestion des secrets avec Vault (injector) 

@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/marked": "^2.0.4",
     "@types/node": "^16.3.1",
-    "@types/rimraf": "^3.0.1"
+    "@types/rimraf": "^3.0.1",
+    "ts-node": "^10.9.2"
   }
 }

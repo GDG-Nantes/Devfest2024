@@ -1,0 +1,15 @@
+---
+key: etienne_anne
+name: Etienne ANNE
+feature: false
+company: MAIF
+companyLogo: /images/partners/maif.png
+city: Poitiers, France
+photoUrl: https://avatars.githubusercontent.com/u/6641669?v=4
+socials:
+  twitter: Zwiterrion_
+  github: Zwiterrion
+bio: |-
+  Développeur "Full-Stack" travaillant depuis quelques années sur des APIs gateways et leurs intégrations dans l'écosystème d'un grand groupe de l'assurance. 
+  Depuis 2019, je contribue à  des produits Open Source à la MAIF, notamment sur [Otoroshi](https://maif.github.io/otoroshi/manual/getting-started.html), un API management WASM-native.
+  En side project, je maintiens une application de gestion de liste de souhaits nommé [Pleaf](https://pleaf.fr).

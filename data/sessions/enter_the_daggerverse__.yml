@@ -1,0 +1,24 @@
+---
+key: enter_the_daggerverse__
+title: Enter the Daggerverse !
+language: French
+talkType: codelab
+tags:
+  - cloud_devops
+complexity: Beginner
+speakers:
+  - emeric_martineau
+  - julien_haumont
+slot: day-2-codelab-1
+room: L'Atelier
+abstract: |-
+  Si je vous dis **Dagger** ? Cela ne vous parle peut être pas. Si je vous dis... **Docker** ? Là, ça vous parle !
+  Dagger, c'est le moteur de CI/CD développé par *Solomon Hykes*, le papa de Docker. Un OVNI dans l'univers des moteurs de CI/CD, à la fois une alternative et un complément à Jenkins, Circle, GitHub Actions. Mais quid du ***Daggerverse*** ? 
+
+  Laissez nous vous embarquer dans ce nouvel univers, laissez nous vous faire tomber dans... le **Daggerverse of madness** !!
+
+  Dans ce codelab, vous :
+  * prendrez en main Dagger avec le langage de votre choix : Typescript, Go ou Python (et qui sait, Java ?)
+  * découvrirez comment publiez votre propre module Dagger dans... le Daggerverse !
+
+  Et vous serez à tout jamais séduit par Dagger et son univers à part entière.

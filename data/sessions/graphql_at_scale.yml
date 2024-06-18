@@ -1,0 +1,18 @@
+---
+key: graphql_at_scale
+title: GraphQL at Scale
+language: French
+talkType: conference
+tags:
+  - languages
+complexity: Intermediate
+speakers:
+  - anthony_giniers
+slot: day-1-conference-5
+room: Belem
+abstract: |-
+  GraphQL est devenu un standard pour exposer des APIs, adopté par des géants tels que Github, Netflix, Shopify, Airbnb, Paypal ou évidemment Facebook.
+
+  Mais quand on est une boîte de cette ampleur, quels sont les challenges techniques et organisationnels, spécifiques à cette technologie, auxquels on va irrémédiablement se retrouver confrontés ?
+
+  Quells sont les bonnes pratiques, qui n'étaient pas si évidentes il y a seulement quelques années, qui ont maintenant émergé pour permettre de scaler ? Quels sont les outils disponibles pour les implémenter ?

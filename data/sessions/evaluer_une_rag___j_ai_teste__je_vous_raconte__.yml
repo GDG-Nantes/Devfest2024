@@ -1,0 +1,31 @@
+---
+key: evaluer_une_rag___j_ai_teste__je_vous_raconte__
+title: 'Évaluer une RAG : j''ai testé, je vous raconte !'
+language: French
+talkType: conference
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - hugo_vassard
+slot: day-2-conference-3
+room: Titan
+abstract: |
+  Depuis le boum des LLMs (Large Language Model), les **chatbots** ont regagné en popularité et fleurissent de nouveau à foison. À cette occasion, les **RAGs** (Retrieval Augmented Generation) ont le vent en poupe et sont ainsi rapidement devenues les stars du moment.
+
+  Dans la réalisation de ce genre de projet, le développement démarre bien souvent sur les chapeaux de roues afin d’obtenir rapidement un premier chatbot fonctionnel. On laisse alors généralement de côté une dimension importante : **l'évaluation** de notre solution. Le manque d’évaluation ne tarde cependant pas à se faire ressentir, notamment lorsque l'on tente **d’améliorer notre chatbot** quand le fameux effet "wahou" s’est dissipé. 
+
+  Ne faisant pas figure d'exception, j'ai moi aussi fait face à cette situation, et me suis trouvé contraint de lever mon nez du guidon pour me pencher sur cette problématique. Je suis alors parti à la découverte des différentes façons d'évaluer une application basée sur une RAG, et ça m’a pris un peu plus de temps que je ne l’imaginais…
+
+
+  Je vous propose donc, à travers ce talk, de **vous transmettre ce que j’ai appris** de mes différentes recherches et essais sur le sujet. Au programme :
+  - Construction d’un **jeu de test**
+  - Évaluation des **performances** (à quel point mon chatbot fonctionne bien)
+  - Évaluation des **risques** (est-ce que mon chatbot tient des propos déplacés, est-il robuste, …)
+  - Les **librairies** d’évaluation, comme RAGAS et Giskard
+
+
+
+  —
+
+  Attention : Si le fonctionnement d’une RAG vous est inconnu, ce talk risque d’être un peu difficile à suivre. Je vous conseille donc de vous renseigner sur le sujet en amont. J’ai justement donné un talk qui explique tout cela, ça se passe [juste ici](https://www.youtube.com/watch?v=k6GYsuWSxiQ).

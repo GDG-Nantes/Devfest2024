@@ -1,0 +1,19 @@
+---
+key: aurelie_vache
+name: Aurélie Vache
+feature: false
+company: OVHcloud
+companyLogo: /images/partners/ovhcloud.png
+city: Toulouse, France
+photoUrl: https://lh5.googleusercontent.com/-Jx8n2dYA8Ss/AAAAAAAAAAI/AAAAAAAAYLA/oDqXfvM9CfY/photo.jpg
+socials:
+  twitter: aurelievache
+  github: scraly
+bio: |-
+  Aurélie est Developer Advocate chez OVHcloud. Elle est Docker Captain, CNCF Ambassador, Google Cloud developer Expert, GitPod Hero & Women Techmakers Ambassador. Dans le milieu du Dev et de l'Ops depuis + de 18 ans, elle est une passionnée de Cloud et prône les bonnes pratiques DevOps/Cloud/Golang.
+
+  Organisatrice de conférences depuis 2016, elle est également rédactrice technique, sketchnoter, auteure de livres illustrés et speaker.
+
+  Elle adore faire du mentoring et aider les autres.
+
+  Elle a créé une nouvelle façon visuelle pour les gens d'apprendre et de comprendre les technologies Cloud : "Understanding Kubernetes/Istio/Docker in a visual way" dans des sketchnotes, livres et des vidéos illustrés.

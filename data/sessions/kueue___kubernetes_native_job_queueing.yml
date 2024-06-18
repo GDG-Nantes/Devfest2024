@@ -1,0 +1,19 @@
+---
+key: kueue___kubernetes_native_job_queueing
+title: 'Kueue : Kubernetes-native Job Queueing'
+language: French
+talkType: conference
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - laurent_grangeau
+slot: day-2-conference-4
+room: Tour de Bretagne
+abstract: |-
+  Dans le paysage dynamique cloud-native d'aujourd'hui, une file d'attente et une gestion efficaces des workloads sont cruciales pour orchestrer des charges de travail complexes dans Kubernetes. L'exploitation de la puissance des GPU pour le Deep learning nécessite aussi une gestion efficace des files d'attente et des ressources dans Kubernetes. Sans file d'attente, il peut être compliqué d'orchestrer efficacement des workloads ou des entrainement de modèle de Machine Learning.
+
+  Kueue est un système de file d'attente  open-source et natif Kubernetes conçu pour relever ce défi. Kueue change la donne en permettant une orchestration transparente des tâches et une utilisation optimisée des ressources pour les entrainement nécessitant des GPU/TPU.
+  Kueue est un système de mise en file d'attente des travaux natif du cloud pour les applications batch, HPC, AI/ML et autres applications similaires dans un cluster Kubernetes.
+
+  Dans ce talk, nous montrerons les avantages de Kueue et lancerons l'entraînement simultané de plusieurs modèles de Machine Learning sur un cluster de GPU partagé. Kueue facilitera la mise en file d'attente et l'ordonnancement, garantissant que chaque tâche reçoit les ressources nécessaires tout en évitant les goulots d'étranglement.

@@ -1,0 +1,12 @@
+---
+key: aurelien_moreau
+name: Aurélien Moreau
+feature: false
+company: Takima
+companyLogo: /images/partners/takima.png
+city: Paris, France
+photoUrl: https://lh3.googleusercontent.com/a/AATXAJyZ0gNg954kdUWnPAoo4Vn4MueyVvZ-JBGIknKj=s96-c
+socials:
+  twitter: AurelOps
+  github: aurelien-moreau
+bio: 'Aurélien n’est pas juste un adepte de la marinière. Ops érudit, ayant fait ses armes dans les équipes infra chez EDF, il a vu passer 10 ans d’innovations et a vécu les changements de paradigmes engendrés par l’avènement des outils DevOps. Docker, Kubernetes, il est devenu Cloud Ops Architect et saura vous donner une lecture de ce que le DevOps a changé dans sa manière de fonctionner au quotidien. Spoiler alert : maintenant, il code !'

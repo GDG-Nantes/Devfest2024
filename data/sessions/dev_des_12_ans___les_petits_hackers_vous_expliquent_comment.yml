@@ -1,0 +1,26 @@
+---
+key: dev_des_12_ans___les_petits_hackers_vous_expliquent_comment
+title: 'Dev dès 12 ans : Les Petits Hackers vous expliquent comment'
+language: French
+talkType: quickie
+tags:
+  - null
+complexity: Beginner
+speakers:
+  - adrien
+  - benjamin_bernard
+slot: day-2-quickie-1
+room: Belem
+abstract: |-
+  Depuis plus de 11 ans, l'association Maison du Libre à Brest anime les ateliers des Petits Hackers, où des développeurs et ingénieurs passionnés guident des jeunes de 12 à 17 ans dans la réalisation de leur propre projets. Dans un esprit "maker" et "Do It Together", ces jeunes partent de zéro pour créer et collaborer entre eux.
+
+  Rym (15 ans) et Adrien (14 ans) viendront vous présenter eux-mêmes les projets qu'ils ont développés, l'approche collaborative adoptée, les liens qu'ils ont forgés et les compétences qu'ils ont acquises. Découvrez comment ces ateliers ont stimulé leur passion pour le dev.
+
+  Projets présentés :
+    * Utilisation de la carte Micro:bit, pour initier d'autres jeunes à la programmation lors des salons
+    * Parcours web interactif sur le chiffrement et la stéganographie : stegano.lph.bzh
+    * Jacobot, un robot éducatif construit avec Arduino, inspiré du Cubetto, pour apprendre la programmation
+    * DonkeyCar : projet ayant initié près de 5 000 personnes à l'IA à l'aide de voiture RC et Raspberry Pi
+    * ROSA : petit robot capable de se déplacer et détecter des obstacle ayant donné lieu à la création d'un parcours pédagogique : 
+
+  Ne manquez pas cette occasion unique de découvrir comment ces jeunes dev transforment leurs idées en réalité et pourquoi pas vous aussi lancer ce type d'ateliers ailleurs en France :)

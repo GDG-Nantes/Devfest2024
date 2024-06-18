@@ -1,0 +1,29 @@
+---
+key: multi_kubernetes__multi_regions__au_secours__
+title: Multi Kubernetes, Multi Régions, Au-secours !
+language: French
+talkType: conference
+tags:
+  - cloud_devops
+complexity: Intermediate
+speakers:
+  - aurelien_moreau
+  - nicolas_lavacry
+slot: day-1-conference-2
+room: Jules Verne
+abstract: |-
+  On s’intéressera ici à un cas d’architecture qui terrifie (à raison), n'importe quel SRE qui se respecte : celui d'une implémentation multi-datacentres, multi-régions, d’une infrastructure Kubernetes.
+
+  Cette question, c’est celle qui nous a occupé cette dernière année, à la Casden, et qui a été une source particulièrement riche d’apprentissages.
+
+  Quelle architecture choisir pour les clusters multi-régions ? Comment les fédérer ?
+
+  Comment communiquer entre clusters ?
+
+  Comment gérer le load-balancing inter-cluster ?
+
+  Comment déployer sur nos clusters ?
+
+  Mais aussi et surtout : comment gérer mes données persistantes ?
+
+  Dans cette conférence, nous adresserons l’ensemble de ces questions en dressant un état des lieux des différentes possibilités d’implémentation, des contraintes, ainsi que des différents niveaux de maturité sur cette gestion d'une architecture Multi Kubernetes. Avec bien sûr de nombreuses démos à l'appui !

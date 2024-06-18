@@ -1,0 +1,17 @@
+---
+key: emeric_martineau
+name: Emeric Martineau
+feature: false
+company: Crédit Agricole Technologies et Services
+companyLogo: /images/partners/credit_agricole_technologies_et_services.png
+city: Nantes, France
+photoUrl: https://lh3.googleusercontent.com/-Q4PVrRADJv8/AAAAAAAAAAI/AAAAAAAAA5o/zjHoRY1-r6s/photo.jpg
+socials:
+  twitter: MartineauEmeric
+  github: emeric-martineau
+bio: |
+  D'abord développeur temps-réel puis exploitant, passé par hotlineur, technicien de maintenance informatique, administrateur systèmes et réseaux et enfin développeur.
+
+  Je m'intéresse à énormément de sujets que j'inter-connecte mentalement pour en ressortir des idées et des concepts farfelus et improbable.
+
+  Je travaille actuellement au Crédit Agricole Technologies et Services dans l'équipe accompagnant les developpeurs vers plus d'automatisation (CI/CD) et que qualité (Sonar).

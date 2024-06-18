@@ -1,0 +1,18 @@
+---
+key: boostez_vos_sites_et_applications_web_avec_le_code_http__103_early_hints_
+title: Boostez vos sites et applications web avec le code HTTP "103 Early Hints"
+language: French
+talkType: quickie
+tags:
+  - web
+complexity: Beginner
+speakers:
+  - kevin_dunglas
+slot: day-2-quickie-2
+room: Tour de Bretagne
+abstract: |-
+  Depuis peu les navigateurs les plus populaires ont implémenté un nouveau code d'état HTTP : 103 Early Hints.
+
+  Ce nouveau type de réponse, plutôt inhabituel, a un seul objectif : accélérer le temps de chargement de vos sites web et applications en permettant au navigateur de précharger les ressources dont il aura besoin pour rendre la page.
+
+  Dans cette présentation, nous verrons en quoi la réponse 103 diffère des autres techniques de préchargement telles que HTTP/2+ Server Push ou les balises <link ref="preload">, et comment en tirer parti pour améliorer la performance de vos sites et apps.

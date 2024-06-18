@@ -47,46 +47,46 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // youtube
   // slides
   const { data, errors } = await graphql(
-        // allSessionsYaml {
-        //   edges {
-        //     node {
-        //       key
-        //       slot
-        //       speakers
-        //       tags
-        //       talkType
-        //       title
-        //       room
-        //       language
-        //       complexity
-        //       abstract
-        //       openfeedbackId
-        //       youtube
-        //     }
-        //   }
-        // }
-        // allSpeakersYaml {
-        //   edges {
-        //     node {
-        //       key
-        //       name
-        //       feature
-        //       city
-        //       company
-        //       companyLogo
-        //       photoUrl
-        //       bio
-        //       socials {
-        //         twitter
-        //         github
-        //         linkedin
-        //         instagram
-        //         website
-        //       }
-        //     }
-        //   }
-        // }
     `
+        allSessionsYaml {
+          edges {
+            node {
+              key
+              slot
+              speakers
+              tags
+              talkType
+              title
+              room
+              language
+              complexity
+              abstract
+              openfeedbackId
+              youtube
+            }
+          }
+        }
+        allSpeakersYaml {
+          edges {
+            node {
+              key
+              name
+              feature
+              city
+              company
+              companyLogo
+              photoUrl
+              bio
+              socials {
+                twitter
+                github
+                linkedin
+                instagram
+                website
+              }
+            }
+          }
+        }
       {
         allBlogsYaml {
           edges {
@@ -106,36 +106,36 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     reporter.panicOnBuild(`Error while running GraphQL query.`);
     return;
   }
-  //
-  // // Sessions
-  // const sessionPageTemplate = path.resolve(
-  //   "src/components/session/sessionPageTemplate.tsx"
-  // );
-  // data.allSessionsYaml.edges.forEach(({ node: session }) => {
-  //   const path = "sessions/" + session.key;
-  //   createPage({
-  //     path,
-  //     component: sessionPageTemplate,
-  //     context: {
-  //       session,
-  //     },
-  //   });
-  // });
-  //
-  // // Speakers
-  // const speakerPageTemplate = path.resolve(
-  //   "src/components/speakers/speakerPageTemplate.tsx"
-  // );
-  // data.allSpeakersYaml.edges.forEach(({ node: speaker }) => {
-  //   const path = "speakers/" + speaker.key;
-  //   createPage({
-  //     path,
-  //     component: speakerPageTemplate,
-  //     context: {
-  //       speaker,
-  //     },
-  //   });
-  // });
+
+  // Sessions
+  const sessionPageTemplate = path.resolve(
+    "src/components/session/sessionPageTemplate.tsx"
+  );
+  data.allSessionsYaml.edges.forEach(({ node: session }) => {
+    const path = "sessions/" + session.key;
+    createPage({
+      path,
+      component: sessionPageTemplate,
+      context: {
+        session,
+      },
+    });
+  });
+
+  // Speakers
+  const speakerPageTemplate = path.resolve(
+    "src/components/speakers/speakerPageTemplate.tsx"
+  );
+  data.allSpeakersYaml.edges.forEach(({ node: speaker }) => {
+    const path = "speakers/" + speaker.key;
+    createPage({
+      path,
+      component: speakerPageTemplate,
+      context: {
+        speaker,
+      },
+    });
+  });
 
   // Blogs
   const blogPageTemplate = path.resolve(

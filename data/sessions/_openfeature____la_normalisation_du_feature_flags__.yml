@@ -1,0 +1,13 @@
+---
+key: _openfeature____la_normalisation_du_feature_flags__
+title: ' OpenFeature :  La normalisation du feature flags ?'
+language: French
+talkType: quickie
+tags:
+  - languages
+complexity: Beginner
+speakers:
+  - morgan_blanloeil
+slot: day-1-quickie-1
+room: Titan
+abstract: Les feature flags révolutionnent la gestion des fonctionnalités logicielles en permettant une activation ou une désactivation dynamique. Promu par la CNCF, OpenFeature s’impose comme la nouvelle norme du feature flags. Découvrons ensemble l'intégration de cette solution sur un projet front et back office. Avec l’aide des différents providers et de la nouvelle norme OFREP (OpenFeature Remote Evaluation Protocol ), nous verrons en quoi OpenFeature se veut no vendor lock-in !

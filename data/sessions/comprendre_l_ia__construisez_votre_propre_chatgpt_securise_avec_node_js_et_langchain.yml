@@ -1,0 +1,29 @@
+---
+key: comprendre_l_ia__construisez_votre_propre_chatgpt_securise_avec_node_js_et_langchain
+title: 'Comprendre l''IA: construisez votre propre ChatGPT sécurisé avec Node.js et LangChain'
+language: French
+talkType: codelab
+tags:
+  - bigdata_ai
+complexity: Beginner
+speakers:
+  - christopher_maneu
+  - yohan_lasorsa
+slot: day-1-codelab-3
+room: Les Machines
+abstract: |-
+  Les technologies d'IA, et particulièrement les grand modèles de langages (LLM) poussent un peu partout comme des champignons ces derniers temps. Comment ces modèles fonctionnent-ils, et comment s'en servir dans vos applications?
+
+  Dans ce workshop, nous allons construire de zéro un chatbot basé sur GPT-4 et implémentant le pattern **Retrieval Augmented Generation** (RAG). En utilisant une base de documents de référence, le modèle sera capable de répondre à des questions en langage naturel, et de générer des réponses complètes et sourcées dans vos documents. Pour cela, nous allons créer un service Node.js qui s'appuiera sur le framework open-source LangChain, ainsi qu'un site web pour tester notre chatbot.
+
+  **Au programme**:
+  - Introduction aux modèles de langage: fonctionnement et limites
+  - Création d'une base de connaissances: embeddings, BDD vectorielle et recherche par similarité
+  - Utilisation de [LangChain](https://js.langchain.com/) pour implémenter le pattern RAG (Retrieval Augmented Generation)
+  - Introduction au *prompt engineering* pour améliorer les performances
+  - Création d'une API Node.js pour interagir avec le modèle
+  - Création d'un site web pour tester le chatbot
+
+  Et pour ceux qui voudront aller plus loin, nous fourniront également les instructions pour déployer le tout sur Azure avec un pipeline CI/CD.
+
+  A l'issue du workshop, vous aurez une compréhension plus claire des grands modèles de langage et de leur fonctionnement, ainsi que des idées pour les utiliser dans vos applications. Vous saurez également comment créer une base de connaissances et un chatbot fonctionnels ainsi que des astuces pratiques pour leur implémentation.

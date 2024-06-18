@@ -1,0 +1,21 @@
+---
+key: bug_bounty___revolutionner_la_detection_des_vulnerabilites_dans_votre_si_et_passer_a_l_echelle
+title: 'Bug Bounty : Révolutionner la détection des vulnérabilités dans votre SI et passer à l''échelle'
+language: French
+talkType: conference
+tags:
+  - security
+complexity: Beginner
+speakers:
+  - florent_le_borgne
+  - florian_girard
+slot: day-2-conference-3
+room: Belem
+abstract: |-
+  Rejoignez nous lors d'une conférence où l'univers du Bug Bounty sera démystifié et contextualisé au sein d'un groupe de 5000 collaborateurs. Forts d’une expertise de cinq ans dans la pratique du Bug Bounty, nous vous invitons à explorer l’intégration et l'impact de ces programmes au sein de différentes DSI, dans une structure aux multiples facettes.
+
+  Qu'il s'agisse de sites web, d'applications mobiles, d'API ou de progiciels, découvrez comment le Bug Bounty se déploie sur diverses applications pour renforcer la sécurité informatique. Nous partagerons avec vous les clés du succès, les leçons apprises et les défis surmontés, grâce à des témoignages vécus et des retours d'expérience concrets.
+
+  Vous êtes curieux des techniques employées? Nous aborderons aussi les différents modes opératoires du Bug Bounty, y compris les approches boîte blanche, grise et noire, et leur pertinence selon les contextes et les objectifs de sécurité.
+
+  Cette session promet de vous fournir des perspectives enrichissantes et des stratégies éprouvées pour capitaliser sur le Bug Bounty et transformer la sécurité de votre organisation

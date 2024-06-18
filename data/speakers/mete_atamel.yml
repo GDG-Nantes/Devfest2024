@@ -1,0 +1,13 @@
+---
+key: mete_atamel
+name: Mete Atamel
+feature: false
+company: Google
+companyLogo: /images/partners/google.png
+photoUrl: https://lh3.googleusercontent.com/a/AAcHTtc8pAon-b1oWPLDFwzpov5qFxMx1pC7QfmU4CXQJ_A=s96-c
+socials:
+  twitter: meteatamel
+  github: meteatamel
+bio: |+
+  I’m a Software Engineer and a Developer Advocate with 18+ years of experience. Currently, I work in the Developer Relations team at Google in London. I build tools, demos, tutorials, and give talks to educate and help developers to be successful on Google Cloud. As a regular speaker at tech conferences, I have spoken over 345+ events since 2016 on modern application development topics such as Kubernetes, Istio, Knative, serverless, event-driven architectures, and microservice orchestration. Prior to my current role, I was a Software Engineer/Architect/Tech Lead at Nokia, EMC, Adobe, Skype, and Microsoft building various client and server technologies, resulting in multiple patents.
+

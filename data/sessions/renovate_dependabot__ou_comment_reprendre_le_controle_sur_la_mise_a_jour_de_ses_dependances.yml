@@ -1,0 +1,19 @@
+---
+key: renovate_dependabot__ou_comment_reprendre_le_controle_sur_la_mise_a_jour_de_ses_dependances
+title: Renovate/Dependabot, ou comment reprendre le contrôle sur la mise à jour de ses dépendances
+language: French
+talkType: conference
+tags:
+  - languages
+complexity: Beginner
+speakers:
+  - jean_phi_baconnais
+  - lise_quesnel
+slot: day-1-conference-1
+room: Tour de Bretagne
+abstract: |-
+  Lorsqu’on développe un projet, on se laisse parfois facilement déborder par les mises à jour de dépendances : c’est rébarbatif, répétitif, bref, pas très fun, et personne n’a envie de le faire. Et si une **solution automatique** le faisait pour nous ou nous aidait à le faire ? 
+
+  C’est la promesse d’outils comme Dependabot ou Renovate qui vont nous proposer des Pull/Merge-requests avec les montées de versions des dépendances de nos projets. Magique non ? 
+
+  Dans ce talk, après vous avoir (re)présenter ces deux outils, nous vous donnerons des conseils sur la mise en place de Renovate. Notre retour est basé sur nos expériences open source ou lors de notre mission (spoiler, bien sur que tout n’a pas fonctionné du premier coup 😅). Ce sera l’occasion de vous faire une démo pour vous permettre de vous rendre compte de l'intérêt (mais pas que) de ces outils et pourquoi pas de vous décider à en installer un sur vos projets !

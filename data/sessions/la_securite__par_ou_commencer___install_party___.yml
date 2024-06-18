@@ -1,0 +1,19 @@
+---
+key: la_securite__par_ou_commencer___install_party___
+title: La sécurité, par où commencer ? Install party 🎉
+language: French
+talkType: codelab
+tags:
+  - security
+complexity: Beginner
+speakers:
+  - christopher
+  - david_aparicio
+slot: day-1-codelab-3
+room: L'Atelier
+abstract: |-
+  Venez avec votre PC/Linux/MAC, vous connaissez probablement les Linux [Install Parties](https://fr.wikipedia.org/wiki/Install_party) ? Alors, faisons de même avec la Sécurité, nous allons suivre l'approche [DevSecOps](https://davidaparicio.gitlab.io/website/files/devsecops_software_lifecycle.jpg) du [ministère américain de la défense](https://public.cyber.mil/devsecops/). Pour cela, rien de plus simple, venez avec votre ordinateur, votre projet opensource et vos outils (IDE, CI/CD). Après quelques slides de présentation, nous évolurons étape par étape dans la sécurisation de votre application. Si votre application est dockerisée, nous évonquerons les [bonnes pratiques de l'ANSSI](https://www.ssi.gouv.fr/guide/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker/) sur ce sujet. Nous verrons ainsi, à travers cet atelier, comment le GitOps/CI/CD permettent à nous et aux organisations d'améliorer notre posture face à la sécurité.
+
+  On présentera les actions effectuées ce [code en Go](https://github.com/davidaparicio/namecheck) et si un participant n'a pas de projet phare, ni de code opensource, on pourra partir de ce projet (sans les workflows)
+
+  Pré-requis : connaissances élementaires sur l'OS, le code, les pipelines de CI/CD

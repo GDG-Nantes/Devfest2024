@@ -1,0 +1,20 @@
+---
+key: tu_te_mets_combien_en_responsive_css___edition_2024
+title: Tu te mets combien en responsive CSS ? Edition 2024
+language: French
+talkType: conference
+tags:
+  - web
+complexity: Beginner
+speakers:
+  - julien_sulpis
+  - theo_gianella
+slot: day-2-conference-1
+room: Belem
+abstract: |-
+  Le responsive en CSS, c’est la base non ? Depuis l’arrivée des smartphones, nos interfaces doivent s’adapter à toutes les tailles d’écrans possibles, du moniteur 4K au plus petit téléphone portable.
+
+  Vous faites ça comment, vous ? Au début on n’avait que les breakpoints et une armée de media queries. Puis de nouveaux outils sont arrivés : flexbox, grid, unités relatives… Aujourd’hui avec les container queries et toujours plus d’unités (dvmin, cqh…), nous disposons d’une jungle d’outils et de techniques et rares sont celleux qui peuvent prétendre tous les maîtriser. Alors, vous vous mettez combien en responsive CSS ?
+
+  Que ce soit 1 ou 10, venez (re)découvrir avec nous les mille et une manières de faire du responsive en 2024 : on vous a préparé quelques maquettes, de la plus simple à la plus complexe, que nous allons implémenter en live-coding pour illustrer toutes ces techniques.
+  On verra ensemble que pour une fois, c’était pas mieux avant !

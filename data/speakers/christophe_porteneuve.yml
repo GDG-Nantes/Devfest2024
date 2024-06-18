@@ -1,0 +1,15 @@
+---
+key: christophe_porteneuve
+name: Christophe Porteneuve
+feature: false
+company: Delicious Insights
+companyLogo: /images/partners/delicious_insights.png
+city: Paris, France
+photoUrl: https://cdn.delicious-insights.com/chris-avatar-funky-bg.png
+socials:
+  twitter: porteneuve
+  github: '@tdd'
+bio: |-
+  Christophe est développeur web à titre pro depuis 1995, et fait de la R&D, de la formation pro et des talks en conférence depuis 1996. Ancien core team de Prototype.js et script.aculo.us, ancien contributeur à Ruby on Rails et à Node.js, traducteur FR des docs de React et contributeur occasionnel à JavaScript, il est le fondateur et CTO de Delicious Insights, véritable référence dans la formation pro de pointe sur l'univers du dev web : Git, React / PWA, Node.js, JS pur, etc.
+
+  Il habite près de Paris avec sa femme et ses deux fils.

@@ -1,0 +1,13 @@
+---
+key: _e_os__mon_smartphone_android_sans_google
+title: /e/OS, mon smartphone Android sans Google
+language: French
+talkType: quickie
+tags:
+  - null
+complexity: Beginner
+speakers:
+  - benoit_masson
+slot: day-2-quickie-1
+room: Tour de Bretagne
+abstract: "Vous avez sans doute déjà entendu (ou prononcé) les phrases suivantes :\n\n> «\_Je peux partager mes données, je n'ai rien à cacher\_»  \n> «\_Android c'est open-source, mes données sont protégées\_»\n\nSauf qu'en fait, non… votre smartphone sait beaucoup de choses sur vous, et en partage énormément avec Google (Android) ou Apple (iOS). Et même si vous n'avez rien à cacher, vous n'avez pas intérêt à tout dévoiler (vie privée, sécurité, dépendance, profilage, …).\n\nJe vais vous présenter [/e/OS](https://e.foundation/), une distribution Android créée pour respecter votre vie privée :\n- suppression des services Google intégrés\n- applications open-source respectueuses de vos données\n- cloud respectueux ou auto-hébergé\n\nLe tout est facile d'accès, compatible avec un grand nombre de terminaux, et conserve une compatibilité maximale avec tous vos services.\n\nEt si vous n'avez pas envie de changer de téléphone ou de tout réinstaller du jour au lendemain, on évoquera des pistes pour reprendre progressivement la main sur vos données."

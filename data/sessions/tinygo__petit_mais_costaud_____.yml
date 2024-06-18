@@ -1,0 +1,24 @@
+---
+key: tinygo__petit_mais_costaud_____
+title: TinyGo, petit mais costaud ! 💪
+language: French
+talkType: conference
+tags:
+  - null
+complexity: Beginner
+speakers:
+  - aurelie_vache
+  - thierry_chantier
+slot: day-1-conference-2
+room: Tour de Bretagne
+abstract: |-
+  Go est un langage facile à prendre en main, typé et compilé. Avec ce langage vous pouvez créer des CLI (outils en ligne de commande), des microservices, des applications REST, gRPC, des Bots pour Discord…
+  Mais savez-vous que vous pouvez également créer des applications en Go pour des microcontrôleurs, des consoles de jeux vidéo et même générer du code en WebAssembly ?
+
+  C’est possible grâce à TinyGo !
+
+  TinyGo est un compilateur Go pour les systèmes embarqués et pour le Web moderne. Vous pouvez compiler et exécuter des programmes TinyGo sur de nombreuses cartes à microcontrôleur telles que le BBC micro:bit, l'Arduino Uno, la Nintendo Switch et la Game Boy Advance ;-).
+
+  Dans ce talk vous pourrez découvrir TinyGo ainsi que ses possibilités et usages concrets à travers des démos, en live, qui vous ferons découvrir plusieurs expérimentations de TinyGo.
+
+  Spoiler alert : il se peut que des Nintendo Game Boy Advance et Gopher Badge soient utilisées durant ce talk 😜

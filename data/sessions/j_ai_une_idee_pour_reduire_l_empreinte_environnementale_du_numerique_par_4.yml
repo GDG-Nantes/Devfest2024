@@ -1,0 +1,28 @@
+---
+key: j_ai_une_idee_pour_reduire_l_empreinte_environnementale_du_numerique_par_4
+title: J'ai une idée pour réduire l'empreinte environnementale du numérique par 4
+language: French
+talkType: conference
+tags:
+  - discovery
+complexity: Beginner
+speakers:
+  - tristan_nitot
+slot: day-2-conference-2
+room: Jules Verne
+abstract: |-
+  ### Supprimer la loi de Moore pour arrêter l'obsolescence programmée
+
+  Imaginons l'inimaginable : et si on arrêtait la loi de Moore ? Cette "loi" a structuré les industries du logiciel et du matériel informatique depuis presque 60 ans. Cette course effrénée vers la puissance fait que nous jetons collectivement chaque année plus de 50 millions de tonnes de déchets électroniques, qui ne sont quasiment pas recyclés. Dans 80% des cas, un smartphone est jeté alors qu'il fonctionne encore. Juste parce qu'il est considéré comme obsolète.  
+    
+  Mais la loi de Moore n'est pas une fatalité, elle s'essouffle même de plus en plus. 
+
+  Il faut savoir que c'est la fabrication du matériel qui compose les trois quarts de l'empreinte environnementale du numérique. Si on se mettait à optimiser nos logiciels plutôt que d'empiler les *features* pas toujours utiles, on pourrait faire tourner nos logiciels beaucoup beaucoup plus rapidement. Il y a en effet des gisements insoupçonnés de performance qui ont été négligés. J'ai trouvé [par exemple un script Python](https://www.youtube.com/watch?v=c33AZBnRHks) qui a pu être optimisé d'un facteur 408 000 000 (oui, 408 millions de fois). Les exemples sont légion, j'en ai plein. 
+
+  On pourrait libérer toute cette puissance gâchée.
+
+  C'est ce que j'appelle le **principe d'erooM**, pour *"Effort Radicalement Organisé d’Optimisation en Masse"* (oui, je suis désolé). 
+
+  En optimisant le logiciel d'un facteur 2 tous les deux ans, on libère des ressources comme l'a fait la loi de Moore en son temps, et cela nous permettent d'innover, mais sans changer le matériel ! Et donc de s'attaquer à ce qui fait les trois quarts de l'empreinte environnementale du numérique ! Et avec les ressources numériques (temps de CPU, mémoire) économisées, nous pourrions continuer à innover, à inventer de nouveaux usages tout en réduisant  drastiquement la pollution numérique. 
+
+  Ça tombe bien, la planète en a bigrement besoin.

@@ -1,0 +1,27 @@
+---
+key: rag_against_the_machine_______creez_votre_propre_bot_iagen_sans_internet
+title: 'RAG against the Machine 😎🤖: créez votre propre bot IAGen sans Internet'
+language: French
+talkType: codelab
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - benjamin_bernard
+  - julien_buret
+  - pierre_therrode
+slot: day-1-codelab-1
+room: Les Machines
+abstract: |-
+  2030. L'Humanité lutte pour la survie de ses développeurs. Impossible de sortir un site ou une app sans IA Générative. Les mega-corporations fournissent des services d'IA ultra-performants en SaaS à travers le cyberespace Internet. Seule une poignée résiste et construit encore ses propres chatbots, fait du RAG avec ses propres données, sur ses propres machines.
+
+  Dans ce codelab, vous utiliserez des frameworks open source comme LangChain et Tock pour créer votre chatbot en local et "from scratch" :
+  - Vous construirez un RAG pour dialoguer sur vos propres bases de données.
+  - Vous affinerez une expérience conversationnelle hybride, avec de l'IA Générative mais aussi des réponses déterministes quand c'est plus pertinent.
+  - Vous intègrerez votre création sur une page Web ou votre propre site.
+  - Vous apprendrez à observer et vérifier sa stabilité au fur et à mesure de ses évolutions.
+  - Enfin, vous installerez des coupe-circuits et autres protections pour garder le contrôle et vous préparer à tous les scenarios une fois en production !
+
+  Un autre avenir est possible. Développeurs, data scientists, rejoignez-nous !
+
+  (Vous pourrez installer les logiciels en amont du lab. Instructions à venir : https://doc.tock.ai/codelab.html )

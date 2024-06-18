@@ -1,0 +1,26 @@
+---
+key: hugo_gresse
+name: Hugo Gresse
+feature: false
+company: INRIA
+companyLogo: /images/partners/inria.png
+city: Montpellier, France
+photoUrl: https://lh3.googleusercontent.com/-BgPxLuL3bxw/AAAAAAAAAAI/AAAAAAAAHFg/ntdMqiVwIog/photo.jpg
+socials:
+  twitter: HugoGresse
+  github: '@HugoGresse'
+bio: |+
+  Mobile developer for [Pl@ntNet app](https://play.google.com/store/apps/details?id=org.plantnet) at INRIA, Montpellier, France
+
+  Previously:
+  - lead android developer at Teads
+
+  Also a web developer and open source contributor: 
+  - [openfeedback.io](https://openfeedback.io)
+  - [openplanner.fr](https://github.com/HugoGresse/OpenPlanner)
+  - more on [github](https://github.com/HugoGresse)
+
+  Président SunnyTech (2024), orga de Montpellier JS / Montpellier Tech, et de Montpellier Android User Group 
+
+
+

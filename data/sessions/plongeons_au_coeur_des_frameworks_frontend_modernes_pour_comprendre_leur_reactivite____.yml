@@ -1,0 +1,23 @@
+---
+key: plongeons_au_coeur_des_frameworks_frontend_modernes_pour_comprendre_leur_reactivite____
+title: Plongeons au coeur des frameworks frontend modernes pour comprendre leur réactivité🔬⚛️
+language: French
+talkType: conference
+tags:
+  - web
+complexity: Intermediate
+speakers:
+  - dedieu_sylvain
+slot: day-2-conference-2
+room: Belem
+abstract: |-
+  Le mot "réactivité" est omniprésent dès lors que l'on lise un article ou que l'on écoute un podcast sur un framework frontend.
+
+  Mais qu'est-ce que ce terme signifie ? Plus concrètement encore, comment cette réactivité est traduite en code au sein de nos frameworks préférés ?
+
+  Je vous propose de pratiquer une opération à coeur ouvert de Vue, React, Svelte et Angular afin de comprendre leurs mécanismes internes de "rafraîchissement" du DOM. 
+
+  Nous nous attarderons d'avantage sur ce dernier qui est en train de complètement changer sa logique réactive. 
+  Le but de ce focus est de vous présenter les challenges auxquels la core team fait actuellement face et surtout le futur proche d'Angular.
+
+  Alors si vous voulez être réactif, suivez le guide ! ;-) 
