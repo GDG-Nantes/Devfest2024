@@ -48,6 +48,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // slides
   const { data, errors } = await graphql(
     `
+      {
         allSessionsYaml {
           edges {
             node {
@@ -61,8 +62,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               language
               complexity
               abstract
-              openfeedbackId
-              youtube
             }
           }
         }
@@ -80,14 +79,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               socials {
                 twitter
                 github
-                linkedin
-                instagram
-                website
               }
             }
           }
         }
-      {
         allBlogsYaml {
           edges {
             node {
