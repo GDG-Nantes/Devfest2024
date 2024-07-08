@@ -8,7 +8,7 @@ tags:
 complexity: Beginner
 speakers:
   - nicolas_frankel
-slot: day-2-conference-5
+slot: day-1-conference-4
 room: Jules Verne
 abstract: |-
   Il est essentiel de suivre le parcours d'une requête à travers les différents composants d'un système distribué. Avec l'essor des microservices, cette fonctionnalité a atteint un niveau de criticité comme jamais auparant. Certains outils propriétaires de suivi vous sont peut-être connus : Jaeger et Zipkin viennent naturellement à l'esprit.
