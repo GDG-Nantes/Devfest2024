@@ -1,0 +1,14 @@
+---
+key: laurentiu_capatina
+name: Laurentiu Capatina
+feature: false
+company: PayFit
+companyLogo: /images/partners/payfit.png
+city: Paris, France
+photoUrl: https://avatars.githubusercontent.com/u/7313937?v=4
+socials:
+  github: lcapatina
+bio: |-
+  I'm currently working as an SRE at PayFit on internal developer platform topics being curious about database resilience & optimisation subjects. At PayFit, we work closely with product teams on their data related issues pushing towards the adoption of performant solutions and supporting migrations out of legacy systems.
+
+  Previously, I was part of the Mantu AI Innovation Lab first as a data scientist, next taking a role of a data engineer and afterwards becoming the system administrator in charge of building an on-premise infrastructure for AI oriented projects. Furthermore, I also acted as a promoter on GreenIT subjects participating at client facing presentations and giving internal trainings.
