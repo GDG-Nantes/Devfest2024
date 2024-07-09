@@ -8,7 +8,7 @@ tags:
 complexity: Beginner
 speakers:
   - olivier_poncet
-slot: day-1-conference-4
+slot: day-2-conference-5
 room: Jules Verne
 abstract: |-
   Coup de tonnerre ! Le vendredi 29 mars 2024 fut révélée une tentative d'attaque qui aurait pu avoir des conséquences désastreuses ; le projet xz-utils, fournissant des outils et bibliothèques de compression de données, était alors compromis par une ingénieuse attaque qui aurait pu donner accès à n'importe quel serveur exposé dans le monde ... attaque qui n'a pu aboutir grâce à un heureux concours de circonstances.
