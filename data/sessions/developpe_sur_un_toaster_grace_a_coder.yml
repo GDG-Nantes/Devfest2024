@@ -1,0 +1,27 @@
+---
+key: developpe_sur_un_toaster_grace_a_coder
+title: 'Développe sur un toaster 🍞 grâce à Coder'
+language: French
+talkType: conference
+tags:
+  - cloud_devops
+complexity: Intermediate
+speakers:
+  - melissa_pinon
+  - paul_vulliemin
+slot: day-2-conference-3
+room: Tour de Bretagne
+abstract: |-
+  Vos développeurs se plaignent continuellement que leurs **PCs** sont des **toasters** ?
+
+  Que les **environnements de développements** ne sont pas **homogènes** ?
+
+  Vos **managers** râlent sur les temps d'**installation de postes** ?
+
+  Venez donc découvrir les **Cloud Development Environments** : des environnements de développement distants tout en un, disposant de tous les outils nécessaire à vos développeurs.
+
+  Nous utiliserons **Coder** pour **orchestrer nos environnements**.
+  Il fonctionne avec les IDE **Jetbrains** et **VSCode** et pourrait vous aider à atténuer ces points de douleurs. Et par dessus tout ... c'est **Open Source** et **gratuit** !
+
+  Nous verrons comment créer un environnement dans **Kubernetes**, en s'appuyant sur **Terraform**, et comment l'utiliser, en se mettant dans la peau d'un développeur.
+
