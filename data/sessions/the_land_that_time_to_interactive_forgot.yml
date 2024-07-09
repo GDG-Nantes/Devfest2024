@@ -1,13 +1,13 @@
 ---
-key: leonie_top_speaker____the_land_that_time_to_interactive_forgot
-title: LEONIE Top Speaker -> The land that Time To Interactive forgot
+key: the_land_that_time_to_interactive_forgot
+title: The land that Time To Interactive forgot
 language: English
 talkType: conference
 tags:
   - web
 complexity: Intermediate
 speakers:
-  - jean_francois_garreau
+  - leonie_watson
 slot: day-1-conference-5
 room: Jules Verne
 abstract: |-
