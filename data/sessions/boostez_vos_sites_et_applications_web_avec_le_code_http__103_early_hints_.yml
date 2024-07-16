@@ -9,7 +9,7 @@ complexity: Beginner
 speakers:
   - kevin_dunglas
 slot: day-2-quickie-2
-room: Tour de Bretagne
+room: Tour Bretagne
 abstract: |-
   Depuis peu les navigateurs les plus populaires ont implémenté un nouveau code d'état HTTP : 103 Early Hints.
 

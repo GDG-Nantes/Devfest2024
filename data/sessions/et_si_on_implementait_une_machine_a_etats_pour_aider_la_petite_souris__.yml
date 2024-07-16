@@ -9,7 +9,7 @@ complexity: Beginner
 speakers:
   - laurine_le_net
 slot: day-2-conference-2
-room: Tour de Bretagne
+room: Tour Bretagne
 abstract: |-
   Vous êtes-vous déjà perdu dans le code d’un workflow complexe avec beaucoup de règles métier ? Entre les if-else un peu partout, les appels à des micro-services internes, les sollicitations de services externes, les callbacks, les sauvegardes en base, les retours au front, on peut facilement se retrouver avec un code spaghetti !
 

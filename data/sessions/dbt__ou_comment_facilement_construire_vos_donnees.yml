@@ -9,7 +9,7 @@ complexity: Beginner
 speakers:
   - guillaume_le_floch
 slot: day-1-quickie-2
-room: Tour de Bretagne
+room: Tour Bretagne
 abstract: |+
   La gestion efficace des données est essentielle pour toute organisation moderne, mais la construction de pipelines de données robustes et évolutifs peut souvent être un défi. 
 

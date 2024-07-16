@@ -10,7 +10,7 @@ speakers:
   - jean_phi_baconnais
   - lise_quesnel
 slot: day-1-conference-1
-room: Tour de Bretagne
+room: Tour Bretagne
 abstract: |-
   Lorsqu’on développe un projet, on se laisse parfois facilement déborder par les mises à jour de dépendances : c’est rébarbatif, répétitif, bref, pas très fun, et personne n’a envie de le faire. Et si une **solution automatique** le faisait pour nous ou nous aidait à le faire ? 
 

@@ -10,7 +10,7 @@ speakers:
   - aurelie_vache
   - thierry_chantier
 slot: day-1-conference-2
-room: Tour de Bretagne
+room: Tour Bretagne
 abstract: |-
   Go est un langage facile à prendre en main, typé et compilé. Avec ce langage vous pouvez créer des CLI (outils en ligne de commande), des microservices, des applications REST, gRPC, des Bots pour Discord…
   Mais savez-vous que vous pouvez également créer des applications en Go pour des microcontrôleurs, des consoles de jeux vidéo et même générer du code en WebAssembly ?
