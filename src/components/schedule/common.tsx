@@ -1,12 +1,13 @@
 import {
   Brush,
   Cloud,
-  Code, Computer, DeveloperBoard,
+  Code,
+  DeveloperBoard,
   Language,
   Lightbulb,
   PhoneAndroid,
   Security,
-  SmartToy,
+  SmartToy
 } from "@mui/icons-material";
 import { Avatar, Chip, Tooltip } from "@mui/material";
 import { graphql, useStaticQuery } from "gatsby";
@@ -27,7 +28,7 @@ export const rooms: Rooms[] = [
   "Jules Verne",
   "Titan",
   "Belem",
-  "Tour de Bretagne",
+  "Tour Bretagne",
   "Les Machines",
   "Hangar",
   "L'Atelier",

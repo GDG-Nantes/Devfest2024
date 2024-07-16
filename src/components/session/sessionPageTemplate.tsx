@@ -66,11 +66,11 @@ const SessionPageTemplate: React.FC<{ pageContext: { session: Session } }> = ({
                 {slotLabel} {session.room}
               </Typography>
             </Stack>
-            <Stack spacing={1}>
+            { session.speakers ? <Stack spacing={1}>
               {session.speakers.map((speaker) => (
                 <SpeakerCard key={speaker} speakerKey={speaker} />
               ))}
-            </Stack>
+            </Stack> : <></>}
 
             {(session.youtube || session.slides) && (
               <Stack direction="row" spacing={3}>
