@@ -5,7 +5,7 @@ language: French
 talkType: conference
 speakers:
   - anonymous
-tag:
+tags:
   - discovery
 slot: day-1-keynote-open
 room: Jules Verne
