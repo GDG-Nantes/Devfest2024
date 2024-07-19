@@ -1,0 +1,23 @@
+---
+key: ia_404_explication_not_found
+title: 'IA-404 : Explication not found'
+language: French
+talkType: conference
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - cecile_hannote
+slot: day-1-conference-2
+room: Titan
+abstract: |-
+  Quand on demande à une IA :"Dessine moi un chat", elle fera potentiellement bien le job.
+  Si maintenant on lui demande :"Pourquoi l'animal que tu as dessiné est un chat ?", on risque au contraire d'avoir une réponse tout droit sortie d'un dictionnaire plutôt que d'une justification sur l'image générée.
+
+  Pourquoi ?
+
+  Cette question, qui fait trembler les IA d'aujourd'hui, permet d'obtenir une explication à un résultat donné par une IA. Enfin en théorie.
+
+  En pratique, la course aux IA a amené des IA plus rapides, avec des réseaux de neurones plus complexes, des boîtes noires qui ne donnent aucune justification et qui donnent des résultats que même les experts en IA ne comprennent pas encore entièrement.
+
+  Mais alors, est-il possible d'expliquer l'IA ou est-elle déjà hors de notre contrôle ?

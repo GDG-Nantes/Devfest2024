@@ -1,0 +1,12 @@
+---
+key: melanie_bats
+name: Mélanie Bats
+feature: false
+company: Obeo
+companyLogo: /images/partners/obeo.png
+city: Toulouse, France
+photoUrl: https://avatars3.githubusercontent.com/u/1185863?v=4
+socials:
+  twitter: melaniebats
+  github: mbats
+bio: I am Mélanie Bats and I am CTO at Obeo. In my daily work, I am mainly focused on the development of modeling tools with Sirius. I am also committer for  the Sirius project. I am also involved in the Eclipse community as being part of the Eclipse Planning Council. I am also a free software activist who has organized and participated in free software events in the Toulouse area.

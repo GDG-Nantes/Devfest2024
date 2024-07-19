@@ -1,0 +1,20 @@
+---
+key: du_cauchemar_au_conte_de_fee___demystifions_une_architecture_conteneurisee_avec_kubernetes
+title: 'Du cauchemar au conte de fée : Démystifions une architecture conteneurisée avec Kubernetes'
+language: French
+talkType: codelab
+tags:
+  - cloud_devops
+complexity: Beginner
+speakers:
+  - ambre_person
+  - gwenael_bec
+slot: day-1-codelab-2
+room: L'Atelier
+abstract: |-
+  La gestion de vos environnements legacy terrorise vos journées et hante vos nuits ? 
+  Vous aimeriez passer au Cloud mais les schémas d'architecture conteneurisée vous donnent des sueurs froides ?
+
+  Venez démystifier avec nous les composants de base d'une architecture conteneurisée sur Kubernetes. (Namespaces, Pods, Deployments, Services, Configmaps, Ingress, Statefulset, Volumes, Secrets…) 
+
+  Nous expliciterons et mettrons en pratique ces composants pas à pas sur le cas du déploiement d'une application web n-tiers (front-end, back-end, base de données).

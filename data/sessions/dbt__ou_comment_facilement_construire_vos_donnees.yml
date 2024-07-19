@@ -1,0 +1,27 @@
+---
+key: dbt__ou_comment_facilement_construire_vos_donnees
+title: Dbt, ou comment facilement construire vos données
+language: French
+talkType: quickie
+tags:
+  - bigdata_ai
+complexity: Beginner
+speakers:
+  - guillaume_le_floch
+slot: day-1-quickie-2
+room: Tour Bretagne
+abstract: |+
+  La gestion efficace des données est essentielle pour toute organisation moderne, mais la construction de pipelines de données robustes et évolutifs peut souvent être un défi. 
+
+  Dans cette présentation, nous explorerons DBT (Data Build Tool), une solution révolutionnaire pour la transformation des données.
+
+  DBT simplifie le processus de création de pipelines de données en utilisant des techniques de modélisation relationnelle et en s'intégrant parfaitement à vos entrepôts de données existants. 
+  Nous discuterons des principes fondamentaux de DBT, de son architecture flexible et de son utilisation pratique pour accélérer le développement de vos flux de données tout en respectant les bonnes pratiques de développement. 
+
+  Que vous soyez un analyste de données, un ingénieur ou un responsable technique, cette présentation vous fournira les connaissances et les outils nécessaires pour libérer le potentiel de vos données et optimiser votre workflow d'analyse.
+
+
+
+
+
+

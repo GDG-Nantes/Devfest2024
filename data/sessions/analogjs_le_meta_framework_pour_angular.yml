@@ -1,0 +1,22 @@
+---
+key: analogjs_le_meta_framework_pour_angular
+title: AnalogJS, le meta-framework pour Angular que l'on attendait plus ( ou pas )
+language: French
+talkType: conference
+tags:
+  - web
+complexity: Intermediate
+speakers:
+  - benjamin_legrand
+slot: day-1-conference-4
+room: Titan
+abstract: |-
+  AnalogJS est un nouveau venu dans le monde des meta-frameworks.
+
+  Qu'est ce qu'un meta-framework déjà ? Chaque framework SPA en a un, React a Next.js ou Remix, Vue.JS a Nuxt, Svelte a sveltekit, Qwik a Qwik city
+
+  Et maintenant Angular a AnalogJS. Qu'est ce qu'on peut faire avec ce genre de solutions ?
+
+  Du routage basé sur l'arborescence de répertoire et de fichiers, du rendu serveur dès la sortie de la boite, et plein d'autres fonctionnalités...
+
+  Voyons ensemble comment tout ça fonctionne et pourquoi c'est super-ultra-méga-cool.

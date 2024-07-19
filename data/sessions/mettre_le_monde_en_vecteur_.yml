@@ -1,0 +1,17 @@
+---
+key: mettre_le_monde_en_vecteur_
+title: 'Mettre le monde en vecteur '
+language: French
+talkType: quickie
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - florent_legras
+slot: day-2-quickie-2
+room: Jules Verne
+abstract: |
+  Tel Néo vous vous sentez perdu dans la matrice ? 
+  Nous sommes immergés dans un océan croissant de données. Même si l'idée de la matrice peut sembler illusoire (ou peut-être pas), la question cruciale est : comment pouvons-nous naviguer et organiser efficacement ce déluge d'informations qui nous entoure ? Comment pouvons-nous comparer des images ou rechercher des correspondances entre des textes ? Bien que les bases vectorielles soient aujourd'hui à la mode grâce à l'émergence des LLMs, il est important de noter que ces bases existent depuis un certain temps.
+
+  Prenez la pilule rouge et plongez avec nous dans l'univers fascinant des bases vectorielles. Nous explorerons la théorie sous-jacente ainsi que différentes implémentations possibles, pour enfin illustrer nos propos avec plusieurs exemples d'utilisations concrets.

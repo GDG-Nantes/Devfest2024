@@ -1,0 +1,16 @@
+---
+key: alors__quoi_de_neuf_dans_es2026__
+title: Alors, quoi de neuf dans ES2026 ?
+language: French
+talkType: conference
+tags:
+  - languages
+complexity: Intermediate
+speakers:
+  - christophe_porteneuve
+slot: day-2-conference-3
+room: Jules Verne
+abstract: |-
+  Oui, oui, ES2015 déchire et ES2016–2024 nous ont apporté plein de choses cool (async / await, l'itération asynchrone, l'optional chaining, les membres privés…), mais y'a un tas d'autres pépites qui vont bientôt débarquer… et on peut déjà jouer avec nombre d'entre elles !
+
+  Christophe vous fait un tour d'horizon des nouveautés à venir qui l'intéressent le plus, qu’elles soient sur le point d'être officialisées… ou un peu plus expérimentales !

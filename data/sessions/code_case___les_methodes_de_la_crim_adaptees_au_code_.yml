@@ -1,0 +1,21 @@
+---
+key: code_case___les_methodes_de_la_crim_adaptees_au_code_
+title: 'Code Case : les méthodes de la crim adaptées au code!'
+language: French
+talkType: conference
+tags:
+  - discovery
+complexity: Intermediate
+speakers:
+  - sylvain_coudert
+slot: day-1-conference-3
+room: Belem
+abstract: |-
+  Et si nous nous mettions à tracker nos pain-points comme on track des criminels?  
+  Et si notre historique git recelait plus d'informations sur notre architecture que nous ne le pensions?  
+  Et si toutes les traces qui y sont laissées étaient autant d'indices exploitables au même titre qu'une empreinte digitale ou une trace ADN?
+
+  "Your code as a crime scene" est un livre de Adam Tornhill qui propose de transposer des techniques d'investigations criminelles reconnues dans le but de débusquer les problématiques de notre code.  
+  L'auteur fournit en parallèle un ensemble d'outils qui prennent tout leur sens à la lecture des méthodes évoquées.
+
+  Retour d'expérience sur l'utilisation de quelques unes de ces techniques sur un projet réel, ce qu'elles ont permis d'identifier, de prendre comme action et les premiers bénéfices qui ont pu en ressortir.

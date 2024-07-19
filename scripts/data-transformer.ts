@@ -16,7 +16,7 @@ const outDirSessions = "../data/sessions";
 // fs.mkdirSync(outDirSessions);
 
 transformerSpeakers();
-transformerSessions();
+// transformerSessions();
 
 function transformerSpeakers() {
   const promises = data.speakers.map((speaker) => {

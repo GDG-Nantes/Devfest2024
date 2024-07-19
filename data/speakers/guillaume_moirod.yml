@@ -1,0 +1,17 @@
+---
+key: guillaume_moirod
+name: Guillaume Moirod
+feature: false
+company: Independant
+companyLogo: /images/partners/independant.png
+city: Nantes, France
+photoUrl: https://kdrive.gmitps.fr/2/app/1128212/share/f6dc3f38-6537-4af7-b3be-5b2dc2fd792e/files/23/download
+socials:
+  github: gmoirod
+bio: |-
+  Un voyage de 2 décennies dans le développement (essentiellement Java), puis dans le DevOps, puis dans le Cloud. 
+  J’accompagne désormais les clients à mettre en place une démarche DevSecOps et GitOps dans leur delivery.
+
+  - TechLead/Architecte DevOps
+  - Contributeur d'une Internal Developer Platform
+  - Formateur DevSecOps et Linux

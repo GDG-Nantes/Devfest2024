@@ -1,0 +1,26 @@
+---
+key: les_meta_lois__vous_ne_leur_echapperez_pas__
+title: Les Méta-Lois, vous ne leur échapperez pas !
+language: French
+talkType: conference
+tags:
+  - discovery
+complexity: Beginner
+speakers:
+  - stephane_trebel
+slot: day-1-conference-5
+room: Tour Bretagne
+abstract: |-
+  Elles sont tapies dans la toile de fond de nos entreprises, de nos sociétés, de notre façon de penser, même !
+  On a beau essayer de lutter contre, de les fuir ou de les contourner, elles finissent toujours par nous retomber dessus.
+
+  Ce sont… Les Méta-lois ! 😱
+
+  Plan:
+  - Ce qu'on appelle une Méta-loi: la plus connue est la loi de Conway, mais il y en a bien d'autres ! Qu'est-ce qui les caractérise ? Où est la limite à « penser en Meta-Loi » ?
+  - Inventaire à la Prévert des différentes Méta-Lois (Le "Chesterton Fence" et le raisonnement de second ordre, La Loi de Hyrum qui rappelle que tout comportement d'une API finit par avoir un client qui en dépend, ou encore la Loi de Tesler qui explique qu'on ne fait jamais vraiment disparaître de la complexité, et bien d'autres !), et pour chacune une explication/illustration de pourquoi on n'y échappe pas, en général
+  - Remédiation, Déni, Changement de paradigme: Comment s'en sortir et pourquoi ça ne sera pas simple.
+
+  Vous pensez que votre projet se passe bien ? Regardez bien sous votre IDE en vous couchant ce soir, fermez vos fenêtres et vos dossiers à double tour, car sinon les Méta-loi ne feront qu'une bouchée de vous ! 🎃
+
+  Une conférence sous le signe de la bienveillance, de l'humilité, et de l'humour ;)

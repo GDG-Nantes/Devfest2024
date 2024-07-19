@@ -1,0 +1,18 @@
+---
+key: l_invasion_du_html_mutant__atelier_
+title: L’invasion du HTML mutant (atelier)
+language: French
+talkType: codelab
+tags:
+  - web
+complexity: Beginner
+speakers:
+  - gael_poupard
+slot: day-1-codelab-2
+room: Hangar
+abstract: |-
+  Une vague de mutants envahit votre document HTML ! 
+
+  Choisissez-votre personnage, et utilisez l’éditeur de code intégré pour armer un `mutationObserver` : dès qu’il repérera des mutants, son _callback_ les supprimera et vous permettra d’avancer dans l’aventure ! 
+
+  Gare au boss final : impossible de le vaincre sans écrire sa propre fonction de rappel…

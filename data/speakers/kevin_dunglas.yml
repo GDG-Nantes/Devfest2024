@@ -1,0 +1,15 @@
+---
+key: kevin_dunglas
+name: Kévin Dunglas
+feature: false
+company: Les-Tilleuls.coop
+companyLogo: /images/partners/les_tilleuls_coop.png
+city: Lille, France
+photoUrl: https://avatars.githubusercontent.com/u/57224?v=4
+socials:
+  twitter: dunglas
+  github: dunglas
+bio: |-
+  Kévin est le créateur du framework [API Platform](https://api-platform.com) (un outil populaire pour développer des projets API-first) ainsi que de [Mercure](https://mercure.rocks) (une solution de publication en temps réel), de [Vulcain](https://vulcain.rocks) (un style d'API dirigées par les clients) et de [FrankenPHP](https://frankenphp.dev) (un serveur d'application performant et moderne pour PHP).
+
+  Il est également co-mainteur du serveur web [Caddy](https://caddyserver.com) et membre de la Core Team du framework [Symfony](https://symfony.com) (l'un des frameworks web parmi les plus utilisés au monde), contributeur aux langages de programmation Go et PHP et il a cofondé la société société coopérative [Les-Tilleuls.coop](https://les-tilleuls.coop) (entreprise entièrement possédée par ses salarié·es et où les décisions sont prises sur le principe 1 personne = 1 voix).

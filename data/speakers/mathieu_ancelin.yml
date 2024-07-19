@@ -1,0 +1,12 @@
+---
+key: mathieu_ancelin
+name: Mathieu ANCELIN
+feature: false
+company: SERLI
+companyLogo: /images/partners/serli.png
+city: Poitiers
+photoUrl: https://avatars3.githubusercontent.com/u/277206?v=4
+socials:
+  twitter: TrevorReznik
+  github: mathieuancelin
+bio: CTO & Co-Founder @ Cloud APIM, dev @Serli, Open source enthusiast, I created Otoroshi, an opensource http reverse proxy and API Management plateform.

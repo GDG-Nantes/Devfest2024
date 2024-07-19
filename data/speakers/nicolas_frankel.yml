@@ -1,0 +1,12 @@
+---
+key: nicolas_frankel
+name: Nicolas Fränkel
+feature: false
+company: Apache APISIX
+companyLogo: /images/partners/apache_apisix.png
+city: Geneva, Switzerland
+photoUrl: https://lh3.googleusercontent.com/a-/AAuE7mB5CTLKc3qpbrWe_cbI8ZD0cx73qKFArRU-LXAGi1c
+socials:
+  twitter: nicolas_frankel
+  github: nfrankel
+bio: Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Currently working for Hazelcast. Also double as a teacher in universities and higher education schools, a trainer and triples as a book author.

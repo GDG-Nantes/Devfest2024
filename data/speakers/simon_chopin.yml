@@ -1,0 +1,14 @@
+---
+key: simon_chopin
+name: Simon Chopin
+feature: false
+company: Canonical
+companyLogo: /images/partners/canonical.png
+city: Rennes, France
+photoUrl: https://avatars.githubusercontent.com/u/87005181?v=4
+socials:
+  github: schopin-pro
+bio: |-
+  I'm a software jack-of-all-trades, partial to working in the bowels of modern operating systems. I started learning my craft contributing to Debian while in university. I then spent a number of years doing all sorts of things, from Linux kernel development up to Windows WPF app development to WebGL rendering, to finally land at Canonical where I've been working since 2021 ("Impish Indri") in the Ubuntu Foundations team, maintaining the plumbing of the OS you've all come to know and have ambivalent feelings about.
+
+  I have strong opinions loosely held about things such as C, Rust, packaging, software toolchains, FOSS, or Breton folk music :-)

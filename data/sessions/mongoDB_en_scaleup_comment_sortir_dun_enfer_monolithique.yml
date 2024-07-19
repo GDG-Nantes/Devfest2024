@@ -1,0 +1,19 @@
+---
+key: mongoDB_en_scaleup_comment_sortir_dun_enfer_monolithique
+title: 'MongoDB en scale-up : comment sortir d’un enfer monolithique'
+language: French
+talkType: conference
+tags:
+  - cloud_devops
+complexity: Beginner
+speakers:
+  - laurentiu_capatina
+  - alexis_chotard
+slot: day-2-conference-5
+room: Belem
+abstract: |-
+  15 mars 2023, 6h59 : un cluster MongoDB s'écroule. Pas de bol, celui-ci contient 95% des données utilisateur, et est absolument vital à un fonctionnement même minimal de notre application. Facteur aggravant : celui-ci a 7 ans de retard de versions, n'est pas scalable, et à peine observable. Enfin, même le modèle de données ferait rapidement lever les sourcils : des applications qui communiquent entre elles via lecture/écriture dans les mêmes documents MongoDB, des documents qui atteignent la limitation maximum de 16MiB avec des centaines de niveaux d'imbrication, etc. L'incident durera plusieurs jours et résultera en la perte de nombreux utilisateurs. On a vu meilleur portrait.
+
+  Voyons comment PayFit s'est retrouvé dans cette situation infernale, et surtout comment nous nous y sommes pris pour en sortir !
+
+  Au programme : stabilisation technique, détricotage de modèle de données, éclatement d'un SPOF en plusieurs éléments au blast radius plus restreint, transition vers des services managés, amélioration des accès internes, reprise de maîtrise sur les opérations risquées, et finalement, approche d'une migration technique quand celle-ci impacte l'intégralité des équipes de développement.

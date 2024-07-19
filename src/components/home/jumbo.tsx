@@ -44,14 +44,14 @@ export const HomeJumbo = () => {
           {/*  </Button>*/}
           {/*</Stack>*/}
           <Stack direction="row" spacing={3} justifyContent={"center"}>
-            <Button
+            {/* <Button
               color="secondary"
               variant="contained"
               href="https://conference-hall.io/public/event/AJYPylkzTDd6j3O6ADZn"
               aria-label={t("cfp")}
             >
               {t("cfp")}
-            </Button>
+            </Button> */}
             <Button
               color="secondary"
               variant="contained"
@@ -59,6 +59,14 @@ export const HomeJumbo = () => {
               aria-label="Devenir Sponsor"
             >
               Devenir Sponsor 2024
+            </Button>
+            <Button
+              color="secondary"
+              variant="contained"
+              aria-label="Billetterie"
+              href="https://www.billetweb.fr/billet-devfest-nantes-2024"
+            >
+              Billetterie
             </Button>
           </Stack>
           <Stack direction="row" spacing={3} justifyContent={"center"}>
@@ -100,16 +108,6 @@ export const HomeJumbo = () => {
               target={"_blank"}
             >
               Photos
-            </Button>
-          </Stack>
-          <Stack direction="row" spacing={3} justifyContent={"center"}>
-            <Button
-              color="secondary"
-              variant="contained"
-              aria-label="Billetterie"
-              href="https://www.billetweb.fr/billet-devfest-nantes-2024"
-            >
-              Billetterie
             </Button>
           </Stack>
           {/* <Stack direction="row" spacing={3} justifyContent={"center"}>

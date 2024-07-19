@@ -1,0 +1,19 @@
+---
+key: cutting_through_the_layers__anatomy_of_a_linux_system
+title: 'Cutting through the layers: anatomy of a Linux system'
+language: English
+talkType: quickie
+tags:
+  - cloud_devops
+complexity: Intermediate
+speakers:
+  - simon_chopin
+slot: day-1-quickie-1
+room: Belem
+abstract: |-
+  Ever had to patch a critical CVE on your production systems, only to wonder
+  what the affected component even does? Even the barest Linux system is actually
+  composed of a plethora of independant projects, of which most users have little
+  to no awareness... until something breaks. In this talk, I'll guide you through
+  a quick tour of a typical Ubuntu system, before diving into concrete examples
+  of how these various codebases interact with each other.

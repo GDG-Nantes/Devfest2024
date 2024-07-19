@@ -1,0 +1,13 @@
+---
+key: platform_engineering_day_2__unifying_your_tools_with_backstage
+title: 'Platform Engineering Day-2: Unifying Your Tools with Backstage'
+language: French
+talkType: conference
+tags:
+  - cloud_devops
+complexity: Beginner
+speakers:
+  - julien_hery
+slot: day-2-conference-4
+room: Titan
+abstract: On Day-2 of your platform engineering journey, the challenge is to bring together all the disparate tools and services into a cohesive, centralized environment. Enter Backstage, the open-source platform by Spotify, designed to unify your engineering tools and provide a seamless experience for developers, DevOps, Product Owners, and other stakeholders. In this talk, we will explore how Backstage can serve as the backbone of your internal developer platform, simplifying workflows, enhancing productivity, and fostering collaboration.

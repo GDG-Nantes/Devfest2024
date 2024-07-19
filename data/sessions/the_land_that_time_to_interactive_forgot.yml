@@ -1,0 +1,18 @@
+---
+key: the_land_that_time_to_interactive_forgot
+title: The land that Time To Interactive forgot
+language: English
+talkType: conference
+tags:
+  - web
+complexity: Intermediate
+speakers:
+  - leonie_watson
+slot: day-1-conference-5
+room: Jules Verne
+abstract: |-
+  We tend to think of performance in terms of latency, code optimization, and things like the critical rendering path, but what happens when the browser creates an accessibility tree as well as the DOM?
+
+  The answer is of course "it depends...".
+
+  Different browsers take different approaches, but they all have an impact on performance and the Time To Interactive in particular. In this talk we'll consider the purpose of the accessibility tree, the ways its constructed in diferent browsers, and the ultimate impact that has on both performance and experience for people who use assistive technologies like screen readers.

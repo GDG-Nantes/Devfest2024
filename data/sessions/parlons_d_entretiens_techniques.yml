@@ -1,0 +1,22 @@
+---
+key: parlons_d_entretiens_techniques
+title: Parlons d'entretiens techniques
+language: French
+talkType: quickie
+tags:
+  - discovery
+complexity: Beginner
+speakers:
+  - ane_diaz_de_tuesta
+slot: day-1-quickie-1
+room: Tour Bretagne
+abstract: |-
+  Les entretiens techniques sont devenus une étape cruciale dans le process de recrutement des ingénieurs logiciel.
+  Pratique popularisée par les géants de la tech et généralisée aujourd'hui dans la plupart des entreprises tech, elle permet d'évaluer: les compétences techniques, les capacités de résolution de problèmes et de testing et la communication des candidats.
+
+  Depuis un peu plus de 2 ans je fais passer des entretiens techniques dans mon entreprise actuelle, Datadog, mais j'en ai fait passer dans mes précédentes entreprises aussi. Je voudrais partager mon expérience et apprentissages avec le public.
+
+  Ce talk aborde le sujet des entretiens techniques, comment on est évalués et comment s'y préparer en amont.
+  Des exemples des problèmes d'algorithme montrés à la suite, des questions que l'on pourrait avoir dans notre prochain entretien, aideront à expliquer comment s'y prendre pour leur résolution. En plus, des conseils des choses à respecter et éviter seront présentés.
+
+  Pour compléter, je donnerai ma conclusion sur le sujet.

@@ -1,0 +1,20 @@
+---
+key: server_side_wasm__le_prochain_game_changer__
+title: Server side WASM, le prochain game changer ?
+language: French
+talkType: conference
+tags:
+  - languages
+complexity: Advanced
+speakers:
+  - etienne_anne
+  - mathieu_ancelin
+slot: day-2-conference-1
+room: Jules Verne
+abstract: |-
+
+  WebAssembly (WASM) s'est rapidement imposé comme un outil révolutionnaire dans le monde du développement web, permettant l'exécution de code à haute performance directement dans le navigateur. Cependant, son potentiel s'étend bien au-delà du client, offrant de nouvelles possibilités passionnantes pour le développement côté serveur. Cette conférence plongera dans le monde émergent de WASM côté serveur, avec un accent particulier sur WebAssembly System interface (WASI). Nous explorerons comment WASI étend les capacités de WASM en permettant aux applications d'interagir de manière sécurisée avec le système d'exploitation, ouvrant la voie à une nouvelle ère d'applications serveur.
+
+  Notre présentation débutera par une introduction à WASM et WASI, définissant leur place dans l'écosystème de développement actuel et expliquant pourquoi ils sont particulièrement pertinents pour les développeurs modernes. Nous discuterons ensuite des avantages spécifiques de l'utilisation de WASM côté serveur, notamment en termes de performance, de sécurité et de portabilité, soulignant comment ces caractéristiques peuvent transformer la façon dont nous développons et déployons des applications. La partie centrale de notre conférence se concentrera sur des études de cas concrets et des démonstrations pratiques. Nous montrerons comment l'intégration de WASM et WASI dans des environnements serveur peut résoudre des problèmes courants de manière innovante, améliorant à la fois l'efficacité et la robustesse des applications. Des exemples de code et des scénarios d'application seront utilisés pour illustrer ces concepts en action, offrant aux participants une compréhension profonde et pratique de la technologie. Enfin, nous discuterons des défis et des considérations pour l'adoption de WASM et WASI côté serveur, y compris les meilleures pratiques pour l'intégration dans vos projets existants. 
+
+  Que vous soyez un développeur expérimenté cherchant à tirer parti des dernières innovations technologiques ou simplement curieux de découvrir comment WASM et WASI peuvent révolutionner le développement côté serveur, cette conférence vous fournira les connaissances et les outils nécessaires pour commencer à intégrer ces technologies puissantes dans vos applications.

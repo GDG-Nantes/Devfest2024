@@ -1,0 +1,13 @@
+---
+key: melissa_pinon
+name: Mélissa PINON
+feature: false
+company: 'Sopra Steria'
+companyLogo: /images/partners/sopra_steria.png
+city: Angers, France
+photoUrl: https://lh3.googleusercontent.com/a/ACg8ocLmFq2fLGJ8MUtbKOCHo-Rt7LydRSzbtspggxQb01wrzzKQ1A=s96-c
+socials:
+bio: |-
+  Ingénieur DevOps/SRE chez Sopra Steria, je travaille avec mon équipe sur l'industrialisation de divers projets. 
+
+  Nous fournissons des outils, gérons la partie Gitlab CI/CD et administrons les clusters Kubernetes.

@@ -1,0 +1,19 @@
+---
+key: dynamisez_vos_backends_avec_htmx
+title: Dynamisez vos backends avec HTMX
+language: French
+talkType: quickie
+tags:
+  - discovery
+complexity: Beginner
+speakers:
+  - alexis_lozano
+slot: day-2-quickie-1
+room: Jules Verne
+abstract: |-
+  Les sites et applications web sont souvent architecturées de la même manière. Au choix:
+
+  - on développe un backend qui renvoie du HTML directement et qui recharge la page à chaque action
+  - on développe un backend et un frontend qui communiquent par des requêtes AJAX pour mettre à jour uniquement une partie de la page
+
+  Et si on pouvait garder la codebase unique du premier avec les pages dynamiques du second ? C'est ce dont on va parler avec en fil rouge le site [salaires.dev](https://salaires.dev) que j'ai développé et que j'ai récemment fait évoluer grâce à HTMX.

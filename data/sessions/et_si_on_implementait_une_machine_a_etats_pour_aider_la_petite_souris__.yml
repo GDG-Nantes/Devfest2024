@@ -1,0 +1,22 @@
+---
+key: et_si_on_implementait_une_machine_a_etats_pour_aider_la_petite_souris__
+title: Et si on implémentait une Machine à Etats pour aider la petite souris ?
+language: French
+talkType: conference
+tags:
+  - languages
+complexity: Beginner
+speakers:
+  - laurine_le_net
+slot: day-2-conference-2
+room: Tour Bretagne
+abstract: |-
+  Vous êtes-vous déjà perdu dans le code d’un workflow complexe avec beaucoup de règles métier ? Entre les if-else un peu partout, les appels à des micro-services internes, les sollicitations de services externes, les callbacks, les sauvegardes en base, les retours au front, on peut facilement se retrouver avec un code spaghetti !
+
+  Le pattern machine à états nous permet de créer un processus défini clairement à partir de multiples étapes. Ces étapes sont effectuées une à une en fonction de l’état dans lequel se trouve l'objet qui parcourt le process.
+
+  Rejoignez-moi pendant 45 min pour construire une Machine à Etat from scratch.
+
+  Le use-case ? Aider la petite souris à gérer un workflow à s’en arracher les poils : collecte des dents, vérification des caries, commande et réception de pièces à la banque de France et l’expédition sous l’oreiller.
+
+  Aucun fromage, que du Java.

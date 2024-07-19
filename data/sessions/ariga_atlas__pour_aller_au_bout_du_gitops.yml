@@ -1,0 +1,18 @@
+---
+key: ariga_atlas__pour_aller_au_bout_du_gitops
+title: Ariga Atlas, pour aller au bout du GitOps
+language: French
+talkType: quickie
+tags:
+  - cloud_devops
+complexity: Beginner
+speakers:
+  - guillaume_moirod
+slot: day-1-quickie-2
+room: Titan
+abstract: |
+  Vous pronez le GitOps : votre infrastructure est déclarée en IaC, Kubernetes fait tourner vos applications, FluxCD ou ArgoCD est votre allié au déploiement, même vos pipelines CI sont déclaratifs. Vous êtes au top !
+  Et pourtant, en y regardant de plus près.... Vous gérez toujours vos bases de données relationnelles en impératif, même en employant des frameworks comme Liquibase ou Flyway...
+
+  Découvrons ensemble Ariga Atlas, surnommé "Terraform pour les migrations de schema BDD", qui propose une alternative déclarative pour vos schémas BDD et enfin aller au bout de votre démarche GitOps !
+  (Talk avec 0% d'IA)

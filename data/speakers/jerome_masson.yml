@@ -1,0 +1,14 @@
+---
+key: jerome_masson
+name: Jérôme Masson
+feature: false
+company: Wescale
+companyLogo: /images/partners/wescale.png
+city: Aix-en-Provence, France
+photoUrl: https://avatars.githubusercontent.com/u/26481639?v=4
+socials:
+  twitter: sphinxgaiaone
+  github: Sphinxgaia
+bio: |-
+  Je me définis comme un **Kubernetes addict & evangelist**. Le **landscape CNCF** est un terrain de jeux qui est le parfait endroit pour un passionné comme moi. 
+  Ma carrière de consultant & d'architecte m'a amené à côtoyer des environnements complexes tant sur le `plan humain` que sur le `plan technique`.

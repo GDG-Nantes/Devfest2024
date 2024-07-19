@@ -1,0 +1,16 @@
+---
+key: dis_papa__c_est_quoi_la_generation_procedurale_
+title: Dis papa, c'est quoi la génération procédurale?
+language: French
+talkType: quickie
+tags:
+  - discovery
+complexity: Beginner
+speakers:
+  - flavien_normand
+slot: day-2-quickie-2
+room: Titan
+abstract: |-
+  Vous vous êtes sûrement déjà demandé comment les jeux vidéos pouvaient transformer des valeurs aléatoires en divers monstres, donjons et autres mondes infinis (même si parfois, les résultats sont... étranges)?
+
+  Dans ce talk, nous allons démystifier et vulgariser la génération procédurale au sein des jeux vidéos, diverses approches et leurs combinaisons, pour montrer qu'après tout, ce n'est qu'une combinaison de maths de base et de logique très simple, pour donner des résultats impressionnants.

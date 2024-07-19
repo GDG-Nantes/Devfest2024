@@ -1,0 +1,23 @@
+---
+key: event_driven_et_serverless___le_combo_parfait_dans_gcp
+title: 'Event driven et Serverless : le combo parfait dans GCP'
+language: French
+talkType: conference
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - mazlum_tosun
+slot: day-2-conference-2
+room: Titan
+abstract: |-
+  Les architectures **Event Driven** présentent l'avantage de réduire fortement la latence lorsque nous traitons et intégrons des données dans notre système. Si nous utilisons, en plus, des composants **Serverless**, nous obtenons des coûts réduits.
+
+  Dans des contextes **On-Premises**, la mise en place peut être fastidieuse par rapport à l'infrastructure qu'elle nécessite.
+
+  La majorité des fournisseurs Cloud fournissent des services pour mettre en place cette architecture plus simplement. Mais comment s'y retrouver dans cette multitude d'offres ?
+
+  Durant ce talk, nous vous montrerons comment **Google Cloud** facilite l'implémentation d'une architecture entièrement **Event Driven** et **Serverless**.
+
+  Avec les données de la dernière coupe du monde de football, j'illustrerai la mise en place de ce type d'architecture pour calculer les stats de joueurs par équipe.\
+  On verra que Kylian Mbappé s'est bien débrouillé !
