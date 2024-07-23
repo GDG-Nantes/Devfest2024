@@ -17,7 +17,6 @@ export const Speakers: React.FC<{ featuredOnly?: boolean }> = ({
           node {
             key
             name
-            feature
             city
             company
             companyLogo

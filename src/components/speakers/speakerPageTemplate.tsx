@@ -101,6 +101,7 @@ const SessionCard: React.FC<{ session: PartialSession }> = ({ session }) => {
           color: "var(--tertiary)",
           backgroundColor: "var(--primary)",
           padding: "10px",
+          border: "1px solid white"
         }}
       >
         <Stack

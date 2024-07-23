@@ -123,7 +123,7 @@ const SessionPageTemplate: React.FC<{ pageContext: { session: Session } }> = ({
   );
 };
 
-export type PartialSpeaker = Omit<Speaker, "feature" | "socials" | "bio">;
+export type PartialSpeaker = Omit<Speaker, "socials" | "bio">;
 
 const SpeakerCard: React.FC<{ speakerKey }> = ({ speakerKey }) => {
   const { allSpeakersYaml } = useStaticQuery(graphql`

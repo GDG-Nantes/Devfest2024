@@ -3,7 +3,7 @@
   "title": "speaker",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "name", "feature", "socials"],
+  "required": ["key", "name", "socials"],
   "properties": {
     "key": {
       "type": "string"

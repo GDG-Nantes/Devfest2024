@@ -24,7 +24,6 @@ function transformerSpeakers() {
     const yamlData: Speaker = {
       key: normalizedName,
       name: speaker.displayName || 'x-undefined',
-      feature: false,
       company: speaker.company || undefined,
       companyLogo:
         speaker.company && speaker.company !== "Freelance"

@@ -70,7 +70,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             node {
               key
               name
-              feature
               city
               company
               companyLogo
