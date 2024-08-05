@@ -41,6 +41,11 @@
       "website": "https://www.soprasteria.com"
     },
     {
+      "title": "Thales Services Numériques",
+      "id": "thales",
+      "website": "https://www.thalesgroup.com/fr"
+    },
+    {
       "title": "U TECH",
       "id": "u-tech",
       "website": "https://ugieiris.fr/"
@@ -101,6 +106,11 @@
       "title": "Isilog",
       "id": "isilog",
       "website": "https://www.isilog.com"
+    },
+    {
+      "title": "JFrog",
+      "id": "jfrog",
+      "website": "https://www.jfrog.com"
     },
     {
       "title": "Kaïbee",
