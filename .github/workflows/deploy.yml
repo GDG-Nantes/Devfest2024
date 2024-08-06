@@ -42,7 +42,7 @@ jobs:
         uses: "google-github-actions/deploy-appengine@v2"
         with:
           deliverables: "public/app.yaml"
-          promote: false
+          promote: true
           version: ${{ steps.get_version.outputs.VERSION }}
 
       - name: Slack Notification

@@ -21,6 +21,11 @@
       "website": "https://www.generali.fr"
     },
     {
+      "title": "Google",
+      "id": "google",
+      "website": "https://developers.google.com/"
+    },
+    {
       "title": "Onepoint",
       "id": "onepoint",
       "website": "https://www.groupeonepoint.com/fr/"
@@ -110,7 +115,7 @@
     {
       "title": "JFrog",
       "id": "jfrog",
-      "website": "https://www.jfrog.com"
+      "website": "https://jfrog.com/fr/"
     },
     {
       "title": "Kaïbee",
@@ -195,6 +200,11 @@
       "title": "Arkup",
       "id": "arkup",
       "website": "https://www.arkup.fr/arkup/"
+    },
+    {
+      "title": "Google",
+      "id": "google",
+      "website": "https://developers.google.com/"
     },
     {
       "title": "Kanoma",
