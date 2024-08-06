@@ -8,7 +8,7 @@ tags:
 complexity: Intermediate
 speakers:
   - guillaume_laforge
-  - mete_atamel
+  - valentin_deleplace
 slot: day-2-codelab-2
 room: Hangar
 abstract: In this hands-on workshop, you'll learn to use Large Language Models (LLMs) directly from Java. You will first start by familiarizing yourself with Gemini, Google's new multi-model LLM. Then, you will use Gemini running on Google Cloud’s Vertex AI, in different use cases such as extracting data from unstructured text, document classification, searching in your own documents, and how to supplement the model by integrating calls to external APIs. The lab will use Java with LangChain4j. Come with your laptop.
