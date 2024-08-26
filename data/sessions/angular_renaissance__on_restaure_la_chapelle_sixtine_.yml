@@ -11,4 +11,13 @@ speakers:
   - gerome_grignon
 slot: day-2-codelab-2
 room: L'Atelier
-abstract: "Officialisé par la sortie d’Angular 17, ce terme ‘Angular Renaissance’ incarne les différents changements majeurs opérés par la core team et les contributeurs afin d’améliorer le framework et le préparer aux dix ans d’évolutions à venir.\L\LAfin de vous accompagner dans l’adoption de ces changements, nous vous invitons dans cet atelier à les expérimenter sous la forme d’un exercice de migration d’une application Angular 14 vers Angular 18.\n\nVous apprendrez entre-autres à ne plus dépendre de ngModules, à utiliser le nouveau Control Flow et à intégrer les Signals et comprendre leurs cas d’usage.\n\nMettez vos connaissances à jour et rejoignez-nous!\n\n@let it be!"
+abstract: |-
+  Officialisé par la sortie d'Angular 17, ce terme 'Angular Renaissance' incarne les différents changements majeurs opérés par la core team et les contributeurs afin d'améliorer le framework et le préparer aux dix ans d'évolutions à venir.
+  
+  Afin de vous accompagner dans l'adoption de ces changements, nous vous invitons dans cet atelier à les expérimenter sous la forme d'un exercice de migration d'une application Angular 14 vers Angular 18.
+  
+  Vous apprendrez entre-autres à ne plus dépendre de ngModules, à utiliser le nouveau Control Flow et à intégrer les Signals et comprendre leurs cas d'usage.
+  
+  Mettez vos connaissances à jour et rejoignez-nous!
+  
+  @let it be!
