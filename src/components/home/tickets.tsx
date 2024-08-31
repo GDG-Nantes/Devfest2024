@@ -5,8 +5,8 @@ import { useTranslation } from "react-i18next";
 import { MyLink } from "../../helpers/links";
 
 export const Tickets = () => {
-  const disabled1st = false;
-  const disabled2nd = true;
+  const disabled1st = true;
+  const disabled2nd = false;
 
   return (
     <Grid
@@ -29,14 +29,14 @@ export const Tickets = () => {
         price={110}
         quantity={900}
         disabled={disabled2nd}
-        date="09/2024"
+        date="05/09/2024 23h55"
         />
       <Ticket
         labelKey="1day"
         price={70}
         quantity={500}
         disabled={disabled2nd}
-        date="09/2024"
+        date="05/09/2024 23h55"
       />
     </Grid>
   );

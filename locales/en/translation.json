@@ -28,7 +28,7 @@
       },
       "tickets": {
         "name": "Tickets",
-        "description": "The ticket sales will take place in two sessions, one on June 6th at 11 AM, and the second in September. Student and job seeker tickets are distributed directly through schools and local employment agencies. Please contact us if your institution has not been reached.",
+        "description": "The ticket sales will take place in two sessions, one on June 6th, and the second on September 5th. Student and job seeker tickets are distributed directly through schools and local employment agencies. Please contact us if your institution has not been reached.",
         "2daysEarly": "Early Bird",
         "2days-1st": "2 days ticket",
         "1day": "1 day ticket",
