@@ -44,7 +44,7 @@ export const LargeSchedule: React.FC<{
                 <FixedSlot slot={slot} key={slot.key} />
               ))}
               {sessionsByHours[hourSlot.start].map((session) => (
-                <Session session={session} key={session.key} />
+                <SessionInfo session={session} key={session.key} />
               ))}
             </React.Fragment>
           );
@@ -106,30 +106,18 @@ const Room: React.FC<{ name: string }> = ({ name }) => {
   );
 };
 
-const Session: React.FC<{ session: PartialSession }> = ({ session }) => {
+const SessionInfo: React.FC<{ session: PartialSession }> = ({ session }) => {
   const gridColumn = columnFromRoom(session.room);
   return (
-    <MyLink
-      key={session.title}
-      to={"/sessions/" + session.key}
-      className="slot session"
+    <div
+      className={classNames("slot session-info", session.cancelled && "cancelled")}
       style={{
         gridColumn,
         gridRow: slotToRow(session.slot),
         zIndex: 1,
       }}
     >
-      <SessionInfo session={session} />
-    </MyLink>
-  );
-};
-
-const SessionInfo: React.FC<{ session: PartialSession }> = ({ session }) => {
-  return (
-    <div
-      className={classNames("session-info", session.cancelled && "cancelled")}
-    >
-      <span className="session-title">{session.title}</span>
+      <MyLink to={"/sessions/" + session.key}><span className="session-title">{session.title}</span></MyLink>
       <span className="sr-only">Salle {session.room}</span>
       <div className="session-info-bottom">
         <Stack direction="row" alignItems="center" spacing={1}>

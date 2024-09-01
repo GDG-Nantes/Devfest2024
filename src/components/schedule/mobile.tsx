@@ -34,7 +34,7 @@ export const MobileSchedule: React.FC<{
           <React.Fragment key={hour}>
             <Hour hour={hour} />
             {sessionsByHours[hour].map((session) => (
-              <Session session={session} key={session.key} />
+              <SessionInfo session={session} key={session.key} />
             ))}
             {fixedSlotsByHours[hour].map((slot) => (
               <FixedSlot slot={slot} key={slot.key} />
@@ -61,24 +61,12 @@ const FixedSlot: React.FC<{ slot: Slot }> = ({ slot }) => {
   );
 };
 
-const Session: React.FC<{ session: PartialSession }> = ({ session }) => {
-  return (
-    <MyLink
-      key={session.title}
-      to={"/sessions/" + session.key}
-      className="slot session"
-    >
-      <SessionInfo session={session} />
-    </MyLink>
-  );
-};
-
 const SessionInfo: React.FC<{ session: PartialSession }> = ({ session }) => {
   return (
     <div
-      className={classNames("session-info", session.cancelled && "cancelled")}
+      className={classNames("slot session-info", session.cancelled && "cancelled")}
     >
-      <span className="session-title">{session.title}</span>
+      <MyLink to={"/sessions/" + session.key}><span className="session-title">{session.title}</span></MyLink>
       <Stack spacing={2} alignItems="center" direction="row">
         {session.tags && <Tags tags={session.tags}/>}
         <Flag lang={session.language} size="small" />

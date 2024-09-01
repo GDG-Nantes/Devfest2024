@@ -166,7 +166,7 @@ const SpeakerCard: React.FC<{ speakerKey }> = ({ speakerKey }) => {
           alignItems="center"
           sx={{ minHeight: "75px", paddingLeft: "10px" }}
         >
-          <AvatarSpeaker speaker={speaker} size="medium" />
+          <AvatarSpeaker speaker={speaker} size="medium" noLink />
           <Stack direction="column" spacing={1} justifyContent="center">
             <Typography variant="h4" color="inherit" style={{ color: "white" }}>
               {speaker.name}

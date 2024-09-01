@@ -136,7 +136,7 @@ export const Speakers: React.FC<{ speakers: string[] }> = ({ speakers }) => {
       {speakers.length === 1 ? (
         <MyLink to={"/speakers/" + speakersFull[0].key}>
           <div className="speaker">
-            <AvatarSpeaker speaker={speakersFull[0]} />
+            <AvatarSpeaker speaker={speakersFull[0]} noLink/>
             {speakersFull[0].name}
           </div>
         </MyLink>
@@ -145,7 +145,7 @@ export const Speakers: React.FC<{ speakers: string[] }> = ({ speakers }) => {
           {speakersFull.map((speaker) => (
             <MyLink to={"/speakers/" + speaker.key} key={speaker.key}>
               <div className="speaker">
-                <AvatarSpeaker speaker={speaker} />
+                <AvatarSpeaker speaker={speaker} noLink/>
               </div>
             </MyLink>
           ))}
@@ -158,10 +158,12 @@ export const Speakers: React.FC<{ speakers: string[] }> = ({ speakers }) => {
 export const AvatarSpeaker: React.FC<{
   speaker: PartialSpeaker;
   size?: "small" | "medium" | "large";
-}> = ({ speaker, size = "small" }) => {
+  noLink?: boolean
+}> = ({ speaker, size = "small", noLink }) => {
   const sizePx = size == "large" ? "150px" : size == "medium" ? "50px" : "24px";
+  const Wrapper = noLink ? React.Fragment : ({children}) => <MyLink to={"/speakers/" + speaker.key}>{children}</MyLink>;
   return (
-    <MyLink to={"/speakers/" + speaker.key}>
+    <Wrapper>
       <Tooltip title={speaker.name}>
         <Avatar
           alt={speaker.name}
@@ -169,6 +171,6 @@ export const AvatarSpeaker: React.FC<{
           sx={{ width: sizePx, height: sizePx, margin: "4px 4px" }}
         />
       </Tooltip>
-    </MyLink>
+    </Wrapper>
   );
 };
