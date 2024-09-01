@@ -15,44 +15,46 @@ import {
   HomeMap,
   Tickets,
 } from "../components/home";
+import { PlanCite } from "../components/home/plan";
+import { Partners } from "../components/partners";
 import Layout from "../layout";
 
 const HomeContent = () => {
   const { t } = useTranslation("translation");
   return (
     <>
-      <PrimarySection>
+      <PrimarySection> 
         <Typography variant="h1">{t("pages.home.what-is")}</Typography>
         <Typography variant="body1">{t("site.description")}</Typography>
         <Typography variant="body1">{t("site.theme")}</Typography>
         <DevfestNumbers />
         <Youtube id="IE0pnWdSwuw" title="After Movie 2023" />
       </PrimarySection>
-      {/*<PlanCite />*/}
-      <HomeMap />
-      {/*<DefaultSection variant="primary-dark" className="home-speakers">*/}
-      {/*  <Typography variant="h2">{t("pages.home.speakers.title")}</Typography>*/}
-      {/*  <Speakers featuredOnly={true} />*/}
-      {/*  <Stack justifyContent="center" alignItems="center" marginTop={8}>*/}
-      {/*    <MyLink to="/speakers">*/}
-      {/*      <Button variant="contained">*/}
-      {/*        {t("pages.home.speakers.seeAll")}*/}
-      {/*      </Button>*/}
-      {/*    </MyLink>*/}
-      {/*  </Stack>*/}
-      {/*</DefaultSection>*/}
-      <PrimarySection>
+      {/* <PrimarySection slim className="home-speakers">
+        <Typography variant="h2">{t("pages.home.speakers.title")}</Typography>
+        <Speakers featuredOnly={true} />
+        <Stack justifyContent="center" alignItems="center">
+          <MyLink to="/speakers">
+            <Button variant="contained">
+              {t("pages.home.speakers.seeAll")}
+            </Button>
+          </MyLink>
+        </Stack>
+      </PrimarySection> */}
+      <PrimarySection slim>
         <Typography variant="h2">{t("pages.home.tickets.name")}</Typography>
         <Typography variant="h3">
           {t("pages.home.tickets.description")}
         </Typography>
         <Tickets />
       </PrimarySection>
+      <PlanCite />
       <TertiarySection slim>
         <Typography variant="h2">{t("pages.home.newsletter")}</Typography>
         <SubscribeNewsletter />
       </TertiarySection>
-      {/*<Partners onlyPlatinium={true} />*/}
+      <HomeMap />
+      <Partners onlyPlatinium={true} />
 
       <DevfestPhotos />
     </>

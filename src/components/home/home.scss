@@ -20,12 +20,19 @@
     width: 100%;
     margin-top: 10%;
     max-height: 45%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img {
       height: auto;
       width: 50%;
       max-height: 100%;
       margin: auto;
       display: block;
+      @media (max-width: 960px) {
+        width: 75%;
+      }
     }
   }
 

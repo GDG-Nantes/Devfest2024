@@ -43,20 +43,20 @@ const SpeakerPageTemplate: React.FC<{ pageContext: { speaker: Speaker } }> = ({
     <Layout>
       <DefaultPage title={speaker.name} noHero={true}>
         <TertiarySection slim>
-          <Stack spacing={5}>
-            <Stack spacing={5} direction="column" alignItems="center">
+          <Stack spacing={1}>
+            <Stack spacing={2} direction="column" alignItems="center">
               <AvatarSpeaker speaker={speaker} size="large" />
               <Typography
                 variant="h1"
                 color="primary"
-                sx={{ marginBottom: "5px" }}
+                sx={{ marginBottom: "2px" }}
               >
                 {speaker.name}
               </Typography>
               {speaker.company && (
                 <Typography
                   variant="h4"
-                  style={{ color: "white", marginTop: "20px" }}
+                  style={{ color: "white", marginTop: "10px" }}
                 >
                   {speaker.company}
                 </Typography>
@@ -101,7 +101,8 @@ const SessionCard: React.FC<{ session: PartialSession }> = ({ session }) => {
           color: "var(--tertiary)",
           backgroundColor: "var(--primary)",
           padding: "10px",
-          border: "1px solid white"
+          border: "1px solid white",
+          borderLeft: "5px solid var(--secondary)"
         }}
       >
         <Stack

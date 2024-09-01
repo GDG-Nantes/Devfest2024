@@ -19,19 +19,19 @@ export const HomeJumbo = () => {
       </div>
 
       <div>
-        <Typography variant="h1" textAlign="center">
+        {/* <Typography variant="h1" textAlign="center">
           {t("come-back")}
-        </Typography>
+        </Typography> */}
         <Typography variant="h1" textAlign="center">
           {t("date")}
         </Typography>
-        {/*<Typography*/}
-        {/*  variant="h2"*/}
-        {/*  textAlign="center"*/}
-        {/*  style={{marginTop: "10px", marginBottom: "25px"}}*/}
-        {/*>*/}
-        {/*  Code, Dev, et... Action !*/}
-        {/*</Typography>*/}
+        <Typography
+          variant="h2"
+          textAlign="center"
+          style={{marginTop: "10px", marginBottom: "25px"}}
+        >
+          At night, they come to code !
+        </Typography>
         <Stack direction="column" spacing={3}>
           {/*<Stack direction="row" spacing={3} justifyContent={"center"}>*/}
           {/*  <Button*/}
@@ -52,14 +52,14 @@ export const HomeJumbo = () => {
             >
               {t("cfp")}
             </Button> */}
-            <Button
+            {/* <Button
               color="secondary"
               variant="contained"
               href="https://www.billetweb.fr/partenaire-devfest-nantes-2024"
               aria-label="Devenir Sponsor"
             >
               Devenir Sponsor 2024
-            </Button>
+            </Button> */}
             <Button
               color="secondary"
               variant="contained"
@@ -67,6 +67,14 @@ export const HomeJumbo = () => {
               href="https://www.billetweb.fr/billet-devfest-nantes-2024"
             >
               Billetterie
+            </Button>
+            <Button
+              color="secondary"
+              variant="contained"
+              aria-label="Billetterie"
+              href="/schedule"
+            >
+              {t('schedule')}
             </Button>
           </Stack>
           <Stack direction="row" spacing={3} justifyContent={"center"}>

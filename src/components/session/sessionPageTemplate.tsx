@@ -45,7 +45,7 @@ const SessionPageTemplate: React.FC<{ pageContext: { session: Session } }> = ({
           >
             {session.title}
           </Typography>
-          <Stack spacing={5}>
+          <Stack spacing={3}>
             <Stack direction="row" spacing={2} alignItems="center">
               <Typography
                 variant="h3"
@@ -156,6 +156,8 @@ const SpeakerCard: React.FC<{ speakerKey }> = ({ speakerKey }) => {
           minHeight: "75px",
           color: "var(--tertiary)",
           backgroundColor: "var(--primary)",
+          border: "1px solid white",
+          borderLeft: "5px solid var(--secondary)"
         }}
       >
         <Stack
