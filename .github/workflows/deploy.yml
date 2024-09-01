@@ -20,7 +20,7 @@ jobs:
         id: get_version
         run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           cache: "npm"
 
@@ -33,7 +33,7 @@ jobs:
       # Build/Deploy
 
       - run: |
-          npm install --legacy-peer-deps
+          npm install --force
           npm run build
           cp .appengine/app.yaml public/
 
