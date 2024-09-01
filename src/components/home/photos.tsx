@@ -61,9 +61,6 @@ const Album = () => {
 
   const imageByName = React.useCallback(
     (name: string): ImageDataLike & { name: string } => {
-      console.log([...highImages.nodes,
-        ...squareImages.nodes,
-        ...wideImages.nodes]);
       return [
         ...highImages.nodes,
         ...squareImages.nodes,
