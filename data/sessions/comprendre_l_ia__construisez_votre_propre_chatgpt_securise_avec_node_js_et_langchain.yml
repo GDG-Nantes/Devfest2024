@@ -9,7 +9,7 @@ complexity: Beginner
 speakers:
   - thomas_rannou
   - yohan_lasorsa
-slot: day-1-codelab-3
+slot: day-2-codelab-1
 room: Les Machines
 abstract: |-
   Les technologies d'IA, et particulièrement les grand modèles de langages (LLM) poussent un peu partout comme des champignons ces derniers temps. Comment ces modèles fonctionnent-ils, et comment s'en servir dans vos applications?
