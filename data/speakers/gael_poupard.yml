@@ -7,4 +7,13 @@ city: Nantes, France
 photoUrl: https://avatars.githubusercontent.com/u/2890570?v=4
 socials:
   github: ffoodd
-bio: Lead tech front et accessibilité à Nantes, je profite du soleil pendant les conf’ et dis des âneries régulièrement. Les jeux de mots sont notre avenir, ne nous économisons pas.
+  linkedin: gaël-poupard-40117b30
+  website: https://ffoodd.fr
+bio: |
+  Lead tech front chez onepoint à Nantes, je bricole avec HTML et CSS depuis IE6. 
+
+  Spécialiste passé par les cases designer UX/UI en agence, développeur PHP, développeur front-end en start-up aux commandes d’un guide de styles — on ne parlait pas encore de design system ! —, chef de chantier sur une refonte technique front-end chez un éditeur dans un environnement Java, puis spécialiste front-end et CMS en ESN, je suis désormais référent accessibilité et expert HTML / CSS / SVG chez onepoint.
+
+  J’ai entre autres choses commis a11y.css et chaarts, fait partie de la core team Bootstrap et de l’organisation de Paris Web et contribue régulièrement à divers projets open-source.
+  
+  Je cultive désormais le bon HTML et du CSS, fait des audits RGAA et prône l’assurance qualité web avec Opquast.
