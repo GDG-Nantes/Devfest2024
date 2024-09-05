@@ -1,0 +1,11 @@
+---
+key: closing_keynote
+title: Keynote de fermeture
+language: French
+talkType: conference
+speakers:
+  - anonymous
+tags:
+  - discovery
+slot: day-2-keynote-close
+room: Jules Verne
