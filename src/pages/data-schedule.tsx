@@ -1,12 +1,12 @@
-import {capitalize, Typography} from "@mui/material";
-import {graphql, useStaticQuery} from "gatsby";
+import { capitalize, Typography } from "@mui/material";
+import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
-import {slots} from "../../data/slots.json";
-import {Session} from "../../json_schemas/interfaces/schema_sessions";
-import {Flag} from "../components/commun/flags";
-import {PrimarySection} from "../components/commun/section/section";
+import { Helmet } from "react-helmet";
+import { slots } from "../../data/slots.json";
+import { Session } from "../../json_schemas/interfaces/schema_sessions";
+import { Flag } from "../components/commun/flags";
+import { PrimarySection } from "../components/commun/section/section";
 import "../layout";
-import {Helmet} from "react-helmet";
 
 let copiedTimeout
 
@@ -50,7 +50,7 @@ const DataPage = () => {
     talksByDay[day].push(session);
   });
 
-  const ordreSalles = ["Jules Verne", "Titan", "Belem", "Tour de Bretagne", "Les Machines", "Hangar", "L'Atelier"]
+  const ordreSalles = ["Jules Verne", "Titan", "Belem", "Tour Bretagne", "Les Machines", "Hangar", "L'Atelier"]
 
   const versionSexy = [
     {
