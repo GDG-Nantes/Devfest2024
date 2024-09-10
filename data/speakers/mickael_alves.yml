@@ -1,5 +1,16 @@
 ---
 key: mickael_alves
 name: Mickaël Alves
-photoUrl: https://lh3.googleusercontent.com/a-/AOh14GiUrTFnY5aNZ73kRkojspqfnItTEfBQs7MExhGL=s96-c
-socials: {}
+photoUrl: https://github.com/CruuzAzul.png
+company: Zenika
+companyLogo: /images/partners/zenika.png
+city: Lyon, France
+socials:
+  twitter: CruuzAzul
+  github: CruuzAzul
+bio: |
+  👋🏼 Web Maker, application builder et passionné par le développement web, le Javascript, le design et les nouvelles technologies ! 👨🏻‍💻
+  
+  Actuellement consultant web chez Zenika 🔴, j'adore partager mes connaissances en enseignant en école ou en parlant lors de conférences 📣
+  
+  Je suis co-organisateur de LyonJS 🦁, Appwrite Hero 🦸🏼‍♂️, et Remotion Expert 🎬.
