@@ -10,4 +10,9 @@ speakers:
   - julien_hery
 slot: day-2-conference-4
 room: Titan
-abstract: 'Lors du "Day-2" de votre parcours de Platform Engineering, le défi est de rassembler tous les outils et services dans un environnement centralisé et cohérent. Voici Backstage, la plateforme open-source développée par Spotify, conçue pour unifier vos outils d’ingénierie et offrir une expérience fluide aux développeurs, aux équipes DevOps, aux POs et aux autres parties prenantes. Dans cette présentation, nous explorerons comment Backstage peut servir de colonne vertébrale à votre Internal Developer Platform, simplifiant les flux de travail, augmentant la productivité et favorisant la collaboration.'
+abstract: |-
+  Lors du "Day-2" de votre parcours de Platform Engineering, le défi est de rassembler tous les outils et services dans un environnement centralisé et cohérent.
+  
+  Voici Backstage, la plateforme open-source développée par Spotify, conçue pour unifier vos outils d’ingénierie et offrir une expérience fluide aux développeurs, aux équipes DevOps, aux POs et aux autres parties prenantes.
+  
+  Dans cette présentation, nous explorerons comment Backstage peut servir de colonne vertébrale à votre Internal Developer Platform, simplifiant les flux de travail, augmentant la productivité et favorisant la collaboration.
