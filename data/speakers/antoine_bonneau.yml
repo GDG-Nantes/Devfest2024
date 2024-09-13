@@ -1,11 +1,16 @@
 ---
 key: antoine_bonneau
 name: Antoine Bonneau
-company: zenika
+company: Zenika
 companyLogo: /images/partners/zenika.png
 city: Nantes, France
 photoUrl: https://lh6.googleusercontent.com/-to_aRrSbIvc/AAAAAAAAAAI/AAAAAAAAABQ/QepXzz8WcD0/photo.jpg
 socials:
   twitter: callmegoodwater
-  github: '@callmegoodwater'
-bio: I'm here
+  github: callmegoodwater
+bio: |-
+  Directeur de Zenika Nantes depuis 2015, Antoine est un ancien développeur web.
+
+  Il s'intéresse de près à l'innovation et aux nouvelles tendances dans l’IT. Les nouvelles méthodes et organisations du travail et du management font également parties de ses centres d’intérêts.
+
+  Co-Fondateur du Podcast “voyage au centre de la tech”, il anime avec passion les échanges concernant la culture tech.
