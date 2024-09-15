@@ -37,8 +37,8 @@ export const MENU: Array<MenuItem> = [
     label: "Tickets",
     link: "https://www.billetweb.fr/billet-devfest-nantes-2024",
   },
-  {
-    label: "📣 CFP",
-    link: "https://conference-hall.io/public/event/AJYPylkzTDd6j3O6ADZn",
-  },
+  // {
+  //   label: "📣 CFP",
+  //   link: "https://conference-hall.io/public/event/AJYPylkzTDd6j3O6ADZn",
+  // },
 ];
