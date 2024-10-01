@@ -68,22 +68,13 @@ const ArticleBlog: React.FC<{
           overflow="hidden"
         >
           {isBig && (
-            <div
-              style={{
-                minWidth: "25%",
-                display: "flex",
-                justifyContent: i % 2 == 0 ? "flex-start" : "flex-end",
-              }}
-            >
-              <GatsbyImage
-                image={blog.imageData}
-                alt={"image " + blog.title}
-                objectFit="cover"
-                objectPosition="50% 50%"
-              />
-            </div>
+            <GatsbyImage
+              image={blog.imageData}
+              alt={"image " + blog.title}
+              style={{ width: "200px", height: "auto" }}
+            />
           )}
-          <Stack direction="column" style={{ minWidth: "calc(75% - 16px)" }}>
+          <Stack direction="column" style={{ width: "80%" }}>
             <Typography variant="h2">{blog.title}</Typography>
             <Typography
               variant="subtitle2"

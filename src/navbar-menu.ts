@@ -21,10 +21,10 @@ export const MENU: Array<MenuItem> = [
     label: "partners",
     link: "/partners/",
   },
-  // {
-  //   label: "blog",
-  //   link: "/blog",
-  // },
+  {
+    label: "blog",
+    link: "/blog",
+  },
   // {
   //   label: "menu",
   //   link: "/menu",
@@ -33,10 +33,10 @@ export const MENU: Array<MenuItem> = [
   //   label: "jobs",
   //   link: "/jobs",
   // },
-  {
-    label: "Tickets",
-    link: "https://www.billetweb.fr/billet-devfest-nantes-2024",
-  },
+  // {
+  //   label: "Tickets",
+  //   link: "https://www.billetweb.fr/billet-devfest-nantes-2024",
+  // },
   // {
   //   label: "📣 CFP",
   //   link: "https://conference-hall.io/public/event/AJYPylkzTDd6j3O6ADZn",
