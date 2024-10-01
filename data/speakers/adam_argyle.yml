@@ -1,5 +1,9 @@
 ---
 key: adam_argyle
 name: Adam Argyle
-photoUrl: https://lh3.googleusercontent.com/a/ACg8ocKxgyoz_vb_Z7dmD0ROh74B-FWMZ6TmIcTD0IIdQLEN6csZJwch=s96-c
-socials: {}
+company: Google
+city: Seattle, WA
+photoUrl: https://storage.googleapis.com/atoms-sandbox.google.com.a.appspot.com/headshot-2023.jpg
+socials:
+  github: argyleink
+  twitter: argyleink
