@@ -1,5 +1,6 @@
 ---
 key: creer_un_operateur_kubernetes_avec_quarkus_et_l_operator_sdk
+openfeedbackId: creerunoperateurkubernetesavecquarkusetloperatorsdk
 title: Créer un opérateur Kubernetes avec Quarkus et l'operator SDK
 language: French
 talkType: quickie

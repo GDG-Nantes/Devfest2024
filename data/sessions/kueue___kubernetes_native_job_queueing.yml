@@ -1,5 +1,6 @@
 ---
 key: kueue___kubernetes_native_job_queueing
+openfeedbackId: kueuekubernetesnativejobqueueing
 title: 'Kueue : Kubernetes-native Job Queueing'
 language: French
 talkType: conference

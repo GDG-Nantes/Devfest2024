@@ -22,9 +22,9 @@ const SessionPageTemplate: React.FC<{ pageContext: { session: Session } }> = ({
   const { t } = useTranslation("translation", { keyPrefix: "sessions" });
   const slotLabel = getSessionSlotLabel(session.slot);
   const dateSession = session.slot.startsWith("day-1")
-    ? "2022-10-19"
-    : "2022-10-20";
-  const urlOpenfeedback = `https://openfeedback.io/p32EOIbP5bj4WDdz8bJs/${dateSession}/${session.openfeedbackId}?hideHeader=true&forceColorScheme=dark`;
+    ? "2024-10-17"
+    : "2024-10-18";
+  const urlOpenfeedback = `https://openfeedback.io/devfestnantes24/${dateSession}/${session.openfeedbackId}?hideHeader=true&forceColorScheme=dark`;
 
   return (
     <Layout>

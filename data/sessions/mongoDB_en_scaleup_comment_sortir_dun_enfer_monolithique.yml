@@ -1,5 +1,6 @@
 ---
 key: mongoDB_en_scaleup_comment_sortir_dun_enfer_monolithique
+openfeedbackId: mongoDBenscaleupcommentsortirdunenfermonolithique
 title: 'MongoDB en scale-up : comment sortir d’un enfer monolithique'
 language: French
 talkType: conference
