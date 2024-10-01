@@ -10,6 +10,7 @@ for file in "$SESSION_DIR"/*.yml; do
 
   # Remove underscores from the key value
   openfeedback=$(echo "$key" | tr -d '_')
+  openfeedback=${openfeedback:0:64}
 
   # Create a temporary file
   tmpfile=$(mktemp)
