@@ -19,7 +19,7 @@ export const PlanCite = () => {
       alt="Plan Cité des Congrès"
       objectFit="contain"
       backgroundColor="var(--tertiary)"
-      style={{ maxHeight: "500px" }}
+      style={{ maxHeight: "600px", width: "100%" }}
     />
   );
 };

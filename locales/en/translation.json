@@ -44,6 +44,19 @@
         "p1": "Some pictures of the 2023 DevFest Nantes",
         "p2": "on the film theme 🎨",
         "button": "See all photos"
+      },
+      "animations": {
+        "citd": {
+          "title": "Code in the Dark",
+          "description": "Enter Code in the Dark, where coding blindly for 30 minutes becomes a nightmare. One mistake, and everything can go wrong. Who will triumph over the digital chaos? Come and find out… if you dare!"
+        },
+        "secret": {
+          "title": "Secret Animation",
+          "description": "Come and discover the frightening secrets of our animation!",
+          "coming-soon": "Coming soon"
+        },
+        "sessions": "Sessions",
+        "learn-more": "Learn more"
       }
     },
     "attending": {

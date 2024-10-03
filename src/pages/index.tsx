@@ -1,19 +1,17 @@
-import { Typography } from "@mui/material";
+import { Box, Card, CardActions, CardContent, Grid, Stack, Typography } from "@mui/material";
+import { Button } from "gatsby-theme-material-ui";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { SubscribeNewsletter } from "../components/commun/newsletter";
 import { DefaultPage } from "../components/commun/page";
 import {
-  PrimarySection,
-  TertiarySection
+  PrimarySection
 } from "../components/commun/section/section";
 import { Youtube } from "../components/commun/youtube";
 import {
   DevfestNumbers,
   DevfestPhotos,
   HomeJumbo,
-  HomeMap,
-  Tickets,
+  HomeMap
 } from "../components/home";
 import { PlanCite } from "../components/home/plan";
 import { Partners } from "../components/partners";
@@ -41,18 +39,76 @@ const HomeContent = () => {
           </MyLink>
         </Stack>
       </PrimarySection> */}
-      <PrimarySection slim>
-        <Typography variant="h2">{t("pages.home.tickets.name")}</Typography>
-        <Typography variant="h3">
-          {t("pages.home.tickets.description")}
-        </Typography>
-        <Tickets />
-      </PrimarySection>
       <PlanCite />
-      <TertiarySection slim>
-        <Typography variant="h2">{t("pages.home.newsletter")}</Typography>
-        <SubscribeNewsletter />
-      </TertiarySection>
+      <PrimarySection className="animations-section">
+        <Typography style={{ textAlign: "center" }} variant="h1" color="primary">Animations</Typography>
+        <Stack
+            direction={{ sm: "column", md: "row"}}
+            width={{ md: "100%" }}
+            height={{ md: "100%" }}
+            spacing={{ sm: 1, md: 4 }}
+            justifyContent="space-around"
+            alignItems={{ sm: "center", md: "normal" }}
+          >
+          
+        <Card className="animation-card">
+          <CardContent>
+            {/* Title */}
+            <Typography variant="h5" gutterBottom>
+              {t("pages.home.animations.citd.title")}
+            </Typography>
+
+            {/* Description */}
+            <Typography variant="body2" color="text.secondary" gutterBottom>
+            {t("pages.home.animations.citd.description")}
+            </Typography>
+
+            {/* Sessions */}
+            <Box mt={2}>
+              <Typography variant="subtitle1">{t("pages.home.animations.sessions")}</Typography>
+              <Grid container spacing={2}>
+                <Grid item xs={12}>
+                  <Box display="flex" justifyContent="space-between">
+                    <Typography variant="body2">{t("pages.schedule.day1")}</Typography>
+                    <Typography variant="body2">11h10</Typography>
+                  </Box>
+                  <Box display="flex" justifyContent="space-between">
+                    <Typography variant="body2"></Typography>
+                    <Typography variant="body2">15h10</Typography>
+                  </Box>
+                  <Box display="flex" justifyContent="space-between">
+                    <Typography variant="body2">{t("pages.schedule.day2")}</Typography>
+                    <Typography variant="body2">11h10</Typography>
+                  </Box>
+                </Grid>
+              </Grid>
+            </Box>
+          </CardContent>
+          <CardActions>
+            <Button size="small" style={{marginLeft: "auto"}}>{t("pages.home.animations.learn-more")}</Button>
+          </CardActions>
+        </Card>
+        <Card className="animation-card">
+          <CardContent>
+            {/* Title */}
+            <Typography variant="h5" gutterBottom>
+              {t("pages.home.animations.secret.title")}
+            </Typography>
+
+            {/* Description */}
+            <Typography variant="body2" color="text.secondary" gutterBottom>
+              {t("pages.home.animations.secret.description")}
+            </Typography>
+
+            {/* Sessions */}
+            <Box mt={2}>
+              <Typography variant="subtitle1">{t("pages.home.animations.sessions")}</Typography>
+              {t("pages.home.animations.secret.coming-soon")}
+            </Box>
+          </CardContent>
+        </Card>
+      </Stack>
+      </PrimarySection>
       <HomeMap />
       <Partners onlyPlatinium={true} />
 

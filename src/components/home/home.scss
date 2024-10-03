@@ -211,3 +211,23 @@
     }
   }
 }
+
+.animations-section { 
+  @media (max-width: 960px) {
+    height: 60vh;
+  }
+}
+
+
+.animation-card {
+  width: 45%;
+  margin: 0 auto;
+  background: black !important;
+  border: 1px solid #ff4e53;
+  border-radius: 20px;
+
+  // Add break point at mui small to change width to 90%
+  @media (max-width: 960px) {
+    width: 90%;
+  }
+}
