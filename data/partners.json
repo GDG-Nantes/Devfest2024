@@ -31,11 +31,6 @@
       "website": "https://www.groupeonepoint.com/fr/"
     },
     {
-      "title": "OVH",
-      "id": "ovh",
-      "website": "https://www.ovh.com"
-    },
-    {
       "title": "Proginov",
       "id": "proginov",
       "website": "https://www.proginov.com"
@@ -136,6 +131,11 @@
       "title": "Orange Business",
       "id": "orange-business",
       "website": "https://www.orange-business.com"
+    },
+    {
+      "title": "OVH",
+      "id": "ovh",
+      "website": "https://www.ovh.com"
     },
     {
       "title": "RCA",
