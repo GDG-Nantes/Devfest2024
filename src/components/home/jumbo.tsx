@@ -72,6 +72,7 @@ export const HomeJumbo = () => {
               color="secondary"
               variant="contained"
               aria-label="Offres d'emploi"
+              target={"_blank"}
               href="https://nantes.francedigitaljobs.fr/search-list-jobs?id=&titre=&city=&categorie=&niveau=&type=&teletravail="
             >
               Offres d'emploi
