@@ -3,7 +3,7 @@ key: adam_argyle
 name: Adam Argyle
 company: Google
 city: Seattle, WA
-photoUrl: https://storage.googleapis.com/atoms-sandbox.google.com.a.appspot.com/headshot-2023.jpg
+photoUrl: /images/speakers/adam_argyle.jpg
 socials:
   github: argyleink
   twitter: argyleink

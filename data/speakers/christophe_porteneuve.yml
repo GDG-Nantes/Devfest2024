@@ -2,10 +2,9 @@
 key: christophe_porteneuve
 name: Christophe Porteneuve
 company: Doctolib
-# Can be downloaded as per your needs at https://about.doctolib.fr/kit-presse/
 companyLogo: /images/partners/doctolib.png
 city: Paris, France
-photoUrl: https://cdn.delicious-insights.com/chris-avatar-funky-bg.png
+photoUrl: /images/speakers/christophe_porteneuve.png
 socials:
   twitter: porteneuve
   github: '@tdd'
