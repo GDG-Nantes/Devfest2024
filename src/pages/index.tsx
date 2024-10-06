@@ -103,7 +103,18 @@ const HomeContent = () => {
             {/* Sessions */}
             <Box mt={2}>
               <Typography variant="subtitle1">{t("pages.home.animations.sessions")}</Typography>
-              {t("pages.home.animations.secret.coming-soon")}
+              <Grid container spacing={2}>
+                <Grid item xs={12}>
+                  <Box display="flex" justifyContent="space-between">
+                    <Typography variant="body2">{t("pages.schedule.day1")}</Typography>
+                    <Typography variant="body2">10h00</Typography>
+                  </Box>
+                  <Box display="flex" justifyContent="space-between">
+                    <Typography variant="body2"></Typography>
+                    <Typography variant="body2">14h00</Typography>
+                  </Box>
+                </Grid>
+              </Grid>
             </Box>
           </CardContent>
         </Card>
