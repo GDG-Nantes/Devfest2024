@@ -1,5 +1,8 @@
 ---
 key: adrien
-name: Adrien
+name: Adrien de Joux
 photoUrl: /images/speakers/adrien.jpg
-socials: {}
+city: Brest, France
+company: Maison du libre
+socials:
+  github: Linux0Hat
