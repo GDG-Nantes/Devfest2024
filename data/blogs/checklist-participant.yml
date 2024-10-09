@@ -1,0 +1,68 @@
+---
+title: Checklist du Participant
+key: checklist-participant
+image: devfest
+date: 2023-10-08
+content: |-
+  Voici donc la checklist du participant.e au DevFest 2023, à lire attentivement pour être prêt.e !
+
+  Avant d’entrer dans la cité, pensez à :
+
+  <ul>
+    <li><input type="checkbox"/> <b>Générer vos billets avant l'événement</b> en utilisant le lien reçu par mail suite à votre achat. (expéditeur : billetterie@mg2.gdgnantes.com) Ou via le <a target="_blank" href="https://billetterie.gdgnantes.com">site du devfest nantes</a>. Attention, une fois le billet téléchargé, vous ne pourrez plus le modifier ⚠️</li>
+    <li><input type="checkbox"/> <b>Présenter votre billet sous format QR code</b> en format numérique OU papier à présenter à l’entrée pour récupérer votre badge personnalisé. Exemple:
+    <div style="display: flex; justify-content: center; margin-top: 10px"><img src="/images/billet-exemple.png" alt="badge" width="300"/></div></li>
+  </ul>
+
+  <p style="font-size: 18px; text-align: center">⚠️ VOUS NE POURREZ PAS RÉCUPÉRER VOTRE BADGE NI ENTRER AU DEVFEST SANS CELA ⚠️</p>
+
+  <p>Il est important d’avoir :</p>
+  <ul>
+    <li><input type="checkbox"/> <b>Son badge toujours sur soi</b> ⚠️</li>
+    <li><input type="checkbox"/> <b>Son Gobelet !</b> Cette année encore, nous ne fournissons pas de gobelets pour le café et les boissons. Ramenez le vôtre, on est sûr que vous devez avoir 1 ou 2 ecocup dans vos placards 🙂</li>
+    <li><input type="checkbox"/> <b>Son laptop</b> pour participer aux codelabs ou aux sessions “Code in the Dark” (vérifier sur la description du talk les prérequis d’installation).</li>
+    <li><input type="checkbox"/> <b>Sé téléphones chargés à bloc</b> pour suivre les infos en live sur notre compte Instagram (@gdgnantes #DevFestNantes) !</li>
+    <li><input type="checkbox"/> <b>Sa bonne humeur</b> et se rappeler qu’il y a un <a href="https://devfest.gdgnantes.com/code-of-conduct/" target="_blank">Code Of Conduct</a> à respecter pour une conférence inclusive et bienveillante. Un stand dédié au CoC et des personnes identifiées en vert seront en place pendant tout l’événement. #DevFestSafe</li>
+    <li><input type="checkbox"/> <b>Récupérer vos goodies</b> (t-shirt, stickers) dans la zone dédiée, au niveau 0, entre la salle Tour de Bretagne et la salle Les Machines mais également au niveau de la boutique.</li>
+    <li><input type="checkbox"/> <b>Votre CB</b> pour venir à notre boutique et acheter les T-shirts des anciennes éditions !</li>
+  </ul>
+
+  <p>Son agenda préparé à l’avance :</p>
+  <ul>
+    <li>
+      <ul>
+        <li><input type="checkbox"/> Agenda disponible sur votre badge : ATTENTION au sens de lecture. L’agenda se lit comme si vous lisiez un livre 🙂 De gauche à droite et de haut en bas.</li>
+        <li><input type="checkbox"/> Une application est disponible sur <a href="https://apps.apple.com/fr/app/devfest-nantes/id6443489706" target="_blank">l'App store</a> et sur <a href="https://play.google.com/store/apps/details?id=com.gdgnantes.devfest.androidapp&pli=1" target="_blank">le Play store</a> !</li>
+        <li><input type="checkbox"/> Salle de rediffusion prévue (anciennement Graslin) si la salle Tour de Bretagne est pleine.</li>
+        <li><input type="checkbox"/> Se garder un temps dédié pour se balader sur les stands (échanges, jeux concours, animations, …)</li>
+        <li><input type="checkbox"/> Faire un tour sur le stand des communautés Nantaises</li>
+        <li><input type="checkbox"/> Profiter de la Zone Lounge au R2 #détente avec plein d’animations et stands.</li>
+        <li><input type="checkbox"/> Venir à la soirée After Party du jeudi à 18h30, co-organisée avec Proginov !</li>
+      </ul>
+    </li>
+    <li><input type="checkbox"/> Noter les conférences auxquelles vous avez participé sur <a href="https://openfeedback.io" target="_blank">OpenFeedback</a> (Merci d’avance pour les speakeuses et speakers 🙂)</li>
+    <li><input type="checkbox"/> Jeter un coup d'œil aux annonces de nos partenaires sur Nantes Digital Job !</li>
+    <li><input type="checkbox"/> Apporter vos laptops qui ne vous servent plus (même cassés) pour en faire don à l’association ACIAH ! (sur le stand des communautés)</li>
+    <li><input type="checkbox"/> Éviter les gros sacs en période de plan vigipirate, une fouille des sacs sera effectuée à l’entrée. Un vestiaire sera disponible.</li>
+    <li><input type="checkbox"/> <b>Participez à l’une des 3 sessions “Code in the Dark”</b>, une compétition de programmation et de rapidité. Les participants se voient montrer une page Web et sont chargés de la recréer sur-le-champ à l'aide des technologies HTML et CSS (aucune prévisualisation n'est autorisée !). Le jeudi 17 à 11h10 et 15h10 et le vendredi 18 à 11h10 en salle BC en RDC.</li>
+    <li><input type="checkbox"/> <b>Atelier HackerSpace</b> : la possibilité d'apprendre à réparer votre matériel ou à le construire vous-même !</li>
+    <li><input type="checkbox"/> Du jeudi au vendredi midi, un espace de réparation de produits électroniques, partage de ressources Maker, hackerspace, open source / open hardware sera ouvert au R+2 dans l’espace lounge.</li>
+    <li><input type="checkbox"/> <b>Et surtout… Profitez bien du Devfest Nantes !</b></li>
+  </ul>
+
+
+  <style>
+    input[type=checkbox] {
+        transform: scale(1.2);
+        margin-right: 10px;
+    }
+    li {
+        margin-bottom: 10px;
+        list-style:none;
+    }
+    img {
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        
+    }
+  </style>
