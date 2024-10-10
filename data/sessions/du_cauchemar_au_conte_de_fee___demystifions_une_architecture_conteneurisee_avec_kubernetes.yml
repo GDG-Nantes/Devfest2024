@@ -19,3 +19,7 @@ abstract: |-
   Venez démystifier avec nous les composants de base d'une architecture conteneurisée sur Kubernetes. (Namespaces, Pods, Deployments, Services, Configmaps, Ingress, Statefulset, Volumes, Secrets…) 
 
   Nous expliciterons et mettrons en pratique ces composants pas à pas sur le cas du déploiement d'une application web n-tiers (front-end, back-end, base de données).
+
+  Ce codelab se destine aux développeurs souhaitant découvrir les objets de base en jeu lors d'un déploiement sur Kubernetes.
+
+  Pré-requis : un PC, un accès internet et un compte Gitpod (création en live possible !)
