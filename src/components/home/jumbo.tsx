@@ -71,11 +71,11 @@ export const HomeJumbo = () => {
             <Button
               color="secondary"
               variant="contained"
-              aria-label="Offres d'emploi"
+              aria-label={t("offers")}
               target={"_blank"}
               href="https://nantes.francedigitaljobs.fr/search-list-jobs?id=&titre=&city=&categorie=&niveau=&type=&teletravail="
             >
-              Offres d'emploi
+              {t('offers')}
             </Button>
           </Stack>
           <Stack direction="row" spacing={3} justifyContent={"center"}>
