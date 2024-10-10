@@ -7,10 +7,9 @@ city: Paris, France
 photoUrl: /images/speakers/marjorie_aubert.png
 socials:
   twitter: Tagada2022
-  github: '@Tagada26'
+  github: "@Tagada26"
 bio: |-
   Bonjour à toutes et à tous,
-
-  Je m’appelle Marjorie, développeuse full-stack chez Comet. Cela n’a pas toujours été mon métier. Après 6 années en tant que conseillère nationale en prévention des risques professionnels pour le monde agricole durant lesquelles j’ai effectué des missions de PO, je suis tombée dans le terminal avec joie il y a presque deux ans.
-
-  Très heureuse de pouvoir vous rencontrer, et de partager ensemble à Who run the tech ☀️
+  Je m’appelle Marjorie, développeuse full-stack chez Comet.
+  Coder à plusieurs est mon quotidien et je co-anime également des katas en mob programming ou software teaming avec le meetup [Mob Programming FR](https://www.meetup.com/paris-mob-programming/)
+  Très heureuse de pouvoir vous rencontrer, et de partager ensemble au DevFest ☀️
