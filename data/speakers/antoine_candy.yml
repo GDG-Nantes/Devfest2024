@@ -1,9 +1,19 @@
 ---
 key: antoine_candy
-name: Antoine CANDY
+name: Antoine Candy
 company: Worldline
 companyLogo: /images/partners/worldline.png
 city: Lyon, France
 photoUrl: /images/speakers/antoine_candy.jpg
-socials: {}
-bio: Ingénieur informaticien 🤓 spécialisé dans le développement WEB (plus frontend que backend 😁). UX/UI designer 📱💻 et graphiste en herbe 🎨.
+socials:
+  linkedin: antoine-candy-2347b1105
+bio: |-
+  S’électrocuter en tentant de brancher un petit moteur 12V d’un jouet Happy Meal sur du 220V.
+
+  Pimper tous les PC de la famille en les démontant pièce par pièce.
+
+  Obliger son petit frère à tourner des vidéos de combat de sabre laser pour YouTube.
+
+  Créer toute la communication visuelle et les affiches pour ses associations.
+
+  Autant d’expériences qui m’ont naturellement conduit à me tourner vers l’électronique et l’informatique. Geek, curieux et passionné, j’ai évolué du développement web au design d’interface (UX/UI) en passant par le démontage, la programmation, le montage vidéo et l’infographie.
