@@ -29,10 +29,10 @@ export const MENU: Array<MenuItem> = [
   //   label: "menu",
   //   link: "/menu",
   // },
-  // {
-  //   label: "jobs",
-  //   link: "/jobs",
-  // },
+  {
+    label: "jobs",
+    link: "https://nantes.francedigitaljobs.fr/search-list-jobs?id=&titre=&city=&categorie=&niveau=&type=&teletravail=",
+  },
   // {
   //   label: "Tickets",
   //   link: "https://www.billetweb.fr/billet-devfest-nantes-2024",

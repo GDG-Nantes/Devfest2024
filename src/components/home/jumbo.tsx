@@ -64,17 +64,18 @@ export const HomeJumbo = () => {
               color="secondary"
               variant="contained"
               aria-label="Billetterie"
-              href="https://www.billetweb.fr/billet-devfest-nantes-2024"
+              href="/schedule"
             >
-              Billetterie
+              {t('schedule')}
             </Button>
             <Button
               color="secondary"
               variant="contained"
-              aria-label="Billetterie"
-              href="/schedule"
+              aria-label={t("offers")}
+              target={"_blank"}
+              href="https://nantes.francedigitaljobs.fr/search-list-jobs?id=&titre=&city=&categorie=&niveau=&type=&teletravail="
             >
-              {t('schedule')}
+              {t('offers')}
             </Button>
           </Stack>
           <Stack direction="row" spacing={3} justifyContent={"center"}>
