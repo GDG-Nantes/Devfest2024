@@ -25,8 +25,8 @@ abstract: |
   - Évaluation des **risques** (est-ce que mon chatbot tient des propos déplacés, est-il robuste, …)
   - Les **librairies** d’évaluation, comme RAGAS et Giskard
 
-
+  Note : Même s'il y a "RAG" dans le titre, quasiment tout le contenu du talk est valable pour n'importe quelle application utilisant un ou plusieurs LLMs :)
 
   —
 
-  Attention : Si le fonctionnement d’une RAG vous est inconnu, ce talk risque d’être un peu difficile à suivre. Je vous conseille donc de vous renseigner sur le sujet en amont. J’ai justement donné un talk qui explique tout cela, ça se passe [juste ici](https://www.youtube.com/watch?v=k6GYsuWSxiQ).
+  Attention : Si le monde des LLMs et des RAGs vous est inconnu, ce talk risque d’être un peu difficile à suivre. Je vous conseille donc de vous renseigner sur le sujet en amont. Si cela vous intéresse, j’ai justement donné un talk qui explique tout cela, ça se passe [juste ici](https://www.youtube.com/watch?v=k6GYsuWSxiQ).
