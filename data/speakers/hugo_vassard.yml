@@ -6,4 +6,18 @@ companyLogo: /images/partners/ippon_technologies.png
 city: Nantes, France
 photoUrl: /images/speakers/hugo_vassard.jpg
 socials: {}
-bio: ML Engineer / Data Engineer
+bio: |
+  Tout jeune ingénieur diplômé en 2022, je suis consultant data (data engineer et data science) à Nantes chez Ippon depuis ma sortie de l'INSA Rouen. 
+  Mon travail m'amène à mettre en place chez mes clients des data platforms ou des chatbots pour des secteurs aussi variés que la compta ou le transport !
+  Côté technos, en plus de la data, j'ai un intérêt particulier pour le cloud AWS et les aspects devops comme Terraform. 
+
+  Les 3 choses qui me donnent envie de me lever : 
+  - Apprendre de nouvelles choses
+  - Avoir de l'impact
+  - Transmettre ce que je sais
+  
+  => Alors je n'ai eu aucun problème pour me lever pour ce Devfest :)
+
+  N'hésitez pas à m'interpeler dans les allées pour échanger avec moi, ça sera avec grand plaisir !
+
+  Linkedin : https://www.linkedin.com/in/hugo-vassard-820610173/
