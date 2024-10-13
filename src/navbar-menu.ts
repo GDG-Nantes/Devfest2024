@@ -25,10 +25,10 @@ export const MENU: Array<MenuItem> = [
     label: "blog",
     link: "/blog",
   },
-  // {
-  //   label: "menu",
-  //   link: "/menu",
-  // },
+  {
+    label: "menu",
+    link: "/menu",
+  },
   {
     label: "jobs",
     link: "https://nantes.francedigitaljobs.fr/search-list-jobs?id=&titre=&city=&categorie=&niveau=&type=&teletravail=",

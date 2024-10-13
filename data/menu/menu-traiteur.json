@@ -1,0 +1,449 @@
+{
+  "Jeudi": [
+    {
+      "titreFR": "Pièces cocktail",
+      "titreEN": "Vegetarien Cold savoury bites",
+      "plats": [
+        {
+          "titreFR": "Chips de lotus, nougat de pomme de terre chimichouri",
+          "titreEN": "Lotus chips, potato nougat with chimichurri",
+          "allergenes": ["celeri", "sesame"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Corolle de radis houmous et lentilles corail",
+          "titreEN": "Radish corolla with hummus and coral lentils",
+          "allergenes": ["fruits-a-coques"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Carotte fondante et noix",
+          "titreEN": "Tender carrot and nut",
+          "allergenes": ["fruits-a-coques"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Sablé parmesan, crème basilic et perle de poivron",
+          "titreEN": "Parmesan shortbread, basil cream, and pepper pearls",
+          "allergenes": ["gluten", "lactose"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Cube de comté chutney de figue noisette",
+          "titreEN": "Comte cheese with fig and hazelnut chutney",
+          "allergenes": ["lactose", "fruits-a-coques", "sulfites"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Polenta et saumon fumé câpre à queue",
+          "titreEN": "Polenta and smoked salmon with caperberries",
+          "allergenes": ["lactose", "poissons"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Tajine d'agneau et panisse",
+          "titreEN": "Lamb tagine and chickpea fritters (panisse)",
+          "allergenes": ["lactose", "celeri"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Cannelloni de thon et pavot",
+          "titreEN": "Tuna and poppy seed cannelloni",
+          "allergenes": ["gluten", "oeufs", "poissons", "lactose", "moutarde"],
+          "vege": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces lunch",
+      "titreEN": "Finger lunch",
+      "plats": [
+        {
+          "titreFR": "Club volaille et bacon",
+          "titreEN": "Poultry and bacon club sandwich",
+          "allergenes": ["gluten", "oeufs", "lactose", "moutarde"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Wrap thon et avocat",
+          "titreEN": "Tuna and avocado wrap",
+          "allergenes": ["gluten", "oeufs", "poissons", "lactose", "moutarde"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Sablé sarrasin shiitaké aux noisettes et enoki",
+          "titreEN": "Buckwheat shortbread with shiitake, hazelnuts, and enoki mushrooms",
+          "allergenes": ["fruits-a-coques"],
+          "vege": true,
+          "vegan": true
+        }
+      ]
+    },
+    {
+      "titreFR": "Mini entrées",
+      "titreEN": "Mini starter",
+      "plats": [
+        {
+          "titreFR": "Salade pad thaï",
+          "titreEN": "Pad Thai salad",
+          "allergenes": ["arachides", "sesame"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Salade de lentilles, magret fumé et vinaigre de framboise",
+          "titreEN": "Lentil salad with smoked duck breast and raspberry vinegar",
+          "allergenes": ["sulfites"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Velouté betternut au bouillon végétal et lait de coco",
+          "titreEN": "Butternut squash soup with vegetable broth and coconut milk",
+          "allergenes": [],
+          "vege": true,
+          "vegan": true
+        }
+      ]
+    },
+    {
+      "titreFR": "Mini plats chauds",
+      "titreEN": "Mini hot dishes",
+      "plats": [
+        {
+          "titreFR": "Tika massala de légumes, riz et noix de cajoux",
+          "titreEN": "Vegetable tikka masala, rice, and cashew nuts",
+          "allergenes": ["arachides", "fruits-a-coques"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Volaille à la moutarde à l'ancienne crumble de légumes au parmesan",
+          "titreEN": "Old-fashioned mustard chicken with parmesan vegetable crumble",
+          "allergenes": ["lactose", "celeri", "moutarde", "sulfites"],
+          "vege": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "titreFR": "Ateliers",
+      "titreEN": "Cookery demonstrations",
+      "plats": [
+        {
+          "titreFR": "Sushi de légumes au sésame, homard ou boeuf",
+          "titreEN": "Sushi vegetable with sesame, beef or lobster",
+          "allergenes": ["poissons", "arachides", "soja", "fruits-a-coques", "sesame"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Croque Monsieur",
+          "titreEN": "Croque Monsieur",
+          "allergenes": ["gluten", "lactose", "fruits-a-coques"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Tourte de saumon",
+          "titreEN": "Salmon pie",
+          "allergenes": ["gluten", "crustaces", "oeufs", "poissons", "lactose", "celeri"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Clafoutis pomme et glace au cidre",
+          "titreEN": "Apple clafoutis with cider ice cream",
+          "allergenes": ["gluten", "oeufs", "lactose"],
+          "vege": true,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces sucrées",
+      "titreEN": "Sweet desserts",
+      "plats": [
+        {
+          "titreFR": "Strussel choco sarrasin",
+          "titreEN": "Buckwheat chocolate streusel",
+          "allergenes": ["oeufs", "lactose"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Energy ball",
+          "titreEN": "Energy ball",
+          "allergenes": ["gluten", "fruits-a-coques"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Moelleux chocolat aux haricots rouges",
+          "titreEN": "Red bean chocolate cake",
+          "allergenes": ["oeufs"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Comme un café crème",
+          "titreEN": "Like a coffee cream",
+          "allergenes": ["gluten", "oeufs", "lactose"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Dôme citron",
+          "titreEN": "Lemon dome",
+          "allergenes": ["gluten", "oeufs"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Brochette de fruits",
+          "titreEN": "Fruit skewers",
+          "allergenes": [],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Macarons assortis",
+          "titreEN": "Assorted macarons",
+          "allergenes": ["oeufs", "lactose", "fruits-a-coques"],
+          "vege": true,
+          "vegan": false
+        }
+      ]
+    }
+  ],
+  "Vendredi": [
+    {
+      "titreFR": "Pièces cocktail",
+      "titreEN": "Vegetarien Cold savoury bites",
+      "plats": [
+        {
+          "titreFR": "Croustille moutabal et carotte cumin",
+          "titreEN": "Crispy moutabal and cumin carrot",
+          "allergenes": ["gluten", "fruits-a-coques", "sesame"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Perle de coco, mangue poêlée au curry rouge",
+          "titreEN": "Coconut pearl, sautéed mango with red curry",
+          "allergenes": ["fruits-a-coques", "sesame"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Finger quinoa sangria et crème acidulée",
+          "titreEN": "Finger quinoa with sangria and tangy cream",
+          "allergenes": ["soja", "lactose", "sulfites"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Pressé de volaille au citron confit",
+          "titreEN": "Chicken ‘stew’ bite with lemon glaze",
+          "allergenes": ["oeufs","lactose","celeri"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Brochette de gambas et curé Nantais",
+          "titreEN": "Prawn skewer with curé Nantais cheese",
+          "allergenes": ["crustaces", "lactose"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Filet de caille sur pain d'épices et figue",
+          "titreEN": "Quail fillet on gingerbread with fig",
+          "allergenes": ["gluten", "oeufs", "lactose"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Croustille crème de chèvre et viande de grison",
+          "titreEN": "Crispy goat cheese cream and Grisons meat",
+          "allergenes": ["gluten", "lactose", "fruits-a-coques"],
+          "vege": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces lunch",
+      "titreEN": "Finger lunch",
+      "plats": [
+        {
+          "titreFR": "Viennoise saumon fumé",
+          "titreEN": "Smoked salmon Viennese bread",
+          "allergenes": ["gluten", "oeufs", "poissons", "lactose", "sesame"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Wrap de légumes thaï et houmous",
+          "titreEN": "Thai vegetable and hummus wrap",
+          "allergenes": ["gluten", "oeufs", "soja", "lactose", "moutarde", "sesame"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Mini burger au bœuf et curé Nantais",
+          "titreEN": "Mini beef burger with curé Nantais cheese",
+          "allergenes": ["gluten", "oeufs", "lactose", "sesame"],
+          "vege": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "titreFR": "Mini entrées",
+      "titreEN": "Mini starter",
+      "plats": [
+        {
+          "titreFR": "Fondue de poireaux vinaigrette aromate, purée de vitelotte",
+          "titreEN": "Leek fondue with aromatic vinaigrette, vitelotte potato purée",
+          "allergenes": ["gluten", "lactose", "celeri"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Tartare de crevettes aux agrumes",
+          "titreEN": "Shrimp tartare with citrus",
+          "allergenes": ["arachides"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Salade betterave, pomme granny, céleri branche et graine de chia",
+          "titreEN": "Beetroot salad with Granny Smith apple, celery, and chia seeds",
+          "allergenes": ["celeri", "sulfites"],
+          "vege": true,
+          "vegan": true
+        }
+      ]
+    },
+    {
+      "titreFR": "Mini plats chauds",
+      "titreEN": "Mini hot dishes",
+      "plats": [
+        {
+          "titreFR": "Dahl de lentilles vertes aux épinards et lait de coco",
+          "titreEN": "Green lentil dahl with spinach and coconut milk",
+          "allergenes": ["celeri", "moutarde"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Merlu au beurre nantais et légumes de saison, dés de polenta",
+          "titreEN": "Hake with Nantes butter, seasonal vegetables, and polenta cubes",
+          "allergenes": ["gluten", "crustaces", "poissons", "lactose", "celeri", "moutarde"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Coquillettes à la crème de truffe et jambon supérieur",
+          "titreEN": "Pasta with truffle cream and premium ham",
+          "allergenes": ["gluten", "lactose"],
+          "vege": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "titreFR": "Ateliers",
+      "titreEN": "Cookery demonstrations",
+      "plats": [
+        {
+          "titreFR": "Poke bowl",
+          "titreEN": "Poke bowl",
+          "allergenes": ["gluten", "soja", "sesame", "sulfites"],
+          "vege": true,
+          "vegan": true
+        },
+        {
+          "titreFR": "Saumon fumé & pomme de terre grenaille",
+          "titreEN": "Smoked salmon",
+          "allergenes": ["poissons", "lactose"],
+          "vege": false,
+          "vegan": false
+        },
+        {
+          "titreFR": "Pavlova aux fruits",
+          "titreEN": "Fruit pavlova",
+          "allergenes": ["oeufs", "lactose", "fruits-a-coques"],
+          "vege": true,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces sucrées",
+      "titreEN": "Sweet desserts",
+      "plats": [
+        {
+          "titreFR": "Moelleux ananas et caramel",
+          "titreEN": "Pineapple and caramel cake",
+          "allergenes": ["gluten", "oeufs", "lactose", "fruits-a-coques"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Banana bread",
+          "titreEN": "Banana bread",
+          "allergenes": ["oeufs"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Guimauve au chocolat",
+          "titreEN": "Chocolate marshmallow",
+          "allergenes": [],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Sucette chocolat feuillantine praliné",
+          "titreEN": "Chocolate lollipop with crispy praline",
+          "allergenes": ["gluten", "lactose", "fruits-a-coques"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Tarte aux prunes",
+          "titreEN": "Plum tart",
+          "allergenes": ["gluten", "oeufs", "lactose"],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Brochette de fruits",
+          "titreEN": "Fruit skewers",
+          "allergenes": [],
+          "vege": true,
+          "vegan": false
+        },
+        {
+          "titreFR": "Macarons assortis",
+          "titreEN": "Assorted macarons",
+          "allergenes": ["oeufs", "lactose", "fruits-a-coques"],
+          "vege": true,
+          "vegan": false
+        }
+      ]
+    }
+  ]
+}

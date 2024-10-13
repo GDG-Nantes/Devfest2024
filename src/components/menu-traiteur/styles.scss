@@ -1,0 +1,18 @@
+.allergene {
+  border: 1px solid var(--primary-dark);
+  border-radius: 10px;
+  height: 70px;
+  padding: 5px 2px;
+  margin: 5px 2px;
+
+  &.allergeneKO {
+    border: 2px solid var(--secondary);
+  }
+  &.allergeneVege {
+    border: 2px solid #36ae5c;
+  }
+}
+
+.MuiAccordionDetails-root {
+  padding: 8px 8px 16px;
+}

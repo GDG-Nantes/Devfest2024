@@ -37,6 +37,12 @@
         "allergenes": {
           "type": "array",
           "items": { "$ref": "#/definitions/allergene" }
+        },
+        "vege": {
+          "type": "boolean"
+        },
+        "vegan": {
+          "type": "boolean"
         }
       },
       "required": ["titreFR", "titreEN", "allergenes"]
@@ -46,7 +52,6 @@
       "enum": [
         "gluten",
         "crustaces",
-        "vegetarien",
         "oeufs",
         "poissons",
         "arachides",

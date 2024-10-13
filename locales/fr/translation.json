@@ -14,7 +14,7 @@
         "previous": "Édition 2022",
         "schedule": "Programme",
         "generate-ticket": "Générer mon billet",
-        "bring-ecocup": "N'oubliez pas vos propres eco-cups et sac !",
+        "bring-ecocup": "N'oubliez pas de prendre vos propres eco-cups et sac !",
         "resend-tickets": "Renvoyer mes billets",
         "get-app": "Appli mobile",
         "offers": "Offres d'emploi"
@@ -85,6 +85,7 @@
         "gluten": "Gluten",
         "crustaces": "Crustacés",
         "vegetarien": "Végétariens",
+        "vegan": "Vegan",
         "oeufs": "Oeufs",
         "poissons": "Poissons",
         "arachides": "Arachides",

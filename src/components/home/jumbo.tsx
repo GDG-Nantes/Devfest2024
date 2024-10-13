@@ -1,5 +1,5 @@
-import { PhotoSharp, YouTube } from "@mui/icons-material";
-import { Button, Stack, Typography } from "@mui/material";
+import {Android, Apple, PhotoSharp, YouTube} from "@mui/icons-material";
+import {Box, Button, Modal, Paper, Stack, Typography} from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -37,7 +37,7 @@ export const HomeJumbo = () => {
           {/*  <Button*/}
           {/*    color="secondary"*/}
           {/*    variant="contained"*/}
-          {/*    href="https://devfest2022.gdgnantes.com"*/}
+          {/*    href="https://devfest2023.gdgnantes.com"*/}
           {/*    aria-label={t("previous")}*/}
           {/*  >*/}
           {/*    {t("previous")}*/}
@@ -63,11 +63,31 @@ export const HomeJumbo = () => {
             <Button
               color="secondary"
               variant="contained"
-              aria-label="Billetterie"
+              aria-label={t('schedule')}
               href="/schedule"
             >
               {t('schedule')}
             </Button>
+            <Button
+              color="secondary"
+              variant="contained"
+              href="https://billetterie.gdgnantes.com"
+              aria-label={t('resend-tickets')}
+              target={"_blank"}
+            >
+              {t('resend-tickets')}
+            </Button>
+          </Stack>
+          <Stack direction="row" spacing={3} justifyContent={"center"}>
+
+          <Button
+          color="secondary"
+          variant="outlined"
+          onClick={() => setModalOpen(true)}
+          aria-label={t('get-app')}
+          >
+          {t('get-app')}
+        </Button>
             <Button
               color="secondary"
               variant="contained"
@@ -77,28 +97,7 @@ export const HomeJumbo = () => {
             >
               {t('offers')}
             </Button>
-          </Stack>
-          <Stack direction="row" spacing={3} justifyContent={"center"}>
-
-            {/*
-          <Button
-            color="secondary"
-            variant="contained"
-            href="https://billetterie.gdgnantes.com"
-            aria-label="Send tickets"
-            target={"_blank"}
-          >
-            {t('resend-tickets')}
-          </Button>
-          <Button
-          color="secondary"
-          variant="outlined"
-          onClick={() => setModalOpen(true)}
-          aria-label="Send tickets"
-          >
-          {t('get-app')}
-        </Button> */}
-            <Button
+            {/*<Button
               color="secondary"
               startIcon={<YouTube />}
               variant="contained"
@@ -117,15 +116,15 @@ export const HomeJumbo = () => {
               target={"_blank"}
             >
               Photos
-            </Button>
+            </Button>*/}
           </Stack>
-          {/* <Stack direction="row" spacing={3} justifyContent={"center"}>
+          <Stack direction="row" spacing={3} justifyContent={"center"}>
           <Button href="/our-values" color="secondary">{t('bring-ecocup')}</Button>
-        </Stack> */}
+        </Stack>
         </Stack>
       </div>
 
-      {/* <Modal open={modalOpen} onClose={() => setModalOpen(false)} className={"modal-apps"}>
+      <Modal open={modalOpen} onClose={() => setModalOpen(false)} className={"modal-apps"}>
         <Paper className={"modal-content"}>
           <Box className={"modal-body"}>
             <Stack spacing={[5,5]} direction={["column", "row"]}>
@@ -134,6 +133,7 @@ export const HomeJumbo = () => {
                 variant="contained"
                 href="https://apps.apple.com/fr/app/devfest-nantes/id6443489706"
                 aria-label="iOS app"
+                target={"_blank"}
                 startIcon={<Apple/>}
               >
                 iOS
@@ -143,6 +143,7 @@ export const HomeJumbo = () => {
                 variant="contained"
                 href="https://play.google.com/store/apps/details?id=com.gdgnantes.devfest.androidapp&pli=1"
                 aria-label="Android app"
+                target={"_blank"}
                 startIcon={<Android/>}
               >
                 Android
@@ -150,7 +151,7 @@ export const HomeJumbo = () => {
             </Stack>
           </Box>
         </Paper>
-      </Modal> */}
+      </Modal>
     </>
   );
 };
