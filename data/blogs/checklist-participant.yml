@@ -1,10 +1,10 @@
 ---
-title: Checklist du Participant
+title: Checklist Participant·e
 key: checklist-participant
 image: devfest
 date: 2024-10-09
 content: |-
-  Voici donc la checklist du participant.e au DevFest 2023, à lire attentivement pour être prêt.e !
+  Voici donc la checklist du participant.e au DevFest 2024, à lire attentivement pour être prêt.e !
 
   Avant d’entrer dans la cité, pensez à :
 
@@ -41,7 +41,7 @@ content: |-
       </ul>
     </li>
     <li><input type="checkbox"/> Noter les conférences auxquelles vous avez participé sur <a href="https://openfeedback.io" target="_blank">OpenFeedback</a> (Merci d’avance pour les speakeuses et speakers 🙂)</li>
-    <li><input type="checkbox"/> Jeter un coup d'œil aux annonces de nos partenaires sur Nantes Digital Job !</li>
+    <li><input type="checkbox"/> Jeter un coup d'œil <a href="https://nantes.francedigitaljobs.fr/search-list-jobs?id=&titre=&city=&categorie=&niveau=&type=&teletravail=" target="_blank">aux annonces de nos partenaires sur Nantes Digital Job !</a></li>
     <li><input type="checkbox"/> Apporter vos laptops qui ne vous servent plus (même cassés) pour en faire don à l’association ACIAH ! (sur le stand des communautés)</li>
     <li><input type="checkbox"/> Éviter les gros sacs en période de plan vigipirate, une fouille des sacs sera effectuée à l’entrée. Un vestiaire sera disponible.</li>
     <li><input type="checkbox"/> <b>Participez à l’une des 3 sessions “Code in the Dark”</b>, une compétition de programmation et de rapidité. Les participants se voient montrer une page Web et sont chargés de la recréer sur-le-champ à l'aide des technologies HTML et CSS (aucune prévisualisation n'est autorisée !). Le jeudi 17 à 11h10 et 15h10 et le vendredi 18 à 11h10 en salle BC en RDC.</li>
