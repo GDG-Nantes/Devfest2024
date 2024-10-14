@@ -1,0 +1,23 @@
+---
+key: the_invisible_monster
+openfeedbackId: creerunoperateurkubernetesavecquarkusetloperatorsdk
+title: "Le monstre invisible : l'empreinte carbone de l’IA"
+language: French
+talkType: quickie
+tags:
+  - bigdata_ai
+complexity: Beginner
+speakers:
+  - olivier_bierlaire
+slot: day-2-quickie-1
+room: Titan
+abstract: |-
+  What is silent, colossal, and terrifying? No, it's not the monster under your bed, it's much worse: the carbon emissions of AI! To confront this monster, we must first understand it: what is the impact of generative AI and LLMs?
+
+  We estimate that training GPT-3.5 generated CO2 emissions equivalent to 800 Paris-New York flights. But what about the queries? Should I avoid using it to limit my carbon footprint? If I use an AI assistant for coding, like GitHub Copilot or CodeWhisperer, does it emit a lot of CO2?
+
+  Moreover, everyone wants to create their own LLM or generative AI. What is the impact of training, fine-tuning, and using these models? Many companies are concerned about their carbon footprint, and the development as well as the use of AI have an impact that needs to be measured and reduced.
+
+  With good hosting practices, GreenOps, and available tools, we can shed light on this issue and help reduce our carbon footprint while benefiting from AI advancements. Finally, I will tell you a dark curtain story that might help us.
+
+  Let's discover how to confront this invisible monster together!
