@@ -15,6 +15,7 @@ import {
 } from "../components/home";
 import { PlanCite } from "../components/home/plan";
 import { Partners } from "../components/partners";
+import { MyLink } from "../helpers/links";
 import Layout from "../layout";
 
 const HomeContent = () => {
@@ -85,7 +86,9 @@ const HomeContent = () => {
             </Box>
           </CardContent>
           <CardActions>
-            <Button size="small" style={{marginLeft: "auto"}}>{t("pages.home.animations.learn-more")}</Button>
+            <MyLink style={{marginLeft: "auto"}} to="http://codeinthedark.com/">
+              <Button size="small">{t("pages.home.animations.learn-more")}</Button>
+            </MyLink>
           </CardActions>
         </Card>
         <Card className="animation-card">
