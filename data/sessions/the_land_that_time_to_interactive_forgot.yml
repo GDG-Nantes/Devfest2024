@@ -1,20 +1,20 @@
 ---
 key: the_land_that_time_to_interactive_forgot
 openfeedbackId: thelandthattimetointeractiveforgot
-title: The land that Time To Interactive forgot
+title: Balancing tight security with fluid devex, powered by GKE
 language: English
 talkType: conference
 tags:
-  - web
+  - cloud_devops
 complexity: Intermediate
-cancelled: true
+cancelled: false
 speakers:
-  - leonie_watson
+  - natalie_godec
 slot: day-1-conference-1
 room: Jules Verne
 abstract: |-
-  We tend to think of performance in terms of latency, code optimization, and things like the critical rendering path, but what happens when the browser creates an accessibility tree as well as the DOM?
-
-  The answer is of course "it depends...".
-
-  Different browsers take different approaches, but they all have an impact on performance and the Time To Interactive in particular. In this talk we'll consider the purpose of the accessibility tree, the ways its constructed in diferent browsers, and the ultimate impact that has on both performance and experience for people who use assistive technologies like screen readers.
+  The most secure server is one that is disconnected from the Internet and unplugged. And the most convenient environment for devs is where they have admin access to production and the freedom do what they want. How do you marry the two?
+  
+  Let's look at a real-world scenario where we built a cloud-native fintech platform on GKE. The vision? A robust, flexible, and secure foundation that supports SOC2-compliant deployments and empowers developers to be as productive as possible, contrary to the typical for the financial sector blown-out processes and approval chases.
+  
+  This solution is powered by Google Kubernetes Engine (GKE) and the cloud's niftiest security tools from the Secure Supply Chain toolkit.
