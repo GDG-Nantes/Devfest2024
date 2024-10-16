@@ -30,11 +30,6 @@ const SessionPageTemplate: React.FC<{ pageContext: { session: Session } }> = ({
     <Layout>
       <DefaultPage title={session.title} noHero={true}>
         <TertiarySection slim>
-          {session.cancelled && (
-            <Typography variant="h1" color="primary">
-              {t("cancelled")}
-            </Typography>
-          )}
           <Typography
             variant="h1"
             color="primary"
@@ -45,6 +40,11 @@ const SessionPageTemplate: React.FC<{ pageContext: { session: Session } }> = ({
           >
             {session.title}
           </Typography>
+          {session.cancelled && (
+            <Typography variant="h1" color="secondary" className={"cancelled-title"}>
+              {t("cancelled")}
+            </Typography>
+          )}
           <Stack spacing={3}>
             <Stack direction="row" spacing={2} alignItems="center">
               <Typography

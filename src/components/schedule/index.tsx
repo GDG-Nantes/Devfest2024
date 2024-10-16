@@ -24,6 +24,7 @@ export const Schedule: React.FC<{ day: 1 | 2 }> = ({ day }) => {
             room
             language
             complexity
+            cancelled
           }
         }
       }

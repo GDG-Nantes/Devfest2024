@@ -7,6 +7,7 @@ talkType: conference
 tags:
   - web
 complexity: Intermediate
+cancelled: true
 speakers:
   - leonie_watson
 slot: day-1-conference-1

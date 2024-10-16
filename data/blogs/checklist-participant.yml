@@ -23,7 +23,7 @@ content: |-
     <li><input type="checkbox"/> <b>Son laptop</b> pour participer aux codelabs ou aux sessions “Code in the Dark” (vérifier sur la description du talk les prérequis d’installation).</li>
     <li><input type="checkbox"/> <b>Ses téléphones chargés à bloc</b> pour suivre les infos en live sur notre compte Instagram (@gdgnantes #DevFestNantes) !</li>
     <li><input type="checkbox"/> <b>Sa bonne humeur</b> et se rappeler qu’il y a un <a href="https://devfest.gdgnantes.com/code-of-conduct/" target="_blank">Code Of Conduct</a> à respecter pour une conférence inclusive et bienveillante. Un stand dédié au CoC et des personnes identifiées en vert seront en place pendant tout l’événement. #DevFestSafe</li>
-    <li><input type="checkbox"/> <b>Récupérer vos goodies</b> (t-shirt, stickers) dans la zone dédiée, au niveau 0, entre la salle Tour de Bretagne et la salle Les Machines mais également au niveau de la boutique.</li>
+    <li><input type="checkbox"/> <b>Récupérer vos goodies</b> (t-shirt, stickers) dans la zone dédiée, au niveau 0, entre la salle Tour Bretagne et la salle Les Machines mais également au niveau de la boutique.</li>
     <li><input type="checkbox"/> <b>Votre CB</b> pour venir à notre boutique et acheter les T-shirts des anciennes éditions !</li>
   </ul>
 
@@ -33,7 +33,7 @@ content: |-
       <ul>
         <li><input type="checkbox"/> Agenda disponible sur votre badge : ATTENTION au sens de lecture. L’agenda se lit comme si vous lisiez un livre 🙂 De gauche à droite et de haut en bas.</li>
         <li><input type="checkbox"/> Une application est disponible sur <a href="https://apps.apple.com/fr/app/devfest-nantes/id6443489706" target="_blank">l'App store</a> et sur <a href="https://play.google.com/store/apps/details?id=com.gdgnantes.devfest.androidapp&pli=1" target="_blank">le Play store</a> !</li>
-        <li><input type="checkbox"/> Salle de rediffusion prévue (anciennement Graslin) si la salle Tour de Bretagne est pleine.</li>
+        <li><input type="checkbox"/> Salle de rediffusion prévue (anciennement Graslin) si la salle Tour Bretagne est pleine.</li>
         <li><input type="checkbox"/> Se garder un temps dédié pour se balader sur les stands (échanges, jeux concours, animations, …)</li>
         <li><input type="checkbox"/> Faire un tour sur le stand des communautés Nantaises</li>
         <li><input type="checkbox"/> Profiter de la Zone Lounge au R2 #détente avec plein d’animations et stands.</li>
