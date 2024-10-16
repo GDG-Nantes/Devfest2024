@@ -19,7 +19,11 @@ abstract: |-
   Laissez nous vous embarquer dans ce nouvel univers, laissez nous vous faire tomber dans... le **Daggerverse of madness** !!
 
   Dans ce codelab, vous :
-  * prendrez en main Dagger avec le langage de votre choix : Typescript, Go ou Python (et qui sait, Java ?)
+  * prendrez en main Dagger avec le langage Go. Possibilités de le faire en Typescript ou Python pour les plus téméraires d'entre vous !!!
+  * utiliser un module Dagger avec un moteur de CI
   * découvrirez comment publiez votre propre module Dagger dans... le Daggerverse !
 
   Et vous serez à tout jamais séduit par Dagger et son univers à part entière.
+
+  Prérequis du codelab : un PC avec un compte GitHub ! Un codespace est mis à disposition des participants.
+  Lien pour le codelab: https://github.com/jhaumont/enter-the-daggerverse
