@@ -1,5 +1,5 @@
-import {Android, Apple, PhotoSharp, YouTube} from "@mui/icons-material";
-import {Box, Button, Modal, Paper, Stack, Typography} from "@mui/material";
+import { Android, Apple, PhotoSharp } from "@mui/icons-material";
+import { Box, Button, Modal, Paper, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -22,15 +22,15 @@ export const HomeJumbo = () => {
         {/* <Typography variant="h1" textAlign="center">
           {t("come-back")}
         </Typography> */}
-        <Typography variant="h1" textAlign="center">
-          {t("date")}
-        </Typography>
         <Typography
-          variant="h2"
+          variant="h1"
           textAlign="center"
-          style={{marginTop: "10px", marginBottom: "25px"}}
         >
           At night, they come to code !
+        </Typography>
+        <Typography variant="h2" textAlign="center"
+          style={{marginTop: "10px", marginBottom: "25px"}}>
+          {t("date")}
         </Typography>
         <Stack direction="column" spacing={3}>
           {/*<Stack direction="row" spacing={3} justifyContent={"center"}>*/}
@@ -60,15 +60,34 @@ export const HomeJumbo = () => {
             >
               Devenir Sponsor 2024
             </Button> */}
-            <Button
+            {/* <Button
               color="secondary"
               variant="contained"
               aria-label={t('schedule')}
               href="/schedule"
             >
               {t('schedule')}
+            </Button> */}
+            <Button
+              color="secondary"
+              variant="contained"
+              aria-label={"Feedbacks"}
+              target="_blank"
+              href="https://openfeedback.io/devfestnantes24"
+            >
+              Feedbacks
             </Button>
             <Button
+              color="secondary"
+              startIcon={<PhotoSharp />}
+              variant="contained"
+              href="https://photos.app.goo.gl/iQPsdQ8KKeXH8JrT8"
+              aria-label="Photos"
+              target="_blank"
+            >
+              Photos
+            </Button> 
+            {/* <Button
               color="secondary"
               variant="contained"
               href="https://billetterie.gdgnantes.com"
@@ -76,19 +95,19 @@ export const HomeJumbo = () => {
               target={"_blank"}
             >
               {t('resend-tickets')}
-            </Button>
+            </Button> */}
           </Stack>
           <Stack direction="row" spacing={3} justifyContent={"center"}>
 
-          <Button
+          {/* <Button
           color="secondary"
           variant="outlined"
           onClick={() => setModalOpen(true)}
           aria-label={t('get-app')}
           >
           {t('get-app')}
-        </Button>
-            <Button
+        </Button> */}
+            {/* <Button
               color="secondary"
               variant="contained"
               aria-label={t("offers")}
@@ -96,7 +115,7 @@ export const HomeJumbo = () => {
               href="https://nantes.francedigitaljobs.fr/search-list-jobs?id=&titre=&city=&categorie=&niveau=&type=&teletravail="
             >
               {t('offers')}
-            </Button>
+            </Button> */}
             {/*<Button
               color="secondary"
               startIcon={<YouTube />}
@@ -106,16 +125,6 @@ export const HomeJumbo = () => {
               target={"_blank"}
             >
               Videos
-            </Button>
-            <Button
-              color="secondary"
-              startIcon={<PhotoSharp />}
-              variant="contained"
-              href="https://photos.app.goo.gl/wWF5PWykG2g2umC47"
-              aria-label="Photos 2023"
-              target={"_blank"}
-            >
-              Photos
             </Button>*/}
           </Stack>
           <Stack direction="row" spacing={3} justifyContent={"center"}>
