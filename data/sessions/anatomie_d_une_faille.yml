@@ -15,3 +15,5 @@ abstract: |-
   Coup de tonnerre ! Le vendredi 29 mars 2024 fut révélée une tentative d'attaque qui aurait pu avoir des conséquences désastreuses ; le projet xz-utils, fournissant des outils et bibliothèques de compression de données, était alors compromis par une ingénieuse attaque qui aurait pu donner accès à n'importe quel serveur exposé dans le monde ... attaque qui n'a pu aboutir grâce à un heureux concours de circonstances.
 
   Sortez les scalpels ! Je vous propose de mettre cette attaque sur la table d'autopsie afin d'en étudier son anatomie : de son déroulement,s'écoulant sur plus de deux longues années, aux techniques d'ingénierie sociale et d'ingénierie logicielle utilisées. Nous reviendrons enfin sur les risques et conséquences liés aux attaques visant la supply-chain du monde du logiciel libre et open-source.
+
+youtube: wb6gDRcrk6c

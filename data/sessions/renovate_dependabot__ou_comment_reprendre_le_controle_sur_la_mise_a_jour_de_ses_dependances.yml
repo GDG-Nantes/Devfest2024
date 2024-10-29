@@ -18,3 +18,5 @@ abstract: |-
   C’est la promesse d’outils comme Dependabot ou Renovate qui vont nous proposer des Pull/Merge-requests avec les montées de versions des dépendances de nos projets. Magique non ? 
 
   Dans ce talk, après vous avoir (re)présenter ces deux outils, nous vous donnerons des conseils sur la mise en place de Renovate. Notre retour est basé sur nos expériences open source ou lors de notre mission (spoiler, bien sur que tout n’a pas fonctionné du premier coup 😅). Ce sera l’occasion de vous faire une démo pour vous permettre de vous rendre compte de l'intérêt (mais pas que) de ces outils et pourquoi pas de vous décider à en installer un sur vos projets !
+
+youtube: qbi5GYWftcY

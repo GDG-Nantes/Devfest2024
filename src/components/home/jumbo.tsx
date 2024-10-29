@@ -1,4 +1,4 @@
-import { Android, Apple, PhotoSharp } from "@mui/icons-material";
+import { Android, Apple, PhotoSharp, YouTube } from "@mui/icons-material";
 import { Box, Button, Modal, Paper, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
@@ -70,15 +70,6 @@ export const HomeJumbo = () => {
             </Button> */}
             <Button
               color="secondary"
-              variant="contained"
-              aria-label={"Feedbacks"}
-              target="_blank"
-              href="https://openfeedback.io/devfestnantes24"
-            >
-              Feedbacks
-            </Button>
-            <Button
-              color="secondary"
               startIcon={<PhotoSharp />}
               variant="contained"
               href="https://photos.app.goo.gl/iQPsdQ8KKeXH8JrT8"
@@ -87,17 +78,36 @@ export const HomeJumbo = () => {
             >
               Photos
             </Button> 
+            <Button
+              color="secondary"
+              startIcon={<YouTube />}
+              variant="contained"
+              href="https://www.youtube.com/watch?v=xuKrkOh_mzk&list=PLuZ_sYdawLiWenx-X315dfZNOaliVnSTY"
+              aria-label="Videos"
+              target={"_blank"}
+            >
+              Videos
+            </Button>
             {/* <Button
               color="secondary"
               variant="contained"
               href="https://billetterie.gdgnantes.com"
               aria-label={t('resend-tickets')}
               target={"_blank"}
-            >
+              >
               {t('resend-tickets')}
-            </Button> */}
+              </Button> */}
           </Stack>
           <Stack direction="row" spacing={3} justifyContent={"center"}>
+              <Button
+                color="secondary"
+                variant="contained"
+                aria-label={"Feedbacks"}
+                target="_blank"
+                href="https://openfeedback.io/devfestnantes24"
+              >
+                Feedbacks
+              </Button>
 
           {/* <Button
           color="secondary"
@@ -116,16 +126,6 @@ export const HomeJumbo = () => {
             >
               {t('offers')}
             </Button> */}
-            {/*<Button
-              color="secondary"
-              startIcon={<YouTube />}
-              variant="contained"
-              href="https://www.youtube.com/watch?v=yr2hjzsdICg&list=PLuZ_sYdawLiUHU4E1i5RrFsRN_lQcgPwT"
-              aria-label="Videos 2023"
-              target={"_blank"}
-            >
-              Videos
-            </Button>*/}
           </Stack>
           <Stack direction="row" spacing={3} justifyContent={"center"}>
           <Button href="/our-values" color="secondary">{t('bring-ecocup')}</Button>

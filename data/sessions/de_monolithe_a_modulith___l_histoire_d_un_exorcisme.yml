@@ -17,3 +17,5 @@ abstract: |-
   A cette époque, notre projet était un peu comme une maison hantée, remplie de dépendances maudites et de code labyrinthique. Pour échapper à cette architecture monolithique effrayante, nous avons adopté une architecture hexagonale et les principes du Domain Driven Design. Cette transformation a permis de purifier notre code et d'améliorer la clarté et les performances de notre système.
   Nous partagerons avec vous les monstres architecturaux que nous avons affrontés : des dépendances infernales aux intégrations démoniaques, et comment nous avons vaincu ces entités avec des solutions simples. Nous révélerons nos astuces pour faire évoluer vos applications monolithiques vers une architecture plus modulaire et évolutive, tout en évitant les pièges et les horreurs que nous avons rencontrés.
   Rejoignez-nous pour explorer les recoins sombres des défis architecturaux rencontrés et apprenez comment chasser les fantômes de votre code pour transformer vos projets en systèmes robustes et flexibles.
+
+youtube: K1B2Hqg3Xmk

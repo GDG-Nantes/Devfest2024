@@ -3,6 +3,7 @@ key: mongoDB_en_scaleup_comment_sortir_dun_enfer_monolithique
 openfeedbackId: mongoDBenscaleupcommentsortirdunenfermonolithique
 title: 'MongoDB en scale-up : comment sortir d’un enfer monolithique'
 language: French
+youtube: PPQimiViVSA
 talkType: conference
 tags:
   - cloud_devops

@@ -12,3 +12,5 @@ speakers:
 slot: day-1-conference-2
 room: Belem
 abstract: "Explorez la fonctionnalité intégrée qui permet à votre navigateur Web de gérer les modules JavaScript\_! Avec importmap, un outil JSON, vous pouvez charger des modules JS à la volée sans être lié à une configuration spécifique.\n\nDécouvrez comment les importmaps peuvent améliorer votre experience de développement local. Pas besoin de configurer un environnement complet : branchez simplement votre module sur une configuration existante et commencez à travailler en quelques secondes.\n\nÀ la fin de cette séance, vous vous demanderez peut-être pourquoi vous prenez des pauses-café chaque matin en attendant que votre environnement démarre\_!"
+
+youtube: WXE5DzgxUO4

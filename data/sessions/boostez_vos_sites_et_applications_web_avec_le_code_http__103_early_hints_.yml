@@ -17,3 +17,5 @@ abstract: |-
   Ce nouveau type de réponse, plutôt inhabituel, a un seul objectif : accélérer le temps de chargement de vos sites web et applications en permettant au navigateur de précharger les ressources dont il aura besoin pour rendre la page.
 
   Dans cette présentation, nous verrons en quoi la réponse 103 diffère des autres techniques de préchargement telles que HTTP/2+ Server Push ou les balises \<link ref="preload">, et comment en tirer parti pour améliorer la performance de vos sites et apps.
+
+youtube: nKy1-i-Qh2o

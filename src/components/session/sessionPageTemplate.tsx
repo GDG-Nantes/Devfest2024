@@ -76,7 +76,7 @@ const SessionPageTemplate: React.FC<{ pageContext: { session: Session } }> = ({
               <Stack direction="row" spacing={3}>
                 {session.youtube && (
                   <MyLink
-                    to={`https://www.youtube.com/watch?v=${session.youtube}&list=PLuZ_sYdawLiUHU4E1i5RrFsRN_lQcgPwT`}
+                    to={`https://www.youtube.com/watch?v=${session.youtube}&list=PLuZ_sYdawLiWenx-X315dfZNOaliVnSTY`}
                   >
                     <Button
                       variant="contained"

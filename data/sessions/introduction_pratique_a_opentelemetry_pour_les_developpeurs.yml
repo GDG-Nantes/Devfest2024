@@ -17,3 +17,5 @@ abstract: |-
   L'observabilité repose sur trois piliers : la journalisation, les métriques et le traçage. OpenTelemetry est un effort conjoint visant à mettre en place un standard ouvert pour ces trois piliers. Jaeger et Zipkin se sont joints à cet effort et sont maintenant compatibles avec OpenTelemetry.
 
   Dans cet exposé, je décrirai plus en détail ce qui précède et je présenterai un cas d'utilisation (simple) pour démontrer comment vous pourriez bénéficier des traces OpenTelemetry dans votre architecture distribuée.
+
+youtube: Bu0VKTxxAsc

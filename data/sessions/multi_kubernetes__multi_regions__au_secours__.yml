@@ -28,3 +28,5 @@ abstract: |-
   Mais aussi et surtout : comment gérer mes données persistantes ?
 
   Dans cette conférence, nous adresserons l’ensemble de ces questions en dressant un état des lieux des différentes possibilités d’implémentation, des contraintes, ainsi que des différents niveaux de maturité sur cette gestion d'une architecture Multi Kubernetes. Avec bien sûr de nombreuses démos à l'appui !
+
+youtube: 11sNNUMx5N4

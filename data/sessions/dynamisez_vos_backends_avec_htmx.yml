@@ -18,3 +18,5 @@ abstract: |-
   - on développe un backend et un frontend qui communiquent par des requêtes AJAX pour mettre à jour uniquement une partie de la page
 
   Et si on pouvait garder la codebase unique du premier avec les pages dynamiques du second ? C'est ce dont on va parler avec en fil rouge le site [salaires.dev](https://salaires.dev) que j'ai développé et que j'ai récemment fait évoluer grâce à HTMX.
+
+youtube: fTBnuNUPh_M

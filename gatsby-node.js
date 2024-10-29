@@ -64,6 +64,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               complexity
               abstract
               cancelled
+              youtube
             }
           }
         }

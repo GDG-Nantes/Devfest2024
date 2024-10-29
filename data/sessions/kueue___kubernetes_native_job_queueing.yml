@@ -18,3 +18,5 @@ abstract: |-
   Kueue est un système de mise en file d'attente des travaux natif du cloud pour les applications batch, HPC, AI/ML et autres applications similaires dans un cluster Kubernetes.
 
   Dans ce talk, nous montrerons les avantages de Kueue et lancerons l'entraînement simultané de plusieurs modèles de Machine Learning sur un cluster de GPU partagé. Kueue facilitera la mise en file d'attente et l'ordonnancement, garantissant que chaque tâche reçoit les ressources nécessaires tout en évitant les goulots d'étranglement.
+
+youtube: Kt_yMKERrXQ
