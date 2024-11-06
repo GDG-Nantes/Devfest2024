@@ -1,4 +1,5 @@
-// // Query Youtube:
+// Commande à faire sur youtube dans la console navigateur depuis une des vidéos dans la playlist
+// écrire le résultat dans youtube.json
 //
 // JSON.stringify(
 //  Array.from(
