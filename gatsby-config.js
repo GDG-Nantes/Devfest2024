@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://devfest2024.gdgnantes.com",
-    title: "Devfest Nantes 2024",
+    siteUrl: "https://devfest2025.gdgnantes.com",
+    title: "Devfest Nantes 2025",
     image: "/images/social-share.jpg",
   },
   plugins: [
@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://devfest2024.gdgnantes.com`,
+        siteUrl: `https://devfest2025.gdgnantes.com`,
       },
     },
     {
@@ -49,7 +49,7 @@ module.exports = {
         icon_options: {
           purpose: `any maskable`,
         },
-        name: `Devfest Nantes 2024`,
+        name: `Devfest Nantes 2025`,
         short_name: `Devfest Nantes`,
         start_url: `/`,
         background_color: `#0e1324`,
@@ -61,7 +61,7 @@ module.exports = {
           {
             start_url: `/en/`,
             lang: `en`,
-            name: `Devfest Nantes 2024`,
+            name: `Devfest Nantes 2025`,
             short_name: `Devfest Nantes`,
             description: `General informations about the Devfest Nantes.`,
           },
