@@ -5,34 +5,34 @@ export const MENU: Array<MenuItem> = [
     label: "home",
     link: "/",
   },
-  {
-    label: "schedule",
-    link: "/schedule",
-  },
-  {
-    label: "speakers",
-    link: "/speakers",
-  },
+  // {
+  //   label: "schedule",
+  //   link: "/schedule",
+  // },
+  // {
+  //   label: "speakers",
+  //   link: "/speakers",
+  // },
   {
     label: "team",
     link: "/team/",
   },
-  {
-    label: "partners",
-    link: "/partners/",
-  },
-  {
-    label: "blog",
-    link: "/blog",
-  },
-  {
-    label: "menu",
-    link: "/menu",
-  },
-  {
-    label: "jobs",
-    link: "https://nantes.francedigitaljobs.fr/search-list-jobs?id=&titre=&city=&categorie=&niveau=&type=&teletravail=",
-  },
+  // {
+  //   label: "partners",
+  //   link: "/partners/",
+  // },
+  // {
+  //   label: "blog",
+  //   link: "/blog",
+  // },
+  // {
+  //   label: "menu",
+  //   link: "/menu",
+  // },
+  // {
+  //   label: "jobs",
+  //   link: "https://nantes.francedigitaljobs.fr/search-list-jobs?id=&titre=&city=&categorie=&niveau=&type=&teletravail=",
+  // },
   // {
   //   label: "Tickets",
   //   link: "https://www.billetweb.fr/billet-devfest-nantes-2024",

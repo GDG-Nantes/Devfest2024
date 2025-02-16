@@ -83,6 +83,10 @@ export const Footer: React.FC = () => {
 
   const previousEditions: FooterLink[] = [
     {
+      url: `https://devfest2024.gdgnantes.com`,
+      label: "Devfest Nantes 2024",
+    },
+    {
       url: `https://devfest2023.gdgnantes.com`,
       label: "Devfest Nantes 2023",
     },
@@ -93,10 +97,6 @@ export const Footer: React.FC = () => {
     {
       url: `https://devfest2021.gdgnantes.com`,
       label: "Devfest Nantes 2021",
-    },
-    {
-      url: `https://devfest2019.gdgnantes.com`,
-      label: "Devfest Nantes 2019",
     },
   ];
 

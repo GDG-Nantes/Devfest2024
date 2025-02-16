@@ -37,120 +37,120 @@ exports.onCreatePage = ({ page, actions }) => {
   }
 };
 
-exports.createPages = async ({ graphql, actions, reporter }) => {
-  const { createPage } = actions;
-  // Query for markdown nodes to use in creating pages.
-
-  // A ajouter
-  // openfeedbackId
-  // cancelled
-  // youtube
-  // slides
-  const { data, errors } = await graphql(
-    `
-      {
-        allSessionsYaml {
-          edges {
-            node {
-              key
-              openfeedbackId
-              slot
-              speakers
-              tags
-              talkType
-              title
-              room
-              language
-              complexity
-              abstract
-              cancelled
-              youtube
-            }
-          }
-        }
-        allSpeakersYaml {
-          edges {
-            node {
-              key
-              name
-              city
-              company
-              companyLogo
-              photoUrl
-              bio
-              socials {
-                twitter
-                github
-                linkedin
-                instagram
-              }
-            }
-          }
-        }
-        allBlogsYaml {
-          edges {
-            node {
-              key
-              title
-              image
-              date
-              content
-            }
-          }
-        }
-      }
-    `
-  );
-  if (errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`);
-    return;
-  }
-
-  // Sessions
-  const sessionPageTemplate = path.resolve(
-    "src/components/session/sessionPageTemplate.tsx"
-  );
-  data.allSessionsYaml.edges.forEach(({ node: session }) => {
-    const path = "sessions/" + session.key;
-    createPage({
-      path,
-      component: sessionPageTemplate,
-      context: {
-        session,
-      },
-    });
-  });
-
-  // Speakers
-  const speakerPageTemplate = path.resolve(
-    "src/components/speakers/speakerPageTemplate.tsx"
-  );
-  data.allSpeakersYaml.edges.forEach(({ node: speaker }) => {
-    const path = "speakers/" + speaker.key;
-    createPage({
-      path,
-      component: speakerPageTemplate,
-      context: {
-        speaker,
-      },
-    });
-  });
-
-  // Blogs
-  const blogPageTemplate = path.resolve(
-    "src/components/blog/blogPageTemplate.tsx"
-  );
-  data.allBlogsYaml.edges.forEach(({ node: blog }) => {
-    const path = "blog/" + blog.key;
-    createPage({
-      path,
-      component: blogPageTemplate,
-      context: {
-        blog,
-      },
-    });
-  });
-};
+// exports.createPages = async ({ graphql, actions, reporter }) => {
+//   const { createPage } = actions;
+//   // Query for markdown nodes to use in creating pages.
+//
+//   // A ajouter
+//   // openfeedbackId
+//   // cancelled
+//   // youtube
+//   // slides
+//   const { data, errors } = await graphql(
+//     `
+//       {
+//         allSessionsYaml {
+//           edges {
+//             node {
+//               key
+//               openfeedbackId
+//               slot
+//               speakers
+//               tags
+//               talkType
+//               title
+//               room
+//               language
+//               complexity
+//               abstract
+//               cancelled
+//               youtube
+//             }
+//           }
+//         }
+//         allSpeakersYaml {
+//           edges {
+//             node {
+//               key
+//               name
+//               city
+//               company
+//               companyLogo
+//               photoUrl
+//               bio
+//               socials {
+//                 twitter
+//                 github
+//                 linkedin
+//                 instagram
+//               }
+//             }
+//           }
+//         }
+//         allBlogsYaml {
+//           edges {
+//             node {
+//               key
+//               title
+//               image
+//               date
+//               content
+//             }
+//           }
+//         }
+//       }
+//     `
+//   );
+//   if (errors) {
+//     reporter.panicOnBuild(`Error while running GraphQL query.`);
+//     return;
+//   }
+//
+//   // Sessions
+//   const sessionPageTemplate = path.resolve(
+//     "src/components/session/sessionPageTemplate.tsx"
+//   );
+//   data.allSessionsYaml.edges.forEach(({ node: session }) => {
+//     const path = "sessions/" + session.key;
+//     createPage({
+//       path,
+//       component: sessionPageTemplate,
+//       context: {
+//         session,
+//       },
+//     });
+//   });
+//
+//   // Speakers
+//   const speakerPageTemplate = path.resolve(
+//     "src/components/speakers/speakerPageTemplate.tsx"
+//   );
+//   data.allSpeakersYaml.edges.forEach(({ node: speaker }) => {
+//     const path = "speakers/" + speaker.key;
+//     createPage({
+//       path,
+//       component: speakerPageTemplate,
+//       context: {
+//         speaker,
+//       },
+//     });
+//   });
+//
+//   // Blogs
+//   const blogPageTemplate = path.resolve(
+//     "src/components/blog/blogPageTemplate.tsx"
+//   );
+//   data.allBlogsYaml.edges.forEach(({ node: blog }) => {
+//     const path = "blog/" + blog.key;
+//     createPage({
+//       path,
+//       component: blogPageTemplate,
+//       context: {
+//         blog,
+//       },
+//     });
+//   });
+// };
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({

@@ -27,7 +27,7 @@ const HomeContent = () => {
         <Typography variant="body1">{t("site.description")}</Typography>
         <Typography variant="body1">{t("site.theme")}</Typography>
         <DevfestNumbers />
-        <Youtube id="IE0pnWdSwuw" title="After Movie 2023" />
+        <Youtube id="MDrrn0du1-s" title="After Movie 2024" />
       </PrimarySection>
       {/* <PrimarySection slim className="home-speakers">
         <Typography variant="h2">{t("pages.home.speakers.title")}</Typography>
@@ -41,88 +41,88 @@ const HomeContent = () => {
         </Stack>
       </PrimarySection> */}
       <PlanCite />
-      <PrimarySection className="animations-section">
-        <Typography style={{ textAlign: "center" }} variant="h1" color="primary">Animations</Typography>
-        <Stack
-            direction={{ sm: "column", md: "row"}}
-            width={{ md: "100%" }}
-            height={{ md: "100%" }}
-            spacing={{ sm: 1, md: 4 }}
-            justifyContent="space-around"
-            alignItems={{ sm: "center", md: "normal" }}
-          >
-          
-        <Card className="animation-card">
-          <CardContent>
-            {/* Title */}
-            <Typography variant="h5" gutterBottom>
-              {t("pages.home.animations.citd.title")}
-            </Typography>
+      {/*<PrimarySection className="animations-section">*/}
+      {/*  <Typography style={{ textAlign: "center" }} variant="h1" color="primary">Animations</Typography>*/}
+      {/*  <Stack*/}
+      {/*      direction={{ sm: "column", md: "row"}}*/}
+      {/*      width={{ md: "100%" }}*/}
+      {/*      height={{ md: "100%" }}*/}
+      {/*      spacing={{ sm: 1, md: 4 }}*/}
+      {/*      justifyContent="space-around"*/}
+      {/*      alignItems={{ sm: "center", md: "normal" }}*/}
+      {/*    >*/}
+      {/*    */}
+      {/*  <Card className="animation-card">*/}
+      {/*    <CardContent>*/}
+      {/*      /!* Title *!/*/}
+      {/*      <Typography variant="h5" gutterBottom>*/}
+      {/*        {t("pages.home.animations.citd.title")}*/}
+      {/*      </Typography>*/}
 
-            {/* Description */}
-            <Typography variant="body2" color="text.secondary" gutterBottom>
-            {t("pages.home.animations.citd.description")}
-            </Typography>
+      {/*      /!* Description *!/*/}
+      {/*      <Typography variant="body2" color="text.secondary" gutterBottom>*/}
+      {/*      {t("pages.home.animations.citd.description")}*/}
+      {/*      </Typography>*/}
 
-            {/* Sessions */}
-            <Box mt={2}>
-              <Typography variant="subtitle1">{t("pages.home.animations.sessions")}</Typography>
-              <Grid container spacing={2}>
-                <Grid item xs={12}>
-                  <Box display="flex" justifyContent="space-between">
-                    <Typography variant="body2">{t("pages.schedule.day1")}</Typography>
-                    <Typography variant="body2">11h10</Typography>
-                  </Box>
-                  <Box display="flex" justifyContent="space-between">
-                    <Typography variant="body2"></Typography>
-                    <Typography variant="body2">15h10</Typography>
-                  </Box>
-                  <Box display="flex" justifyContent="space-between">
-                    <Typography variant="body2">{t("pages.schedule.day2")}</Typography>
-                    <Typography variant="body2">11h10</Typography>
-                  </Box>
-                </Grid>
-              </Grid>
-            </Box>
-          </CardContent>
-          <CardActions>
-            <MyLink style={{marginLeft: "auto"}} to="http://codeinthedark.com/">
-              <Button size="small">{t("pages.home.animations.learn-more")}</Button>
-            </MyLink>
-          </CardActions>
-        </Card>
-        <Card className="animation-card">
-          <CardContent>
-            {/* Title */}
-            <Typography variant="h5" gutterBottom>
-              {t("pages.home.animations.secret.title")}
-            </Typography>
+      {/*      /!* Sessions *!/*/}
+      {/*      <Box mt={2}>*/}
+      {/*        <Typography variant="subtitle1">{t("pages.home.animations.sessions")}</Typography>*/}
+      {/*        <Grid container spacing={2}>*/}
+      {/*          <Grid item xs={12}>*/}
+      {/*            <Box display="flex" justifyContent="space-between">*/}
+      {/*              <Typography variant="body2">{t("pages.schedule.day1")}</Typography>*/}
+      {/*              <Typography variant="body2">11h10</Typography>*/}
+      {/*            </Box>*/}
+      {/*            <Box display="flex" justifyContent="space-between">*/}
+      {/*              <Typography variant="body2"></Typography>*/}
+      {/*              <Typography variant="body2">15h10</Typography>*/}
+      {/*            </Box>*/}
+      {/*            <Box display="flex" justifyContent="space-between">*/}
+      {/*              <Typography variant="body2">{t("pages.schedule.day2")}</Typography>*/}
+      {/*              <Typography variant="body2">11h10</Typography>*/}
+      {/*            </Box>*/}
+      {/*          </Grid>*/}
+      {/*        </Grid>*/}
+      {/*      </Box>*/}
+      {/*    </CardContent>*/}
+      {/*    <CardActions>*/}
+      {/*      <MyLink style={{marginLeft: "auto"}} to="http://codeinthedark.com/">*/}
+      {/*        <Button size="small">{t("pages.home.animations.learn-more")}</Button>*/}
+      {/*      </MyLink>*/}
+      {/*    </CardActions>*/}
+      {/*  </Card>*/}
+      {/*  <Card className="animation-card">*/}
+      {/*    <CardContent>*/}
+      {/*      /!* Title *!/*/}
+      {/*      <Typography variant="h5" gutterBottom>*/}
+      {/*        {t("pages.home.animations.secret.title")}*/}
+      {/*      </Typography>*/}
 
-            {/* Description */}
-            <Typography variant="body2" color="text.secondary" gutterBottom>
-              {t("pages.home.animations.secret.description")}
-            </Typography>
+      {/*      /!* Description *!/*/}
+      {/*      <Typography variant="body2" color="text.secondary" gutterBottom>*/}
+      {/*        {t("pages.home.animations.secret.description")}*/}
+      {/*      </Typography>*/}
 
-            {/* Sessions */}
-            <Box mt={2}>
-              <Typography variant="subtitle1">{t("pages.home.animations.sessions")}</Typography>
-              <Grid container spacing={2}>
-                <Grid item xs={12}>
-                  <Box display="flex" justifyContent="space-between">
-                    <Typography variant="body2">{t("pages.schedule.day1")}</Typography>
-                    <Typography variant="body2">10h00</Typography>
-                  </Box>
-                  <Box display="flex" justifyContent="space-between">
-                    <Typography variant="body2"></Typography>
-                    <Typography variant="body2">14h00</Typography>
-                  </Box>
-                </Grid>
-              </Grid>
-            </Box>
-          </CardContent>
-        </Card>
-      </Stack>
-      </PrimarySection>
+      {/*      /!* Sessions *!/*/}
+      {/*      <Box mt={2}>*/}
+      {/*        <Typography variant="subtitle1">{t("pages.home.animations.sessions")}</Typography>*/}
+      {/*        <Grid container spacing={2}>*/}
+      {/*          <Grid item xs={12}>*/}
+      {/*            <Box display="flex" justifyContent="space-between">*/}
+      {/*              <Typography variant="body2">{t("pages.schedule.day1")}</Typography>*/}
+      {/*              <Typography variant="body2">10h00</Typography>*/}
+      {/*            </Box>*/}
+      {/*            <Box display="flex" justifyContent="space-between">*/}
+      {/*              <Typography variant="body2"></Typography>*/}
+      {/*              <Typography variant="body2">14h00</Typography>*/}
+      {/*            </Box>*/}
+      {/*          </Grid>*/}
+      {/*        </Grid>*/}
+      {/*      </Box>*/}
+      {/*    </CardContent>*/}
+      {/*  </Card>*/}
+      {/*</Stack>*/}
+      {/*</PrimarySection>*/}
       <HomeMap />
       <Partners onlyPlatinium={true} />
 
