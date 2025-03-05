@@ -55,19 +55,21 @@ export const HomeJumbo = () => {
             {/* <Button
               color="secondary"
               variant="contained"
-              href="https://www.billetweb.fr/partenaire-devfest-nantes-2024"
-              aria-label="Devenir Sponsor"
-            >
-              Devenir Sponsor 2024
-            </Button> */}
-            {/* <Button
-              color="secondary"
-              variant="contained"
               aria-label={t('schedule')}
               href="/schedule"
             >
               {t('schedule')}
             </Button> */}
+            <Button
+              color="secondary"
+              variant="contained"
+              href="https://devfest2025.gdgnantes.com"
+              aria-label="Edition 2025"
+            >
+              Edition 2025
+            </Button>
+          </Stack>
+          <Stack direction="row" spacing={3} justifyContent={"center"}>
             <Button
               color="secondary"
               startIcon={<PhotoSharp />}
@@ -97,8 +99,6 @@ export const HomeJumbo = () => {
               >
               {t('resend-tickets')}
               </Button> */}
-          </Stack>
-          <Stack direction="row" spacing={3} justifyContent={"center"}>
               <Button
                 color="secondary"
                 variant="contained"
@@ -127,9 +127,9 @@ export const HomeJumbo = () => {
               {t('offers')}
             </Button> */}
           </Stack>
-          <Stack direction="row" spacing={3} justifyContent={"center"}>
-          <Button href="/our-values" color="secondary">{t('bring-ecocup')}</Button>
-        </Stack>
+          {/*<Stack direction="row" spacing={3} justifyContent={"center"}>*/}
+          {/*<Button href="/our-values" color="secondary">{t('bring-ecocup')}</Button>*/}
+        {/*</Stack>*/}
         </Stack>
       </div>
 

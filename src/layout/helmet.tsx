@@ -32,45 +32,6 @@ export const Helmet: React.FC = () => {
 
   const description = t("site.description");
 
-  const eventGoogleData: WithContext<Event> = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    name: "Devfest Nantes 2024",
-    startDate: "2024-10-17T08:30+02:00",
-    endDate: "2024-10-18T19:00+02:00",
-    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-    eventStatus: "https://schema.org/EventScheduled",
-    location: {
-      "@type": "Place",
-      name: "Cité des congrès",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "5 rue de Valmy",
-        addressLocality: "Nantes",
-        postalCode: "44200",
-        addressRegion: "Loire-Atlantique",
-        addressCountry: "FR",
-      },
-    },
-    performer: "90+ speakers",
-    image: ["https://devfest2024.gdgnantes.com/images/social-share.jpg"],
-    description,
-    offers: {
-      "@type": "Offer",
-      url: "https://tickets.gdgnantes.com/",
-      availability: "https://schema.org/LimitedAvailability",
-      availabilityStarts: "2024-10-10T10:10+02:00",
-      price: 99,
-      priceCurrency: "EUR",
-      validFrom: "2024-10-17T08:30+02:00",
-    },
-    organizer: {
-      "@type": "Organization",
-      name: "GDG Nantes",
-      url: "https://gdgnantes.com",
-    },
-  };
-
   return (
     <ReactHelmet>
       <title>{title}</title>
@@ -86,19 +47,6 @@ export const Helmet: React.FC = () => {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
 
-      <script type="application/ld+json">
-        {JSON.stringify(eventGoogleData)}
-      </script>
-
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          name: helmet.site.siteMetadata.title,
-          url: helmet.site.siteMetadata.siteUrl,
-          description,
-        })}
-      </script>
       <script src="/scripts/redirect-language.js" />
     </ReactHelmet>
   );
